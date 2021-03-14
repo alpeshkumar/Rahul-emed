@@ -112,6 +112,15 @@ a:hover {
     font-display: swap;
 }
 
+.font_konnect_Light{
+    font-family: 'konnect-Light' !important;
+}
+.font_konnect_Medium{
+    font-family: 'konnect-Medium' !important;
+}
+.font_konnect_SemiBold{
+    font-family: 'konnect-SemiBold' !important;
+}
 
 /* header css start */
 
