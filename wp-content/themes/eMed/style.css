@@ -13,6 +13,8 @@ Requires PHP: 5.2.4
 Tested up to: 5.4
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
+
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -42,7 +44,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: 'konnect-Light';
+    font-family: 'konnect-Regular';
 }
 
 h1,
@@ -54,6 +56,7 @@ h6 {
     margin: 0px;
     font-weight: normal;
     padding: 0px;
+    font-family: 'konnect-SemiBold';
 }
 
 p {
@@ -65,7 +68,9 @@ p {
     color: #757575;
     letter-spacing: .6px;
     margin-bottom: 1.5em;
+    font-family: 'konnect-Regular';
 }
+
 img {
     border: none;
 }
@@ -95,6 +100,15 @@ a:hover {
 }
 
 @font-face {
+    font-family: 'Konnect-Regular';
+    src: url('inc/assets/fonts/konnect/Konnect-Regular.eot');
+    src: url('inc/assets/fonts/konnect/Konnect-Regular.eot?#iefix') format('embedded-opentype'), url('inc/assets/fonts/konnect/Konnect-Regular.woff2') format('woff2'), url('inc/assets/fonts/konnect/Konnect-Regular.woff') format('woff'), url('inc/assets/fonts/konnect/Konnect-Regular.ttf') format('truetype'), url('inc/assets/fonts/konnect/Konnect-Regular.svg#Konnect-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'konnect-Medium';
     src: url('inc/assets/fonts/konnect/Konnect-Medium.eot');
     src: url('inc/assets/fonts/konnect/Konnect-Medium.eot?#iefix') format('embedded-opentype'), url('inc/assets/fonts/konnect/Konnect-Medium.woff2') format('woff2'), url('inc/assets/fonts/konnect/Konnect-Medium.woff') format('woff'), url('inc/assets/fonts/konnect/Konnect-Medium.ttf') format('truetype'), url('inc/assets/fonts/konnect/Konnect-Medium.svg#Konnect-Medium') format('svg');
@@ -112,15 +126,18 @@ a:hover {
     font-display: swap;
 }
 
-.font_konnect_Light{
+.font_konnect_Light {
     font-family: 'konnect-Light' !important;
 }
-.font_konnect_Medium{
+
+.font_konnect_Medium {
     font-family: 'konnect-Medium' !important;
 }
-.font_konnect_SemiBold{
+
+.font_konnect_SemiBold {
     font-family: 'konnect-SemiBold' !important;
 }
+
 
 /* header css start */
 
@@ -191,6 +208,33 @@ a:hover {
     position: relative;
 }
 
+.btn-red {
+    background: #CD1417;
+    padding: 20px 70px 20px 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.btn-red::before {
+    position: absolute;
+    content: '';
+    right: 20px;
+    top: 28px;
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -15px -9px;
+    height: 16px;
+    width: 33px;
+}
+
 .btn-red a {
     background: #CD1417;
     padding: 20px 70px 20px 30px;
@@ -216,6 +260,12 @@ a:hover {
     background-position: -15px -9px;
     height: 16px;
     width: 33px;
+}
+
+.btn-red:hover {
+    background: #4285f4;
+    color: #fff;
+    text-decoration: none;
 }
 
 .btn-red a:hover {
@@ -260,6 +310,19 @@ a:hover {
     position: relative;
 }
 
+.about-video .play-icon::before {
+    position: absolute;
+    content: '';
+    right: 40%;
+    top: 35%;
+    background-image: url('inc/assets/images/sprite.png');
+    background-repeat: no-repeat;
+    background-size: 280px;
+    background-position: -177px -140px;
+    height: 100px;
+    width: 100px;
+}
+
 .btn-about {
     position: absolute;
     bottom: 0px;
@@ -268,6 +331,12 @@ a:hover {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 0px;
+}
+
+.top-footer .card-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -414,16 +483,21 @@ a:hover {
 /* contact box css */
 
 .contact-box {
-    background: #CD1417;
+    background: url('inc/assets/images/background.png') #CD1417;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* background: #CD1417; */
     padding: 100px;
     margin: 50px 0px;
     border-radius: 30px;
     position: relative;
     overflow: hidden;
-    z-index: -2;
+    /* z-index: -2; */
 }
 
-.contact-box::before {
+
+/* .contact-box::before {
     content: '';
     position: absolute;
     left: 0px;
@@ -435,7 +509,7 @@ a:hover {
     height: 500px;
     width: 100%;
     z-index: -1;
-}
+} */
 
 .contact-box h4 {
     font-family: 'Konnect-SemiBold';
@@ -480,6 +554,13 @@ a:hover {
     font-size: 20px;
     padding: 15px 50px;
 }
+
+.job-type .btn-find:hover {
+    background: #4285f4;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* 
 .bg-green .out-tech li {
@@ -580,10 +661,12 @@ a:hover {
 #footer-widget a:hover {
     color: #CD1417 !important;
 }
+
 .site-info {
     font-family: 'Konnect-Light';
     color: #857B7B;
 }
+
 .text-red {
     color: #CD1417;
 }
@@ -642,6 +725,7 @@ a:hover {
     display: flex;
     align-items: center;
 }
+
 .country-address {
     font-family: 'konnect-Light';
     font-weight: normal;
@@ -676,10 +760,10 @@ a:hover {
 .social-media li a:hover {
     opacity: 0.7;
 }
+
 .social-media li a:hover .hello {
     opacity: 0.7;
 }
-
 
 
 /* .social-media li a {
@@ -698,6 +782,247 @@ a:hover {
 } */
 
 
+/* Our Achievements */
+
+.our-achievements-section {
+    position: relative;
+    padding: 70px 0px 100px 0px;
+}
+
+.title-left h3 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: left;
+    color: #000;
+    width: 100%;
+    margin: 0 auto 15px auto
+}
+
+.different-section {
+    position: relative;
+    width: 1026px;
+    height: 320px;
+    margin: 0 auto;
+    display: inline-block;
+    background-image: url('inc/assets/images/circle-shape.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 55% 0px;
+}
+
+.animation-box {
+    /* transition: all 0.5s ease;
+    opacity: 0; */
+    top: 5px;
+    left: 60px;
+    position: absolute;
+}
+
+.solution-box-1 {
+    color: #47536b;
+    font-family: 'Conv_NunitoSans-Light';
+    font-size: 20px;
+    line-height: normal;
+}
+
+.solution-box-1 {
+    width: 205px;
+    height: 205px;
+    background: #FFD7B2;
+    border-radius: 200px;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.animation-box.solution-box-2 {
+    top: 95px;
+    left: 210px;
+    z-index: 9;
+}
+
+.animation-box.solution-box-2 .solution-box-1 {
+    background: #E0F8FF;
+}
+
+.animation-box.solution-box-3 {
+    top: 15px;
+    left: 380px;
+    z-index: 9;
+}
+
+.animation-box.solution-box-3 .solution-box-1 {
+    background: #EAE6FE;
+}
+
+.animation-box.solution-box-4 {
+    top: 65px;
+    left: 550px;
+    z-index: 9;
+}
+
+.animation-box .s-box {
+    font-size: 22px;
+    line-height: 29px;
+    color: #07014E;
+    font-family: 'Konnect-Regular';
+}
+
+.animation-box.solution-box-4 .solution-box-1 {
+    background: #E6FFE6;
+}
+
+.solution-box-1 span {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #07014E;
+}
+
+
+/* stories-title */
+
+.customer-stories-section {
+    padding: 70px 0px;
+    position: relative;
+}
+
+.play-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.play-icon::before {
+    position: absolute;
+    content: '';
+    right: 40%;
+    top: 30%;
+    background-image: url('inc/assets/images/sprite.png');
+    background-repeat: no-repeat;
+    background-size: 280px;
+    background-position: -27px -144px;
+    height: 100px;
+    width: 100px;
+}
+
+.customer-stories-section:before {
+    position: absolute;
+    content: '';
+    left: -100px;
+    top: 100px;
+    bottom: 0;
+    width: 65%;
+    background-color: #E9E9E9;
+    height: 400px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.customer-stories-section .stories-title {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    width: 33%;
+    text-align: right;
+    z-index: 1;
+}
+
+.customer-stories-section .stories-title .title-1 h3 {
+    margin: 0px;
+    text-align: end;
+    width: 100%;
+}
+
+.customer-box {
+    position: relative;
+    border: 0px !important;
+    background: transparent !important;
+}
+
+.customer-box.second-box {
+    margin-top: 20%;
+}
+
+.customer-box.third-box {
+    margin-top: 40%;
+}
+
+.customer-box img {
+    border-radius: 20px;
+}
+
+
+/* latest-work */
+
+.our-latest-work {
+    position: relative;
+}
+
+.our-latest-work::before {
+    position: absolute;
+    content: '';
+    left: -100px;
+    background: url('inc/assets/images/2line.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 200px;
+}
+
+.our-latest-work .card-latest {
+    border: 0px;
+    height: 100%;
+}
+
+.our-latest-work .card-latest img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+
+.our-latest-work .card-latest .sub-title-card {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1A64F3;
+    margin-bottom: 0px;
+}
+
+.our-latest-work .card-latest .card-title {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.card-latest .card-body .card-text {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: #757575;
+}
+
+.card-latest .card-body {
+    background: #FFFFFF;
+    box-shadow: 0px 22px 152px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 30px 30px;
+}
 
 @media screen and (min-width:1200px) {
     body .container {
@@ -715,6 +1040,10 @@ a:hover {
         text-align: left;
         margin-left: 0px;
         margin-bottom: 15px;
+    }
+    .title-left h3 {
+        font-size: 50px;
+        line-height: 70px;
     }
 }
 
