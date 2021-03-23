@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>EMed &#8211; Just another WordPress site</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="EMed &raquo; Feed" href="feed/" />
+    <link rel="alternate" type="application/rss+xml" title="EMed &raquo; Comments Feed" href="comments/feed/" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/localhost\/samir\/emed\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.9' type='text/css' media='all' />
+
+
+
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+    <link rel='stylesheet' id='wp-bootstrap-starter-bootstrap-css-css' href='wp-content/themes/eMed/inc/assets/css/bootstrap.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-bootstrap-starter-fontawesome-cdn-css' href='wp-content/themes/eMed/inc/assets/css/fontawesome.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-bootstrap-starter-style-css' href='wp-content/themes/eMed/style.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='eMed-style-css' href='wp-content/themes/eMed/inc/assets/css/eMed.css?ver=5.7' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.9' id='tp-tools-js'></script>
+    <script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.9' id='revmin-js'></script>
+
+    <!-- custom css include start -->
+    <link rel='stylesheet' href='wp-content/themes/eMed/inc/assets/css/slick.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='wp-content/themes/eMed/inc/assets/css/slick-theme.min.css' type='text/css' media='all' />
+
+    <!-- custom css include End -->
+
+
+
+    <!--[if lt IE 9]>
+    <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/html5.js?ver=3.7.0' id='html5hiv-js'></script>
+    <![endif]-->
+    <link rel="https://api.w.org/" href="wp-json/" />
+    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/28" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.7" />
+    <link rel="canonical" href="" />
+    <link rel='shortlink' href='' />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fsamir%2Femed%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fsamir%2Femed%2F&#038;format=xml" />
+    <link rel="pingback" href="xmlrpc.php">
+    <style type="text/css">
+        #page-sub-header {
+            background: #fff;
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <meta name="generator" content="Powered by Slider Revolution 6.3.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() {				 
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl)
+                        if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl)
+                        if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl)
+                        if (sl > nl[i] && nl[i] > 0) {
+                            sl = nl[i];
+                            ix = i;
+                        }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+                document.getElementById(e.c).height = newh + "px";
+                window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };
+    </script>
+    <noscript>
+            <style>
+                .wpb_animate_when_almost_visible {
+                    opacity: 1;
+                }
+            </style>
+        </noscript>
+</head>
+
+<body class="home page-template page-template-fullwidth page-template-fullwidth-php page page-id-28 wpb-js-composer js-comp-ver-6.5.0 vc_responsive">
+    <div id="main" class="site-main" role="main">
+        <div class="inner-banner-section" style="background: url('wp-content/themes/eMed/inc/assets/images/banner-img.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="banner-caption">
+                        <h1>Online Pharmacy</h1>
+                        <a class="btn-red">Request a quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- get in touch -->
+        <div class="get-in-touch-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-content">
+                            <p class="text-black text-40">EMedStore is one of the creative and clean online pharma app development company to present your awesome mobile app. it's now available in app stores and also in play stores.
+                                <p>
+                                </p>
+                                <a class="btn-red">Get in touch</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-video">
+                            <img src="wp-content/themes/eMed/inc/assets/images/pharmacist.png" alt="mask" title="About Video">
+                            <span class="blue-shap"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our awsome features -->
+        <section class="awsome-features-section">
+            <div class="container">
+                <div class="row">
+                    <div class="architecture-section">
+                        <div class="row text-center awsome-top-bar">
+                            <div class="title-11">
+                                <h2>Here are our awsome features</h2>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="emed-tabs">
+                                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="customer-tab" data-toggle="tab" href="#e1-all" role="tab" aria-controls="customer" aria-selected="true">Customer App</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " id="e2-tab" data-toggle="tab" href="#e2" role="tab" aria-controls="Admin-Panel" aria-selected="true">Admin Panel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " id="e3-tab" data-toggle="tab" href="#e3" role="tab" aria-controls="Admin-Panel" aria-selected="true">Pharmacist Panel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " id="e4-tab" data-toggle="tab" href="#e4" role="tab" aria-controls="Admin-Panel" aria-selected="true">Optional Features</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="e1-all" role="tabpanel" aria-labelledby="all-tab">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                <div class="aw-img">
+                                                    <img src="wp-content/themes/eMed/inc/assets/images/feature-img.svg" alt="mask" title="feature">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                                <ul class="awsome-list-all">
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon1"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>Real-time Requests</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon2"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon3"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon4"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon5"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade " id="e2" role="tabpanel" aria-labelledby="Admin-Panel">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                <div class="aw-img">
+                                                    <img src="wp-content/themes/eMed/inc/assets/images/feature-img.svg" alt="mask" title="feature">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                                <ul class="awsome-list-all">
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon1"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>Real-time Requests</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade " id="e3" role="tabpanel" aria-labelledby="Admin-Panel">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                <div class="aw-img">
+                                                    <img src="wp-content/themes/eMed/inc/assets/images/feature-img.svg" alt="mask" title="feature">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                                <ul class="awsome-list-all">
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon1"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>Real-time Requests</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon2"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon3"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade " id="e4" role="tabpanel" aria-labelledby="Admin-Panel">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                <div class="aw-img">
+                                                    <img src="wp-content/themes/eMed/inc/assets/images/feature-img.svg" alt="mask" title="feature">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                                <ul class="awsome-list-all">
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon1"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>Real-time Requests</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="aw-listing">
+                                                            <div class="aw-icon">
+                                                                <span class="icon2"></span>
+                                                            </div>
+                                                            <div class="aw-contnet">
+                                                                <strong>BI Analytics & Reports</strong>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard .</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Architecture -->
+        <div class="architecture-title-section">
+            <div class="container">
+                <div class="row">
+                    <div class="architecture-section">
+                        <div class="title-1">
+                            <h2>Architecture</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="ark-img">
+                                    <img src="wp-content/themes/eMed/inc/assets/images/architecture.svg" alt="mask" title="About Video">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose Us -->
+        <section class="why-choose-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="why-choose-img">
+                            <img src="wp-content/themes/eMed/inc/assets/images/our-product/why-choose.svg" alt="why-choose" title="why-choose">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 why-choose-content">
+                        <div class="title-11">
+                            <h3>Why Choose Us</h3>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <ul class="why-choose-list">
+                            <li>Award winning service</li>
+                            <li>Best quality at the most reasonable cost</li>
+                            <li>Commitment to work</li>
+                            <li>Long-term relationship with customers</li>
+                            <li>Amazing designs</li>
+                            <li>100% customer satisfaction</li>
+                            <li>Full back-end support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- create website section -->
+        <section class="create-website-section">
+            <div class="container">
+                <div class="row">
+                    <div class="title-11">
+                        <h3>Why do you have to create a <span>website</span><br> for your business?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="create-web-box">
+                        <ul>
+                            <li>
+                                <div class="web-icon"></div>
+                                <p>Easier to reach more people</p>
+                            </li>
+                            <li>
+                                <div class="web-icon"></div>
+                                <p>Increase the sales of your product</p>
+                            </li>
+                            <li>
+                                <div class="web-icon"></div>
+                                <p>Make it easier to make transaction</p>
+                            </li>
+                            <li>
+                                <div class="web-icon"></div>
+                                <p>Coustomer get information faster</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Products -->
+        <div class="our-latest-work">
+            <div class="container">
+                <div class="row">
+                    <div class="title-1">
+                        <h3>Our Work</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-box bg-green">
+                            <div class="our-box-content">
+                                <span class="b-sub-title">Online Pharmacy</span>
+                                <h3 class="b-main-title">MediXpress</h3>
+                                <p class="b-main-dcs">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                                <ul class="out-tech">
+                                    <li>
+                                        <a>Android</a>
+                                    </li>
+                                    <li>
+                                        <a>ios</a>
+                                    </li>
+                                    <li>
+                                        <a>Web</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="our-box-img">
+                                <img src="wp-content/themes/eMed/inc/assets/images/HealthTech_Web/MediXpress.png" alt="MediXpress" title="MediXpress">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-box bg-yellow">
+                            <div class="our-box-content">
+                                <span class="b-sub-title">Online Pharmacy</span>
+                                <h3 class="b-main-title">DoWize</h3>
+                                <p class="b-main-dcs">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+                                <ul class="out-tech">
+                                    <li>
+                                        <a>Android</a>
+                                    </li>
+                                    <li>
+                                        <a>ios</a>
+                                    </li>
+                                    <li>
+                                        <a>Web</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="our-box-img">
+                                <img src="wp-content/themes/eMed/inc/assets/images/HealthTech_Web/MediXpress.png" alt="MediXpress" title="MediXpress">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- get a question -->
+        <div class="get-question-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="title-1">
+                            <h3>Got a Question?</h3>
+                        </div>
+                        <h4 class="black-title">We’ve Got the Answer!</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been.</p>
+                        <a class="btn-normal">Start talking</a>
+                    </div>
+                    <div id="full-faq" class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="faq-section">
+                            <div class="accordion faq-area" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header active" id="heading1">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                            How long is this site live? <span class="fa fa-minus"></span>
+                                        </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample" style="">
+                                        <div class="card-body">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s standard.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading2">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">How to get start with us? <span
+                                                class="fa fa-minus"></span>
+                                        </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordionExample" style="">
+                                        <div class="card-body">
+                                            Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading3">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            How many sites I can create at once?<span class="fa fa-minus"></span>
+                                        </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading4">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            Can i change the domain you give me? <span class="fa fa-minus"></span>
+                                        </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Products -->
+        <div class="our-product-section">
+            <div class="container">
+                <div class="row our-product">
+                    <div class="title-1">
+                        <h3>More Products</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="about-video">
+                            <img src="wp-content/themes/eMed/inc/assets/images/our-product/1.png" alt="mask" title="About Video">
+                            <a class="btn-red btn-about">Diagnostic Center</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="about-video">
+                            <img src="wp-content/themes/eMed/inc/assets/images/our-product/2.png" alt="mask" title="About Video">
+                            <a class="btn-red btn-about">ERP</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="about-video">
+                            <img src="wp-content/themes/eMed/inc/assets/images/our-product/3.png" alt="mask" title="About Video">
+                            <a class="btn-red btn-about">MR App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- latest news section -->
+        <div class="our-latest-work">
+            <div class="container">
+                <div class="row">
+                    <div class="title-1">
+                        <h3>Latest News</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-latest">
+                            <div class="card-img">
+                                <img src="wp-content/themes/eMed/inc/assets/images/learning-programming-language1.png" alt="medical-professional-administering-a-vaccine" title="medical-professional-administering-a-vaccine">
+                            </div>
+                            <div class="card-body">
+                                <p class="sub-title-card">Healthy</p>
+                                <h4 class="card-title">Precautions To Be Taken Before You Travel In</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                                <a href="#!" class="text-red">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-latest">
+                            <div class="card-img">
+                                <img src="wp-content/themes/eMed/inc/assets/images/learning-programming.png" alt="medical-professional-administering-a-vaccine" title="medical-professional-administering-a-vaccine">
+                            </div>
+                            <div class="card-body">
+                                <p class="sub-title-card">Business</p>
+                                <h4 class="card-title">Software-defined Networking</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-latest">
+                            <div class="card-img">
+                                <img src="wp-content/themes/eMed/inc/assets/images/learning-programming-language1.png" alt="medical-professional-administering-a-vaccine" title="medical-professional-administering-a-vaccine">
+                            </div>
+                            <div class="card-body">
+                                <p class="sub-title-card">Development</p>
+                                <h4 class="card-title">Software programming a job VS a passion</h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                                <a href="#!" class="text-red">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- contact-box  -->
+            <div class="contact-us-red">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-box col-lg-12">
+                            <h4>Do you have any project?</h4>
+                            <div class="job-type">
+                                <div class="input-group">
+                                    <input type="text" class="form-control input-work" placeholder="Name*">
+                                    <input type="text" class="form-control input-work" placeholder="Email*">
+                                    <input type="text" class="form-control input-location" placeholder="Phone*">
+                                    <button type="button" class="btn btn-find">Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Customer Stories -->
+            <div class="customer-stories-section simple-story">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card customer-box">
+                            <img src="wp-content/themes/eMed/inc/assets/images/image-14.png" alt="images" title="Customer Stories">
+                            <a href="#" class="play-icon"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card customer-box">
+                            <img src="wp-content/themes/eMed/inc/assets/images/image-16.png" alt="images" title="Customer Stories">
+                            <a href="#" class="play-icon"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card customer-box">
+                            <img src="wp-content/themes/eMed/inc/assets/images/image-15.png" alt="images" title="Customer Stories">
+                            <a href="#" class="play-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #content -->
+            <div id="footer-widget" class="row m-0 bg-light">
+                <div class="container">
+                    <div class="seal_log top-footer">
+                        <div class="row">
+                            <div class="col-12 card-logo">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/100-percent-lifetime-warranty-guarantee 1.png" alt="card">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/innovative-business-app-for-pharma-industry-2017 1.png" alt="card">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/100-percent-lifetime-warranty-guarantee 1.png" alt="card">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/Layer1.png" alt="card">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/Layer2.png" alt="card">
+                                <img src="wp-content/themes/eMed/inc/assets/images/card/Layer3.png" alt="card">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row middle-footer">
+                        <div class="col-auto">
+                            <section id="media_image-2" class="widget widget_media_image"><img width="195" height="70" src="wp-content/uploads/2021/03/eLogo.png" class="image wp-image-5  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" />
+                                <p class="footer-dcs">Lorem Ipsum is simply dummy <br> text of the printing.</p>
+                                <ul class="social-media">
+                                    <li class="facebook">
+                                        <a></a>
+                                    </li>
+                                    <li class="twitter">
+                                        <a></a>
+                                    </li>
+                                    <li class="linkdin">
+                                        <a></a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a></a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-auto">
+                            <section id="nav_menu-2" class="widget widget_nav_menu">
+                                <h3 class="widget-title">About</h3>
+                                <div class="menu-footer-about-container">
+                                    <ul id="menu-footer-about" class="menu">
+                                        <li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="#">Our Work</a></li>
+                                        <li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="#">Company</a></li>
+                                        <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="#">Blog</a></li>
+                                        <li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="#">Contact</a></li>
+                                        <li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Terms</a></li>
+                                        <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Policy</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-auto">
+                            <section id="nav_menu-3" class="widget widget_nav_menu">
+                                <h3 class="widget-title">Services</h3>
+                                <div class="menu-footer-services-container">
+                                    <ul id="menu-footer-services" class="menu">
+                                        <li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="#">Custom Healthcare App Development</a></li>
+                                        <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="#">Custom Healthcare Software Development</a></li>
+                                        <li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a href="#">Digital Marketing Services for Healthcare</a></li>
+                                        <li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="#">Logistic Services for online pharmacy</a></li>
+                                        <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#">Digital Transformation for Healthcare companies</a></li>
+                                        <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a href="#">IOT Implementation in Healthcare Companies</a></li>
+                                        <li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="#">Healthcare Analytics</a></li>
+                                        <li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="#">AI/ML Services for Healthcare</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-auto">
+                            <section id="nav_menu-4" class="widget widget_nav_menu">
+                                <h3 class="widget-title">Products</h3>
+                                <div class="menu-footer-products-container">
+                                    <ul id="menu-footer-products" class="menu">
+                                        <li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="#">Online Pharmacy</a></li>
+                                        <li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="#">TeleMedicine</a></li>
+                                        <li id="menu-item-46" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="#">Diagnostic</a></li>
+                                        <li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="#">Center/Lab</a></li>
+                                        <li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48"><a href="#">ERP</a></li>
+                                        <li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a href="#">MR App</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-auto">
+                            <section id="custom_html-2" class="widget_text widget widget_custom_html">
+                                <h3 class="widget-title">Address</h3>
+                                <div class="textwidget custom-html-widget">
+                                    <div class="country-box">
+                                        <p class="country-title"><span class="country-mark"></span><span>India</span></p>
+                                        <p>A/707, Mondeal Heights, <br> Ahmedabad, Gujarat- 380054</p>
+                                    </div>
+                                    <div class="country-box">
+                                        <p class="country-title"><span class="country-mark-ca"></span><span>Canada</span></p>
+                                        <p>Office 113, 108 Loutit Road, <br> Fort Mcmurray, Alberta, T9K 0A2</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer id="colophon" class="site-footer navbar-light" role="contentinfo">
+                <div class="container pt-3 pb-3">
+                    <div class="float-left">
+                        <a class="f-contact-link" href="tel:+918140286440"><span class="f-contact"></span><span>+91 814 028 6440</span></a>
+                        <a class="f-mail-link" href="mailto:info@emedstore.in"><span class="f-mail"></span><span>info@emedstore.in</span></a>
+                    </div>
+                    <div class="float-right">
+                        <div class="site-info copy-right">
+                            &copy; 2021 <span class="text-red">EMed Healthtech</span>. All Rights Reserved.
+
+                        </div>
+                        <!-- close .site-info -->
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </footer>
+            <!-- #colophon -->
+        </div>
+        <!-- #page -->
+
+        <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/popper.min.js?ver=5.7' id='wp-bootstrap-starter-popper-js'></script>
+        <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/bootstrap.min.js?ver=5.7' id='wp-bootstrap-starter-bootstrapjs-js'></script>
+        <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/theme-script.min.js?ver=5.7' id='wp-bootstrap-starter-themejs-js'></script>
+        <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/skip-link-focus-fix.min.js?ver=20151215' id='wp-bootstrap-starter-skip-link-focus-fix-js'></script>
+        <script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=5.7' id='wp-embed-js'></script>
+</body>
+
+</html>
