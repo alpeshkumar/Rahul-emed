@@ -200,7 +200,7 @@ a:hover {
     color: #CD1417;
 }
 
-.text-black {
+.text-black p, .text-black{
     color: #000;
 }
 
@@ -208,7 +208,7 @@ a:hover {
     position: relative;
 }
 
-.btn-red {
+.btn-red{
     background: #CD1417;
     padding: 20px 70px 20px 30px;
     border-radius: 10px;
@@ -235,40 +235,9 @@ a:hover {
     width: 33px;
 }
 
-.btn-red a {
-    background: #CD1417;
-    padding: 20px 70px 20px 30px;
-    border-radius: 10px;
-    color: #fff;
-    margin-top: 20px;
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 500;
-}
 
-.btn-red a::before {
-    position: absolute;
-    content: '';
-    right: 20px;
-    top: 28px;
-    background-image: url(inc/assets/images/sprite.png);
-    background-repeat: no-repeat;
-    background-size: 320px;
-    background-position: -15px -9px;
-    height: 16px;
-    width: 33px;
-}
 
 .btn-red:hover {
-    background: #4285f4;
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn-red a:hover {
     background: #4285f4;
     color: #fff;
     text-decoration: none;
