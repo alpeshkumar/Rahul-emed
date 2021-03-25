@@ -2580,7 +2580,11 @@ a:hover {
         line-height: 22px;
     }
     .inner-banner-section {
-        height: 350px;
+        height: 510px;
+    }
+    .inner-banner-section .banner-caption h1 {
+        font-size: 30px;
+        line-height: 40px;
     }
     .title-11 h2,
     .title-11 h3 {
@@ -2592,8 +2596,16 @@ a:hover {
         display: none;
     }
     .text-40 {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .get-in-touch-section .about-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .btn-red {
+        border-radius: 5px !important;
     }
     .title-1 h2,
     .title-1 h3 {
@@ -2785,9 +2797,6 @@ a:hover {
         font-size: 15px;
         line-height: 17px;
     }
-    .why-choose-list li {
-        width: 100%;
-    }
     .create-web-box {
         margin: 15px;
     }
@@ -2795,7 +2804,7 @@ a:hover {
         padding: 0px 15px;
     }
     .create-website-section {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     .contact-us-red {
         padding: 15px;
@@ -2821,7 +2830,30 @@ a:hover {
     }
     .about-video img {
         width: 100%;
-        border-radius: 14px;
+        height: 400px;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .get-in-touch-section .blue-shap {
+        background-position: -31px -356px;
+        background-size: 200px;
+        height: 40px;
+        width: 160px;
+    }
+    .architecture-section p br {
+        display: none;
+    }
+    .emed-tabs .nav-tabs {
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .emed-tabs .nav-tabs .nav-link,
+    .emed-tabs .nav-tabs .nav-item.show .nav-link,
+    .emed-tabs .nav-tabs .nav-link.active,
+    .emed-tabs .nav-tabs .nav-link:hover {
+        height: 45px;
     }
     .btn-red {
         padding: 16px 65px 16px 20px;
@@ -2850,23 +2882,47 @@ a:hover {
         margin: 8px;
     }
     .get-question-section .title-1 h3 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 30px;
         padding-bottom: 10px;
     }
     .black-title {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .btn-normal {
+        font-size: 18px;
+        line-height: 23px;
     }
     .faq-section {
         margin: 20px 0px;
+    }
+    .btn-normal:before {
+        top: 0;
+    }
+    #full-faq .faq-area .card .card-header h2 button {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    #full-faq .faq-area .card .card-body {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #full-faq .faq-area .card .card-header h2 button span:after {
+        top: 7px;
+        right: 0px;
+        width: 15.25px;
+        height: 3px;
+    }
+    .our-product-section .about-video img {
+        height: auto;
     }
     .get-question-section {
         position: relative;
         margin: 20px 15px;
     }
     .get-question-section .row {
-        padding: 20px;
+        padding: 30px 5px;
     }
     .awsome-center-img {
         text-align: center;
@@ -2876,7 +2932,7 @@ a:hover {
         line-height: 46px;
     }
     .portfolio-banner-section {
-        height: 350px;
+        height: 500px;
     }
     .blue-title {
         font-size: 26px;
@@ -2888,11 +2944,128 @@ a:hover {
         padding-top: 20px;
     }
     .red-dot-list li {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 28px;
     }
     .red-dot-list li:before {
         top: 0px;
+    }
+    .awsome-features-section .aw-listing .aw-contnet p {
+        text-align: left;
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0px;
+    }
+    .why-choose-img {
+        text-align: left;
+    }
+    .why-choose-img img {
+        width: 185px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .why-choose-list li {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    .why-choose-list li:before {
+        background-size: 230px;
+        background-position: -146px -44px;
+        height: 16px;
+        width: 25px;
+    }
+    .why-choose-list li {
+        width: 50%;
+    }
+    .why-choose-list li {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .create-web-box {
+        border-radius: 15px;
+    }
+    .create-website-section .create-web-box li {
+        text-align: center;
+        width: 50%;
+    }
+    .create-website-section .create-web-box .web-icon {
+        background-size: 230px;
+        background-position: -3px -396px;
+        height: 70px;
+        width: 70px;
+    }
+    .create-web-box ul li p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 10px;
+    }
+    .create-website-section .create-web-box li {
+        margin-bottom: 15px;
+    }
+    .create-web-box {
+        padding: 20px 10px 10px 10px;
+    }
+    /* .aw-listing .aw-icon span {       
+        background-size: 180px;
+        background-position: -3px -176px;
+        height: 50px;
+        width: 50px;
+    }
+    .aw-listing .aw-icon span.icon1{
+        background-position: -129px -177px;
+        height: 50px;
+        width: 50px;
+    } */
+    .custom-website-section {
+        padding: 20px 0px;
+    }
+    .service-list {
+        display: none;
+    }
+    .service-img img {
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .service-list-box .service-content h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .text-60 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .healthcare-img img {
+        border-radius: 10px;
+    }
+    .healthcare-box h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .healthcare-box {
+        padding: 15px 0px;
+    }
+    .deliver-list li a {
+        font-size: 18px;
+        line-height: 21px;
+        color: #000;
+    }
+    .deliver-list li {
+        border-radius: 10px;
+    }
+    .custom-box {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .custom-box h2 {
+        font-size: 18px;
+        line-height: 31px;
+        margin-bottom: 5px;
+    }
+    .aw-order {
+        order: -1;
     }
 }
 
@@ -2903,6 +3076,16 @@ a:hover {
 }
 
 @media screen and (max-width:479px) and (orientation: portrait) {
+    .awsome-center-img img {
+        width: 100%;
+    }
+    .title-11 h2,
+    .title-11 h3 {
+        margin-bottom: 10px;
+    }
+    .awsome-features-section .aw-img img {
+        width: 100%;
+    }
     .top-footer .card-logo img {
         margin: 10px;
         width: 80px;
