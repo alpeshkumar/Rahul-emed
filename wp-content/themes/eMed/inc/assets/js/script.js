@@ -48,4 +48,16 @@ jQuery(document).ready(function() {
             },
         ],
     });
+    jQuery("#services li a[href^='#']").on('click', function(e) {
+        // prevent default anchor click behavior
+        e.preventDefault();
+        // store hash
+        var hash = this.hash;
+        // animate
+        jQuery('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1000, function() {
+            window.location.hash = hash;
+        });
+    });
 });

@@ -483,6 +483,18 @@ a:hover {
     background: linear-gradient(247.45deg, #8CC63E 11.21%, #5CA000 106.26%);
 }
 
+.bg-blue {
+    background: #3E5CC6;
+}
+
+.bg-dark-red {
+    background: #C63E4E;
+}
+
+.bg-dark-blue {
+    background: #1092A4;
+}
+
 .bg-green .b-sub-title {
     color: #386002;
 }
@@ -1049,6 +1061,7 @@ a:hover {
 .our-latest-work .card-latest {
     border: 0px;
     height: 100%;
+    border-radius: 20px;
 }
 
 .our-latest-work .card-latest img {
@@ -1092,6 +1105,141 @@ a:hover {
     border-radius: 0px 0px 30px 30px;
 }
 
+.active-news-box {
+    padding: 50px 0px;
+}
+
+.active-news-box .card-img img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+}
+
+.active-news-box .card {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 152px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+}
+
+.active-news-box .card .card-img {
+    flex: 0 0 50%;
+}
+
+.emed-card {
+    background: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 22px 152px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    margin: 30px 0px;
+}
+
+.side-bar-title {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.emed-card ul li a {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.emed-card ul li a:hover {
+    color: #CD1417 !important;
+}
+
+.popular-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.popular-item-img {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.popular-item-content p {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.popular-item-content span {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #757575;
+}
+
+.popular-item-img img {
+    width: 100%;
+}
+
+.active-news-box .card-body {
+    height: 100%;
+    flex: 0 0 50%;
+    padding: 50px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: unset;
+}
+
+.sidebar-social-media {
+    display: flex;
+}
+
+.sidebar-social-media li a {
+    background: url('inc/assets/images/sprite.png');
+    background-position: -170px -956px;
+    background-size: 310px;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sidebar-social-media li.twitter a {
+    background-position: -250px -956px;
+}
+
+.sidebar-social-media li.linkdin a {
+    background-position: -250px -873px;
+}
+
+.sidebar-social-media li.instagram a {
+    background-position: -170px -873px;
+}
+
+.sidebar-social-media li.pinterest a {
+    background-position: -246px -785px;
+}
+
+.sidebar-social-media li a:hover {
+    opacity: 0.7;
+}
+
 
 /* product page css */
 
@@ -1130,6 +1278,23 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.inner-banner-section.banner-550 {
+    height: 550px;
+}
+
+.inner-banner-section.bg-blue {
+    background-color: #3700BF;
+    text-align: center;
+}
+
+.bg-blue .banner-caption p {
+    color: #fff;
+}
+
+.blog-detail-section {
+    padding: 50px 0px;
 }
 
 .inner-banner-section .banner-caption {
@@ -1725,6 +1890,7 @@ a:hover {
 
 .custom-website-section {
     padding: 50px 0px;
+    position: relative;
 }
 
 .m-bottom {
@@ -1854,6 +2020,129 @@ a:hover {
     background-color: #F2F2F2;
 }
 
+.portfolio-section .tab-content {
+    width: 100%;
+}
+
+.portfolio-tabs {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #E2E2E2;
+}
+
+.casestudy .our-box {
+    padding: 50px 150px 0px 70px;
+}
+
+.casestudy .our-box .our-box-content {
+    width: 70%;
+    padding: 0px 30px;
+}
+
+.casestudy .our-box .our-box-content .b-main-title {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.casestudy .our-box .our-box-content .b-main-dcs {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.casestudy .our-box .our-box-content .btn-view {
+    position: relative;
+    font-family: 'Konnect-SemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+
+.casestudy .our-box .our-box-content .btn-view::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -9px -99px;
+    height: 30px;
+    width: 40px;
+}
+
+
+/* .casestudy .our-box .our-box-img {
+    width: 250px;
+} */
+
+.p-tablist li a {
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    color: #000000;
+    padding: 0px;
+}
+
+.p-tablist .nav-tabs {
+    border-bottom: 0px;
+    width: 70%;
+}
+
+.p-tablis ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.p-tablist .nav-tabs .nav-item.show .nav-link,
+.p-tablist .nav-tabs .nav-link.active,
+.p-tablist .nav-tabs .nav-link:focus,
+.p-tablist .nav-tabs .nav-link:hover {
+    border: 0px;
+    border-bottom: 3px solid #CD1417;
+}
+
+.form-types {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-types select {
+    width: auto;
+    font-family: 'Konnect-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    border: 0px;
+}
+
+.custom-select:focus {
+    border-color: unset;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-types .custom-select {
+    background: url('inc/assets/images/chevron_down.png');
+    background-position: right;
+    background-size: 13px;
+    background-repeat: no-repeat;
+}
+
 .portfolio-banner-section h1 {
     font-family: 'Konnect-SemiBold';
     font-style: normal;
@@ -1879,6 +2168,109 @@ a:hover {
     line-height: 40px;
     color: #65C490;
     margin-bottom: 20px;
+}
+
+.portfolio-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+.portfolio-detail {
+    margin: 20px 0px;
+}
+
+.date p,
+.technology-box {
+    display: flex;
+}
+
+.date p,
+.technology-box p {
+    margin: 0px;
+}
+
+.technology-box p {
+    display: flex;
+    align-items: center;
+}
+
+.technology-box p .text-black {
+    margin: 0px 8px;
+}
+
+.tech-icon {
+    display: flex;
+}
+
+.date-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -215px -99px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.client-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -259px -99px;
+    height: 30px;
+    width: 30px;
+}
+
+.app-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -295px -101px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.apple-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -266px -614px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+
+.android-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -212px -614px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+
+.php-icon {
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -126px -616px;
+    height: 35px;
+    width: 65px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.portfolio-detail-row .text-gray {
+    padding: 0px 14px;
+}
+
+.common-spacing {
+    margin: 50px 0px;
 }
 
 
@@ -2124,6 +2516,20 @@ a:hover {
         font-size: 38px;
         line-height: 48px;
     }
+    .popular-item-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .popular-item-content span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inner-banner-section.banner-550 {
+        height: 400px;
+    }
+    .active-news-box .card-body {
+        padding: 30px;
+    }
 }
 
 @media screen and (min-width:1365px) {
@@ -2177,6 +2583,13 @@ a:hover {
 }
 
 @media screen and (max-width:1365px) {
+    .sidebar-social-media {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .popular-box {
+        flex-wrap: wrap;
+    }
     .different-section {
         width: 100%;
     }
@@ -2324,6 +2737,13 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
+    .portfolio-detail-row {
+        flex-wrap: wrap;
+        padding: 15px 0px;
+    }
+    .common-spacing {
+        margin: 30px 0px;
+    }
     .site-header {
         background-color: #fff;
         padding: 0px;
@@ -2527,6 +2947,60 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
+    .active-news-box .card {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .active-news-box .card-img img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .casestudy .our-box {
+        padding: 30px;
+    }
+    .casestudy .our-box .our-box-content .b-main-title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .casestudy .our-box .our-box-content {
+        width: 100%;
+        padding: 0px;
+    }
+    .casestudy .our-box .our-box-content .b-main-dcs {
+        text-align: center;
+    }
+    .casestudy .our-box .our-box-content .btn-view {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .casestudy .our-box {
+        padding: 30px 30px 0px 30px;
+    }
+    .portfolio-section .tab-content {
+        padding: 15px;
+    }
+    .p-tablist .nav-tabs {
+        border-bottom: 0px;
+        width: 100%;
+        padding: 15px;
+    }
+    .p-tablist li a {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .form-types {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .portfolio-tabs {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
     .play-icon {
         height: inherit;
         width: 0;
@@ -2749,7 +3223,8 @@ a:hover {
         flex-wrap: wrap;
     }
     .top-footer .card-logo img {
-        margin: 20px;
+        margin: 10px;
+        flex: 0 0 20%;
     }
     #footer-widget .middle-footer .col-auto {
         -ms-flex: 0 0 auto;
@@ -3132,5 +3607,11 @@ a:hover {
     .contact-box h4 {
         font-size: 25px;
         line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .job-type .input-work {
+        width: 235px;
     }
 }
