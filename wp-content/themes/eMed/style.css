@@ -249,6 +249,8 @@ a:hover {
 .about-video img {
     width: 100%;
     border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
 }
 .about-video .blue-shap {
     position: relative;
@@ -296,8 +298,15 @@ a:hover {
 }
 .about-video {
     border-radius: 30px;
+    /* margin-bottom: 30px; */
+    position: relative;
+    height: 100%;
+}
+.home .about-video {
+    border-radius: 30px;
     margin-bottom: 30px;
     position: relative;
+    height: auto;
 }
 .about-video .play-icon::before {
     position: absolute;
@@ -383,6 +392,9 @@ a:hover {
     background: #b3b3b3 !important;
     outline: 0;
     margin: 10px !important;
+}
+.slider-nav .slick-dots li.slick-active button {
+	background: #000 !important;
 }
 .slider-nav .slick-dots li button:before {
     font-size: 0;
@@ -1484,6 +1496,9 @@ a:hover {
     background-position: top;
     margin-bottom: 170px;
 }
+.vc_row[data-vc-full-width].create-website-section {
+    overflow: unset;
+}
 .create-website-section .title-11 {
     width: 100%;
     margin-top: 50px;
@@ -1723,8 +1738,7 @@ a:hover {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    height: 720px;
-    display: flex;
+    height: calc(100vh - 110px);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -1961,8 +1975,8 @@ a:hover {
 }
 /* Product Design Lifecycle */
 .product-design-section {
-    background-color: #F2F2F2;
-    padding: 70px 0;
+    /* background-color: #F2F2F2;
+    padding: 70px 0; */
 }
 .prod-design {
     position: relative;
