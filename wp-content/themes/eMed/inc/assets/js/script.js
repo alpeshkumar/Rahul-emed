@@ -1,5 +1,14 @@
 jQuery(document).ready(function() {
+    //Toggle Script
+    jQuery('.navbar-toggler').on('click', function() {
+        jQuery(this).toggleClass('active');
+        jQuery('body').toggleClass('navigation-open');
+    });
 
+    // jQuery('.navbar-toggler').on('click', function() {
+    //     jQuery('.navbar-toggler').removeClass('active');
+    //     jQuery('body').removeClass('navigation-open');
+    // });
     jQuery('.slider-nav').slick({
         slidesToShow: 2,
         infinite: true,
@@ -48,6 +57,7 @@ jQuery(document).ready(function() {
             },
         ],
     });
+
     jQuery("#services li a[href^='#']").on('click', function(e) {
         // prevent default anchor click behavior
         e.preventDefault();
@@ -56,8 +66,16 @@ jQuery(document).ready(function() {
         // animate
         jQuery('html, body').animate({
             scrollTop: $(hash).offset().top
-        }, 1000, function() {
+        }, 300, function() {
             window.location.hash = hash;
         });
+    });
+    jQuery('.testimonial-slider').slick({
+        slidesToShow: 1,
+        infinite: true,
+        prevArrow: false,
+        nextArrow: false,
+        dots: true,
+        slidesToScroll: 1,
     });
 });
