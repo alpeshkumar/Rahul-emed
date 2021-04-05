@@ -2851,7 +2851,7 @@ button {
     margin: 8px;
     text-align: center;
     padding: 30px;
-    width: 230px;
+    flex: 0 0 23%;
     height: 150px;
     display: flex;
     align-items: center;
@@ -2908,6 +2908,341 @@ button {
     display: none;
 }
 
+
+/* about us page css */
+
+.about-history-section {
+    padding: 70px 0px;
+    position: relative;
+    height: 740px;
+}
+
+.about-image {
+    width: 60%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 38px;
+}
+
+.about-title {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 75px rgb(166 166 166 / 38%);
+    border-radius: 30px;
+    width: 30%;
+    padding: 30px;
+    position: absolute;
+    top: 10%;
+    right: 17%;
+}
+
+.about-title h2 {
+    font-family: 'konnect-SemiBold';
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.about-dcs {
+    background: #FFFFFF;
+    box-shadow: 0px 34px 75px rgb(166 166 166 / 38%);
+    border-radius: 30px;
+    padding: 30px;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    width: 70%;
+}
+
+.about-dcs strong {
+    font-size: 24px;
+    line-height: 37px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.lets-create-title {
+    padding: 30px;
+    background: #CD1417;
+    color: #fff;
+    box-shadow: 0px 34px 69px rgba(205, 20, 23, 0.38);
+    border-radius: 30px;
+    width: 25%;
+    position: absolute;
+    bottom: -180px;
+    left: 15px;
+}
+
+.lets-create-title a {
+    font-size: 26px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.best-service-time {
+    background: #F2F2F2;
+    padding: 70px 0px;
+}
+
+.satisfied-content {
+    width: 80%;
+}
+
+.satisfied-content h3 {
+    text-align: left !important;
+    margin-bottom: 15px;
+}
+
+.satisfied-client-section {
+    padding: 70px 0px;
+}
+
+.main-client-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-not-found {
+    padding: 100px 15px;
+    position: relative;
+}
+
+.page-not-found img {
+    width: 500px;
+}
+
+
+/* career page css */
+
+.career-section {
+    padding: 70px 0px;
+}
+
+.cimages-main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.cimages-main2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.cimages-1 {
+    width: 60%;
+    margin: 10px;
+}
+
+.cimages-2 {
+    width: 30%;
+    margin: 10px;
+    position: relative;
+}
+
+.cimages-2::before {
+    position: absolute;
+    content: '';
+    top: -64px;
+    right: -66px;
+    background: url('inc/assets/images/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -5px -1090px;
+    background-size: 320px;
+    height: 110px;
+    width: 110px;
+}
+
+.cimages-3 {
+    width: 20%;
+    margin: 10px;
+}
+
+.cimages-4 {
+    width: 30%;
+    margin: 10px;
+    position: relative;
+}
+
+.cimages-4::before {
+    position: absolute;
+    content: '';
+    bottom: -40px;
+    left: -65px;
+    background: url('inc/assets/images/sprite.png');
+    background-repeat: no-repeat;
+    background-position: -5px -1090px;
+    background-size: 320px;
+    height: 110px;
+    width: 110px;
+    z-index: -1;
+}
+
+.cimages-5 {
+    width: 30%;
+    margin: 10px;
+}
+
+.cimages img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.jointus-section {
+    margin: 70px 0px;
+}
+
+.bg-gray {
+    background: #F2F2F2;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.join-box {
+    padding: 30px 0px;
+}
+
+.join-box h2 {
+    font-family: 'Konnect-SemiBold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    padding-right: 40px;
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.join-box h2::before {
+    position: absolute;
+    content: '';
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -7px -661px;
+    height: 30px;
+    width: 30px;
+    right: 0;
+}
+
+.join-box p {
+    margin-bottom: 0px;
+}
+
+.career-list {
+    list-style: none;
+}
+
+.career-list li {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 17px 86px rgba(56, 56, 56, 0.12);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.career-list li .c-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.c-title {
+    background: #FDE2C9;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #EB7100;
+}
+
+.bg-orange {
+    color: #EB7100;
+    background: #FDE2C9;
+}
+
+.bg-d-blue {
+    color: #0034EB;
+    background: #C9CEFD;
+}
+
+.career-list li .c-list span {
+    font-size: 22px;
+    line-height: 35px;
+    color: #000;
+}
+
+.career-list li .c-list a {
+    font-size: 20px;
+    line-height: 26px;
+    color: #B9B8B8;
+    position: relative;
+    display: inline-flex;
+    padding-right: 30px;
+}
+
+.career-list li .c-list a:hover {
+    color: #0034EB;
+}
+
+.career-list li .c-list a::before {
+    position: absolute;
+    content: '';
+    background-image: url(inc/assets/images/sprite.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -40px -656px;
+    height: 30px;
+    width: 30px;
+    right: 0;
+}
+
+.join-team-section {
+    margin-bottom: 50px;
+}
+
+.job-look-section {
+    position: relative;
+    margin: 50px 0px;
+}
+
+.job-look-box {
+    display: flex;
+    align-items: center;
+}
+
+.art-img img {
+    width: 280px;
+}
+
+.job-content {
+    text-align: center;
+}
+
+.job-content p {
+    color: #fff;
+}
+
+.job-content h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.job-look-box {
+    background-color: #CD1417;
+    border-radius: 32px;
+    padding: 50px 50px 0px 50px;
+}
+
 @media screen and (min-width:1200px) {
     body .container {
         max-width: 95%;
@@ -2915,6 +3250,35 @@ button {
 }
 
 @media screen and (max-width:1700px) {
+    p {
+        line-height: 30px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .lets-create-title a {
+        font-size: 22px;
+        line-height: 28px;
+        color: #fff;
+    }
+    .lets-create-title {
+        width: 22%;
+        position: absolute;
+        bottom: -170px;
+        left: 15px;
+    }
+    .about-dcs {
+        width: 75%;
+    }
+    .about-dcs strong {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .satisfied-content {
+        width: 80%;
+    }
+    .satisfied-content {
+        width: 100%;
+    }
     .why-choose-list li {
         font-size: 18px;
         line-height: 28px;
@@ -2947,6 +3311,10 @@ button {
     }
     .active-news-box .card-body {
         padding: 30px;
+    }
+    .about-title h2 {
+        font-size: 40px;
+        line-height: 55px;
     }
 }
 
@@ -3295,6 +3663,21 @@ button {
 }
 
 @media screen and (max-width: 991px) {
+    .job-content h2 {
+        color: #fff;
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .art-img img {
+        width: 200px;
+    }
+    .join-box h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .page-not-found img {
+        width: 300px;
+    }
     .client-wisley-section {
         position: relative;
         padding: 20px 0px;
@@ -3524,6 +3907,94 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+    .job-look-box {
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .job-look-box {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .cimages-1 {
+        width: 98%;
+        margin: 10px;
+    }
+    .join-box {
+        text-align: center;
+    }
+    .career-list li .c-list span {
+        font-size: 18px;
+        line-height: 26px;
+        color: #000;
+    }
+    .cimages img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .cimages-2::before,
+    .cimages-4::before {
+        display: none;
+    }
+    .career-section {
+        padding: 30px 0px;
+    }
+    .career-list li .c-list a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .career-list li .c-list a::before {
+        background-position: -40px -664px;
+    }
+    .career-list li {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .jointus-section {
+        margin: 30px 0px;
+    }
+    .join-team-section h2,
+    .career-section h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .bg-gray {
+        border-radius: 10px;
+        padding: 30px 15px;
+        margin: 15px auto;
+        width: 90%;
+    }
+    .page-not-found img {
+        width: 200px;
+    }
+    .map-right-content {
+        padding: 20px;
+    }
+    .text-red-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .testimonial-slider .slider-content::before {
+        width: 56px;
+        height: 70px;
+    }
+    .slick-slide.testimonial-slider img {
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+    }
+    .testimonial-slider .slider-content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .testimonial-slider .slider-content {
+        padding-right: 0px;
+        position: relative;
+    }
+    .map-section iframe {
+        width: 100%;
+        height: 350px;
+    }
     .job-type {
         background: transparent;
     }
