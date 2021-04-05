@@ -530,7 +530,12 @@
         <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/theme-script.min.js?ver=5.7' id='wp-bootstrap-starter-themejs-js'></script>
         <script type='text/javascript' src='wp-content/themes/eMed/inc/assets/js/skip-link-focus-fix.min.js?ver=20151215' id='wp-bootstrap-starter-skip-link-focus-fix-js'></script>
         <script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=5.7' id='wp-embed-js'></script>
-
+        <script>
+            /* Toggle Script */
+            jQuery('.service-list li a').on('click', function() {
+                jQuery(this).toggleClass('active');
+            });
+        </script>
 </body>
 
 </html>

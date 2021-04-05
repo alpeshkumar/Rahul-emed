@@ -2036,7 +2036,8 @@ h3.title-1,
     background-color: #CD1417;
 }
 
-.service-list li a:hover {
+.service-list li a:hover,
+.service-list li a.active {
     color: #CD1417 !important;
 }
 
@@ -3199,7 +3200,7 @@ button {
     background-image: url(inc/assets/images/sprite.png);
     background-repeat: no-repeat;
     background-size: 320px;
-    background-position: -40px -656px;
+    background-position: -40px -661px;
     height: 30px;
     width: 30px;
     right: 0;
@@ -3944,7 +3945,7 @@ button {
         line-height: 24px;
     }
     .career-list li .c-list a::before {
-        background-position: -40px -664px;
+        background-position: -40px -662px;
     }
     .career-list li {
         padding: 15px;
