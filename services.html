@@ -532,7 +532,8 @@
         <script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=5.7' id='wp-embed-js'></script>
         <script>
             /* Toggle Script */
-            jQuery('.service-list li a').on('click', function() {
+            jQuery('.service-list li a').click(function() {
+                jQuery('.service-list li a.active').removeClass('active');
                 jQuery(this).toggleClass('active');
             });
         </script>
