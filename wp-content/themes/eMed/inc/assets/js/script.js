@@ -78,4 +78,9 @@ jQuery(document).ready(function() {
         dots: true,
         slidesToScroll: 1,
     });
+    jQuery( ".show_testimonial_video" ).on( "click", function() {
+        var video_url = jQuery(this).attr('data-url');
+        jQuery(".emed_video_url iframe").attr('src', video_url);
+        jQuery('#videoTestimonial').modal('show');
+    });
 });

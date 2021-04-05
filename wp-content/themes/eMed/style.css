@@ -1972,13 +1972,13 @@ h3.title-1,
     margin-bottom: 30px;
 }
 
-.custom-box {
+/* .custom-box {
     background: #FFFFFF;
     filter: drop-shadow(0px 17px 102px rgba(0, 0, 0, 0.14));
     border-radius: 30px;
     margin-bottom: 30px;
     padding: 40px;
-}
+} */
 
 .custom-box h2 {
     font-family: 'Konnect-SemiBold';
@@ -2351,10 +2351,10 @@ h3.title-1,
 
 /* Product Design Lifecycle */
 
-.product-design-section {
-    /* background-color: #F2F2F2;
-    padding: 70px 0; */
-}
+/* .product-design-section {
+    background-color: #F2F2F2;
+    padding: 70px 0;
+} */
 
 .prod-design {
     position: relative;
