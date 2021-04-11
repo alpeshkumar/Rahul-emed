@@ -153,6 +153,21 @@
 .client-logolist .vc_col-sm-3 {
 	width: 260px;
 }
+.our-latest-work .card-latest img {
+	height: auto;
+}
+.certification-box.last_box {
+	border-bottom: 0;
+}
+.single-page-section .main-certification {
+	margin-bottom: 50px;
+}
+.certification-box {
+	border-bottom: 0;
+}
+.emed-sidebar .nav-link {
+	padding: inherit;
+}
 @media screen and (max-width: 767px) {
     .awsome-features-section .aw-listing .aw-contnet p {
         text-align: left;
@@ -203,7 +218,54 @@
         line-height: 25px;
         padding: 0px;
     }
+    .contact-us-red {
+        padding: 0;
+    }
+    .mobile-menu .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-family: 'konnect-Regular';
+    }
+    .site-header .navbar-expand-xl .navbar-nav .dropdown-menu .dropdown-item {
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 991px) {
-    
+    .custom-box .vc_column-inner > .wpb_wrapper {
+        padding: 20px;
+    }
+    .custom-box h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .custom-box p{
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .feature_right_icon .mega_info_box_2 .mega-info-header {
+        margin-bottom: 15px;
+    }
+    .awsome-center-section .mega-info-desc p{
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .our-latest-work .card-latest .card-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .card-latest .card-body .card-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+            
+}
+
+@media screen and (max-width:479px) and (orientation: portrait) {
+    .contact-us-red .contact-box {
+        padding: 35px 15px 35px 15px;
+    }
 }
