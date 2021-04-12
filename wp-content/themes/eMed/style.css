@@ -1180,6 +1180,62 @@ h3.title-1,
     flex: 0 0 50%;
 }
 
+.emed-sidebar.widget_search {
+    margin-top: 30px;
+}
+
+.emed-sidebar.widget_search .search-form {
+    position: relative;
+}
+
+.emed-sidebar.widget_search .search-field {
+    background: #E7E6E6;
+    border-radius: 17px;
+    height: 60px;
+    margin: 0px;
+    width: 100%;
+    border: 0px;
+    padding: 10px 25px;
+}
+
+.emed-sidebar.widget_search .search-form>label {
+    width: 100%;
+}
+
+.emed-sidebar.widget_search .search-submit {
+    position: absolute;
+    content: '';
+    background-image: url('inc/assets/images/sprite.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -266px -664px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    right: 15px;
+    top: 15px;
+}
+
+.btn-red.btn-joint {
+    border: 0px;
+    padding: 20px 40px;
+}
+
+.joint-input {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    box-shadow: 0px 16px 84px rgba(95, 95, 95, 0.1);
+    border-radius: 17px;
+    height: 70px;
+    padding: 15px;
+    width: 100%;
+}
+
+.joint-input::placeholder {
+    color: rgba(0, 0, 0, 0.38);
+}
+
 .emed-card {
     background: #FFFFFF;
     padding: 30px;
@@ -1972,6 +2028,7 @@ h3.title-1,
     margin-bottom: 30px;
 }
 
+
 /* .custom-box {
     background: #FFFFFF;
     filter: drop-shadow(0px 17px 102px rgba(0, 0, 0, 0.14));
@@ -2350,6 +2407,7 @@ h3.title-1,
 
 
 /* Product Design Lifecycle */
+
 
 /* .product-design-section {
     background-color: #F2F2F2;
@@ -2834,6 +2892,10 @@ button {
     padding: 70px 0px;
 }
 
+.client-wisley-section.ptb-70 {
+    padding: 70px 0px;
+}
+
 .client-logos {
     width: 80%;
     margin: 0 auto;
@@ -2863,6 +2925,50 @@ button {
     height: 45px;
     width: 133px;
     object-fit: contain;
+}
+
+.line-emd {
+    border: 1px solid #E2E2E2;
+    margin: 30px 0px;
+    background: #e2e2e2;
+}
+
+.posted-time {
+    background: #F2F2F2;
+    border-radius: 15px;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.post-content {
+    display: flex;
+    align-items: center;
+}
+
+.post-time span {
+    font-size: 20px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.post-content .pp-detail {
+    margin-left: 20px;
+}
+
+.posted-time .posted {
+    font-size: 20px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.posted-time .post-title {
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    margin: 0px;
 }
 
 .gray-line {
@@ -2908,6 +3014,7 @@ button {
 .mobile-menu {
     display: none;
 }
+
 
 /* csr page css */
 
@@ -3001,22 +3108,27 @@ button {
     padding: 70px 0px;
 }
 
+
 /* 6 april css */
-.single-page-section .main-certification{
+
+.single-page-section .main-certification {
     background: #FFFFFF;
-box-shadow: 0px 22px 152px rgba(0, 0, 0, 0.1);
-border-radius: 30px;
-margin-top:-100px;
+    box-shadow: 0px 22px 152px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-top: -100px;
 }
-.policy-box{
+
+.policy-box {
     padding: 50px;
 }
-.policy-box .red-dot-list li{
+
+.policy-box .red-dot-list li {
     font-size: 20px;
     line-height: 35px;
     color: #757575;
 }
-.certification-box{
+
+.certification-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3025,58 +3137,70 @@ margin-top:-100px;
     text-align: center;
     border-bottom: 2px solid #E2E2E2;
 }
-.certification-box .cr-title span{
-border: 1.5px dashed #F3F3F3;
-border-radius: 10px;
+
+.certification-box .cr-title span {
+    border: 1.5px dashed #F3F3F3;
+    border-radius: 10px;
     color: #fff;
     font-size: 18px;
     line-height: 23px;
     padding: 6px 20px;
     margin: 0px 10px;
 }
-.bg-light-green{
+
+.bg-light-green {
     background-color: #83C000;
 }
-.bg-light-blue{
+
+.bg-light-blue {
     background-color: #098DED;
 }
-.certification-box img{
+
+.certification-box img {
     height: 100px;
     margin: 20px;
 }
-.give-back-section{
+
+.give-back-section {
     position: relative;
     padding: 70px 0px;
 }
-.give-box1{
+
+.give-box1 {
     display: flex;
     align-items: flex-end;
 }
-.give-box2{
+
+.give-box2 {
     display: flex;
     align-items: flex-start;
 }
-.bg-red-association{
+
+.bg-red-association {
     background: #CD1417;
-border-radius: 30px;
-padding:50px;
+    border-radius: 30px;
+    padding: 50px;
 }
-.slider-association h3{
-font-size: 60px;
-line-height: 70px;
-text-align: center;
-color: #FFFFFF;
+
+.slider-association h3 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.slider-association p{
+
+.slider-association p {
     font-size: 20px;
     line-height: 35px;
-text-align: center;
-color: #FFFFFF;
+    text-align: center;
+    color: #FFFFFF;
 }
-.slider-association .items{    
+
+.slider-association .items {
     padding: 0px 100px;
     margin: 0 auto;
 }
+
 .slider-association .slick-dots li button {
     font-size: 0;
     line-height: 0;
@@ -3099,27 +3223,33 @@ color: #FFFFFF;
 .slider-association .slick-dots li button:before {
     font-size: 0;
 }
-.give-box1 .img1{
-   margin: 6px;
+
+.give-box1 .img1 {
+    margin: 6px;
 }
-.give-box2 .img2{
-   margin: 6px;
+
+.give-box2 .img2 {
+    margin: 6px;
 }
-.img-radius{
+
+.img-radius {
     border-radius: 30px;
     width: 100%;
 }
-.out-what-overlay{
+
+.out-what-overlay {
     background: #CD1417;
-border-radius: 30px;
+    border-radius: 30px;
 }
-.out-what-overlay .left-img{
+
+.out-what-overlay .left-img {
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     height: 100%;
     object-fit: cover;
 }
-.out-what-content{
+
+.out-what-content {
     padding: 50px;
     height: 100%;
     display: flex;
@@ -3127,52 +3257,64 @@ border-radius: 30px;
     justify-content: center;
     color: #fff;
 }
-.out-what-content h3{
+
+.out-what-content h3 {
     font-family: 'Konnect-Regular';
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 70px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
 }
-.out-what-content p{
-    color: #FFFFFF; 
+
+.out-what-content p {
+    color: #FFFFFF;
 }
-.out-what-content strong{
+
+.out-what-content strong {
     margin-top: 20px;
-    color: #FFBF60; 
+    color: #FFBF60;
 }
-.out-what-content .a-sign{
+
+.out-what-content .a-sign {
     width: 250px;
 }
-.awared-achivments, .out-what-section{
+
+.awared-achivments,
+.out-what-section {
     position: relative;
     padding: 50px 0px;
 }
-.awared-achivments-box{
+
+.awared-achivments-box {
     background: #F2F2F2;
-border-radius: 30px;
-padding: 70px;
+    border-radius: 30px;
+    padding: 70px;
 }
-.awared-card-logo{
+
+.awared-card-logo {
     display: flex;
     justify-content: space-around;
     margin: 30px 0px;
 }
-.unique-experiance{
+
+.unique-experiance {
     position: relative;
     padding: 70px 0px;
 }
-.unique-box{
+
+.unique-box {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
     align-items: center;
 }
-.unique-box .unique-no{
+
+.unique-box .unique-no {
     margin-right: 15px;
 }
-.unique-box .unique-no span{
+
+.unique-box .unique-no span {
     background: #356EFF;
     box-shadow: 0px 20px 51px rgb(20 72 205 / 30%);
     border-radius: 25px;
@@ -3617,7 +3759,7 @@ padding: 70px;
 @media screen and (max-width:1199px) {
     .slider-association h3 {
         font-size: 40px;
-        line-height: 50px;        
+        line-height: 50px;
     }
     .mobile-menu {
         display: flex;
@@ -3866,8 +4008,8 @@ padding: 70px;
 }
 
 @media screen and (max-width: 991px) {
-    .certification-box h2{
-        display: block !important; 
+    .certification-box h2 {
+        display: block !important;
     }
     .about-history-section {
         padding: 30px 15px;
@@ -3883,13 +4025,13 @@ padding: 70px;
     }
     .out-what-overlay .left-img {
         border-top-right-radius: 30px;
-        border-top-left-radius: 30px;       
+        border-top-left-radius: 30px;
     }
     .unique-experiance {
         position: relative;
         padding: 30px 0px;
     }
-    .unique-experiance img.w-100{
+    .unique-experiance img.w-100 {
         width: 300px !important;
         margin: 20px auto;
         text-align: center;
@@ -3927,15 +4069,15 @@ padding: 70px;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .unique-list{
+    .unique-list {
         margin: 20px 0px;
     }
     .awared-card-logo {
-        display: inline-block;       
+        display: inline-block;
         margin: 30px;
         text-align: center;
     }
-    .awared-card-logo img{
+    .awared-card-logo img {
         margin: 10px;
     }
     .job-content h2 {
@@ -4185,13 +4327,13 @@ padding: 70px;
     .policy-box {
         padding: 20px 0px;
     }
-    .certification-box{
+    .certification-box {
         padding: 20px;
     }
-    .certification-box .cr-title span {      
+    .certification-box .cr-title span {
         display: inline-flex;
     }
-    .bg-red-association {        
+    .bg-red-association {
         padding: 50px 20px;
     }
     .slider-association .items {
@@ -4200,7 +4342,7 @@ padding: 70px;
     }
     .slider-association h3 {
         font-size: 25px;
-        line-height: 35px;        
+        line-height: 35px;
     }
     .give-back-section {
         position: relative;
@@ -4210,27 +4352,28 @@ padding: 70px;
         font-size: 25px;
         line-height: 35px;
     }
-    .about-dcs {       
+    .about-dcs {
         padding: 0px;
     }
-    .lets-create-title br{
+    .lets-create-title br {
         display: none;
     }
-    .awared-achivments, .out-what-section {
+    .awared-achivments,
+    .out-what-section {
         position: relative;
         padding: 20px 15px;
     }
     .out-what-content {
-        padding: 20px;        
+        padding: 20px;
     }
     .out-what-content h3 {
         font-size: 25px;
         line-height: 35px;
     }
-    .about-image {      
+    .about-image {
         margin: 0px;
     }
-    .about-title {       
+    .about-title {
         padding: 10px 0px;
     }
     .unique-experiance img.w-100 {
