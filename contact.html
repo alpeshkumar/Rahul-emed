@@ -293,11 +293,11 @@
     <div class="map-section">
         <div class="container-fluid p-0">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 box-line-height">
+                <div class="col-lg-6 col-md-12 col-sm-12 box-line-height">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238132.63727541058!2d72.68220805203599!3d21.159462704479317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1616576225094!5m2!1sen!2sin"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="map-right-content">
                         <h3 class="text-red-title">Happy Clients</h3>
                         <div class="slider testimonial-slider">
@@ -364,6 +364,11 @@
            demo modal
           </button>
     </div>
+    <div class="popup-section">
+        <button type="button" class="btn-red" data-toggle="modal" data-target="#applyforjob">
+          Apply for job
+          </button>
+    </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
@@ -428,7 +433,84 @@
             </div>
         </div>
     </div>
+<!-- Modal -->
+<div class="modal fade apply-for-job" id="applyforjob" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content emed-modal">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="logo-modal">
+                            <img src="./wp-content/themes/eMed/inc/assets/images/logo-white.png" alt="logo" title="logo">
+                        </div>
+                     <div class="shape-modal">
+                            <img src="./wp-content/themes/eMed/inc/assets/images/apply-for-job.png" alt="Join our team" title="Join our team">
+                            <h5>Join our team!</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 emed-modal-header">
+                                    <div class="form-header">
+                                        <h5 class="modal-title"> Apply for job</h5>                                       
+                                    </div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <select class="custom-select form-control apply-for">
+                                            <option selected>Apply for</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name*">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="your-email" placeholder="Email*">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="your-phone" placeholder="Phone*">
+                                    </div>
+                                </div>
 
+                                <div class="col-lg-12">
+                                    <div class="form-group attach-file">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input form-control" id="customFile">
+                                            <label class="custom-file-label" for="customFile"> <span class="attach-file"></span> Attach document</label>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                                    <div class="form-group">
+                                        <button class="btn-red">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- #content -->
     <div id="footer-widget" class="row m-0 bg-light">
         <div class="container">
