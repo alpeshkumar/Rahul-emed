@@ -63,8 +63,8 @@ p {
     margin: 0px;
     padding: 0px;
     font-weight: normal;
-    line-height: 35px;
-    font-size: 20px;
+    line-height: 33px;
+    font-size: 18px;
     color: #757575;
     letter-spacing: .6px;
     margin-bottom: 1.5em;
@@ -386,6 +386,7 @@ h3.title-1,
     border-top-left-radius: 0px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 0px;
+    width: 300px;
 }
 
 .top-footer .card-logo .custom-html-widget {
@@ -554,11 +555,11 @@ h3.title-1,
 }
 
 .b-main-dcs {
-    font-family: 'Konnect-SemiBold';
+    font-family: 'Konnect-Regular';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
     color: #FFFFFF;
     width: 90%;
 }
@@ -712,7 +713,9 @@ h3.title-1,
     align-items: center;
     justify-content: space-around;
 }
-
+.seal_log .card-logo img{
+    width: 100px;
+}
 #footer-widget .menu .nav-link {
     display: block;
     padding: 0px;
@@ -720,8 +723,8 @@ h3.title-1,
     font-family: 'konnect-Light';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 38px;
 }
 
 #footer-widget .middle-footer {
@@ -736,7 +739,7 @@ h3.title-1,
     font-family: 'Konnect-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
     color: #000000;
     margin-top: 15px;
@@ -806,8 +809,8 @@ h3.title-1,
     font-family: 'Konnect-Light';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 0.03em;
     color: #000000;
     display: inline-flex;
@@ -859,7 +862,7 @@ h3.title-1,
 .country-address {
     font-family: 'konnect-Light';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     align-items: center;
 }
@@ -1058,12 +1061,11 @@ h3.title-1,
 }
 
 .customer-stories-section .stories-title {
-    position: absolute;
-    right: 0px;
-    top: 50px;
-    width: 33%;
-    text-align: right;
-    z-index: 1;
+	position: absolute;
+	right: 15px;
+	width: 33%;
+	text-align: right;
+	z-index: 1;
 }
 
 .customer-stories-section .stories-title .title-1 h3 {
@@ -1145,8 +1147,8 @@ h3.title-1,
     font-family: 'Konnect-Regular';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 28px;
     text-align: justify;
     color: #757575;
 }
@@ -2227,6 +2229,9 @@ h3.title-1,
     color: #000000;
     padding: 0px;
 }
+.p-tablist .nav-tabs li a.nav-link.active {    
+    color: #000000;
+}
 
 .p-tablist .nav-tabs {
     border-bottom: 0px;
@@ -2279,8 +2284,8 @@ h3.title-1,
     font-family: 'Konnect-SemiBold';
     font-style: normal;
     font-weight: bold;
-    font-size: 90px;
-    line-height: 100px;
+    font-size: 75px;
+    line-height: 85px;
     color: #fff;
 }
 
@@ -3577,8 +3582,8 @@ button {
 
 @media screen and (max-width:1700px) {
     p {
-        line-height: 30px;
-        font-size: 18px;
+        line-height: 28px;
+        font-size: 16px;
         margin-bottom: 15px;
     }
     .lets-create-title a {
@@ -3639,8 +3644,8 @@ button {
         padding: 30px;
     }
     .about-title h2 {
-        font-size: 40px;
-        line-height: 55px;
+        font-size: 38px;
+        line-height: 50px;
     }
 }
 
@@ -3649,8 +3654,8 @@ button {
     h2.title-1,
     h3.title-1,
     .title-1 h3 {
-        font-size: 48px;
-        line-height: 65px;
+        font-size: 46px;
+        line-height: 60px;
     }
     .see-all-services .title-1 h2 {
         text-align: left;
@@ -3658,8 +3663,8 @@ button {
         margin-bottom: 15px;
     }
     .title-left h3 {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: 48px;
+        line-height: 65px;
     }
 }
 
@@ -4321,6 +4326,10 @@ button {
     .prod-design.pr-desktop {
         display: none;
     }
+    .btn-about {
+        width: 185px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -4615,9 +4624,6 @@ button {
         text-align: center;
         margin-bottom: 30px;
     }
-    .btn-red {
-        border-radius: 5px !important;
-    }
     .title-1 h2,
     h2.title-1,
     h3.title-1,
@@ -4727,6 +4733,7 @@ button {
         border-top-left-radius: 0px;
         border-bottom-left-radius: 14px;
         border-bottom-right-radius: 0px;
+        width: 160px;
     }
     .animation-box.solution-box-4 .solution-box-1 {
         background: #E6FFE6;

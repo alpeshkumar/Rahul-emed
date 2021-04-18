@@ -1,3 +1,7 @@
+
+.btn-red {
+    border: 0;
+}
 .navbar-light .navbar-nav .nav-link {
     margin: 0 7px;
     font-size: 18px;
@@ -168,6 +172,181 @@
 .emed-sidebar .nav-link {
 	padding: inherit;
 }
+.active-news-box .card-body {
+	justify-content: center;
+}
+.show_on_hover .text-red{
+    visibility: hidden;
+}
+.show_on_hover:hover .text-red{
+    visibility: visible;
+}
+.association-section .bg-red-association {
+    margin-bottom: 50px;
+}
+.association-section .slick-dots li button::before {
+    display: none !important;
+}
+.slider-association .slick-dots li button {
+	margin: 0 !important;
+}
+.association-section .slick-dots li {
+	margin: 10px;
+}
+.association-section  .content-section {
+	padding: 0 100px;
+    margin: 0 auto;
+    font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+}
+.slider-association .content-section h2 {
+	font-size: 60px;
+	line-height: 70px;
+	text-align: center;
+    margin-bottom: 20px;
+}
+.emed-sidebar.widget_search {
+	margin-top: 30px;
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+}
+.jointus-section .container {
+    max-width: 100%;
+}
+.jointus-section .join-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.jointus-section .join-box .wpb_content_element {
+    margin-bottom: 0;
+}
+.career-list {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 17px 86px rgba(56, 56, 56, 0.12);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.career-list .c-list .vc_custom_heading {
+	font-size: 22px;
+	line-height: 35px;
+	color: #000;
+}
+
+.career-list .c-list .wpb_content_element p,
+.career-list .c-list .wpb_content_element { 
+    margin-bottom: 0;
+}
+.career-list .c-list a {
+	font-size: 20px;
+	line-height: 26px;
+	color: #B9B8B8;
+	position: relative;
+	display: inline-flex;
+	padding-right: 30px;
+}
+.career-list .c-list a::before {
+	position: absolute;
+	content: '';
+	background-image: url('../images/sprite.png');
+	background-repeat: no-repeat;
+	background-size: 320px;
+	background-position: -40px -661px;
+	height: 30px;
+	width: 30px;
+	right: 0;
+}
+.career-list .c-list a:hover {
+	color: #0034EB;
+}
+.c-title p{
+	background: #FDE2C9;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 8px 30px;
+	color: #EB7100;
+}
+.bg-d-blue p {
+	color: #0034EB;
+	background: #C9CEFD;
+}
+.px-0.vc_column_container > .vc_column-inner{
+    padding-left: 0;
+    padding-right: 0;
+}
+.job-look-box.vc_col-sm-12 {
+    background-color: #CD1417;
+    border-radius: 32px;
+    padding: 50px 50px 0px 50px;
+}
+.slick-slide img {
+	width: 80px;
+	border-radius: 50px;
+	height: 80px;
+}
+.box-line-height iframe {
+    height: 450px;
+}
+.about-title {
+	top: 15%;
+}
+.out-what-content {
+	padding: 35px !important;
+}
+.out-what-overlay .left-img img{
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	height: 100%;
+	object-fit: cover;
+}
+.awared-achivments-box img {
+    width: 100px;
+}
+.satisfied-client-section {
+	padding: 0;
+}
+/*About us Time line*/
+.emed_history .cd-timeline-content .cd-date {
+	background: #CD1417;
+    color: #fff;
+    width: 160px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: normal;
+}
+.emed_history .cd-timeline-block:nth-child(2n) .cd-timeline-content .cd-date {
+	text-align: center;
+}
+.emed_history .cd-timeline-content {
+	position: relative;
+	background: white;
+	border-radius: 15px;
+	padding: 1em;
+	box-shadow: none;
+}
+.emed_history .cd-timeline-content h2 {
+	display: none;
+}
+.emed_history .cd-timeline-content strong {
+	color: #464646;
+}
+.emed_history .cd-timeline-block:nth-child(2n) .cd-timeline-content .timeline-arrow {
+	border-right: 0 !important;
+}
+@media screen and (max-width:1700px) { 
+    .policy-box .red-dot-list li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+.map-right-content {
+	padding: 40px !important;
+}
+
 @media screen and (max-width: 767px) {
     .awsome-features-section .aw-listing .aw-contnet p {
         text-align: left;
@@ -232,6 +411,18 @@
     }
     .site-header .navbar-expand-xl .navbar-nav .dropdown-menu .dropdown-item {
         font-size: 13px;
+    }
+    .slider-association .content-section h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .association-section .content-section {
+        padding: 0 15px;
+    }
+    .policy-box .red-dot-list li {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 991px) {
