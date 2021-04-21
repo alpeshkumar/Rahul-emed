@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>HTML-modal</title>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <!-- website External CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>       
+    <main> 
+	<div class="mt-5 mb-5">
+		<a class="btn btn-primary" data-toggle="modal" data-target="#about" >about modal</a>
+	</div>
+	  <!-- Modal -->
+      <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Enquire about the property or email agent</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body pb-0">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="./assets/images/modal-img.png" class="desh-img" title="Des Res">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right-content">
+                        <h5>6 Bed Detached House</h5>
+                        <div class="location">
+                            <a> <img src="./assets/images/placeholder.png" class="map-img" title="Des Res">  Des Res - Longmore Avenue, East Barnet, Hearts, ENS</a>
+                        </div>
+                        <h6 class="price">63,500,000</h6>
+                        <p>Posted by: Des Res</p>
+                    </div>
+                </div>
+                <div class="row bg-gray">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label class="t-msg">Your Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                          <p>By sending this inquiry, you agree to Proptyle's <a class="text-red" href="#">Terms and Conditions</a> and <a class="text-red" href="#">Privacy Policy</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <button class="btn-green">Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+
+    </main>    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>   
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>    
+</body>
+
+</html>

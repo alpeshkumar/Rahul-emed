@@ -1,0 +1,70 @@
+.btn-green{
+    padding: 14px 60px;
+     border: 0px;
+     border-radius: 40px;
+     background-color: #229e7a;
+     color: #fff;
+     font-size: 18px;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+     width: 100%;
+ }
+ .map-img{
+     width: 20px;
+ }
+ .btn-green:hover{
+      background-color: #cd1417;
+ }
+ #about textarea.form-control {
+    height: 150px;
+}
+#about .modal-content{
+    border-radius: 20px;
+    overflow: hidden;
+}
+#about .modal-header{
+    padding: 20px 30px;
+}
+
+#about .modal-title{
+    font-size: 24px;
+    line-height: 30px;
+
+}
+#about .modal-header .close{
+    font-size: 35px;
+}
+#about .desh-img{
+    width: 100%;
+    border-radius: 10px;
+}
+#about .right-content .price{
+    color: #c13030;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.bg-gray{
+    position: relative;
+    background-color: #f4f5f7;
+    margin-top: 30px;
+}
+#about .t-msg{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.text-red{
+    color: #c13030; 
+}
+.right-content h5{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 767px){
+    #about .desh-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
