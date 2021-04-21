@@ -1,15 +1,13 @@
 
 .proptyle-modal {
     box-shadow: 0px 19px 88px rgb(0 0 0 / 54%);
-    border-radius: 50px;
+    border-radius: 20px;
     position: relative;
+	overflow: hidden;
+	border: 0px;
+	background: #fff;
 }
 
-.proptyle-modal .contact-form {
-    padding: 40px;
-    background: #FFFFFF;
-    border-radius: 38px;
-}
 
 .proptyle-modal .proptyle-modal-header {
     display: flex;
@@ -30,17 +28,13 @@
     z-index: 1;
     right: -10px;
     top: -20px;
+	font-weight: 500;
 }
 .proptyle-modal .modal-body{
     padding: 0px;
 }
-.proptyle-modal .contact-form {
-    padding: 40px;
-    background: #FFFFFF;
-    border-top-right-radius: 36px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 36px;
-    border-bottom-left-radius: 0px;
+.proptyle-modal .right-img{
+    padding: 40px 40px 0px 40px;    
 }
 .proptyle-modal .shape-modal h5{
     font-size: 30px;
@@ -146,6 +140,9 @@
 	margin-right: 15px;
 	text-transform: uppercase;
 }
+.proptyle-modal .btn-red:hover{
+	 background-color: #cd1417;
+}
 .proptyle-modal .btn-red::before{
     display: none;
 }
@@ -154,8 +151,9 @@
 }
 .proptyle-modal .close{
 	position: absolute;
-    right: 0px;
+    right: 10px;
     top: -20px;
+    font-size: 30px;
 }
 .proptyle-modal label {    
     font-weight: bold;
@@ -165,12 +163,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	height: 700px;
-    width: 350px;
+	height: 100%;
 	position:relative;
-	padding: 30px 20px;
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+	padding: 30px 20px 20px 40px;
 }
-
+.proptyle-modal .modal-footer{
+	text-align: center;    
+    border: 0px; 
+	position:relative;
+	margin-top: 30px;
+}
+.proptyle-modal .modal-footer:before{
+	position: absolute;
+    content: '';
+    left: -40px;
+    right: -40px;
+    bottom: 0px;
+    background-color: #eeeff4;
+    width: 763px;
+    height: 54px;
+    z-index: 0;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+}
+.proptyle-modal .modal-footer p{
+	width: 100%;
+    font-weight: bold;
+	z-index:9;
+}
 .list-icon{
 	list-style:none;
 	padding-left:0px;
@@ -183,6 +205,8 @@
 }
 .footer-signup{
 	text-align:left;
+	display: flex;
+    align-items: center;
 }
 .facebook{
 	height: 50px;
@@ -195,6 +219,14 @@
     width: 50px;
     display: inline-block;
     margin: 0px 10px;
+}
+@media screen and (max-width: 1024px){
+	.socail-link{
+		    margin-top: 15px;
+	}
+	.footer-signup{
+		    flex-wrap: wrap;		
+	}
 }
 @media screen and (max-width: 991px) {
     .proptyle-modal .proptyle-modal-header .close {
@@ -219,4 +251,18 @@
         border-bottom-right-radius: 36px;
         border-bottom-left-radius: 36px;
     }
+	.proptyle-modal .right-img {   
+		position: unset;
+	}
+	
+	.proptyle-modal .close {
+		position: absolute;
+		right: 10px;
+		top: -430px;
+		font-size: 30px;
+		background: #fff;
+		padding: 12px;
+		border-radius: 10px;
+		opacity: 1;
+	}
 }
