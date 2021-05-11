@@ -1,0 +1,222 @@
+/* -- CircularStd-Black -- */
+
+.navbar-brand{
+	font-family: 'CircularStdBlack';
+}
+
+/* -- CircularStd-Book -- */
+.navbar-brand div span{
+	font-family: 'CircularStdBook';
+}
+
+/* -- freighttextprobookregularwebfont -- */
+.messages-block p,
+.properties-details .member-since{
+	font-family: 'freighttextprobookregularwebfont';
+}
+
+/* -- FreightTextProBlack -- */
+.prop-price,
+.properties-details h5,
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings li.price,
+.agent-list-main-block .properties-details h5{
+	font-family: 'freighttext_problack';	
+}
+
+/* -- FreightTextProBold -- */
+.site-details p span,
+.listings-prise,
+.faq-block .question-section .helpful-block ul li{
+	font-family: 'freighttext_probold';
+}
+
+/* -- FreightTextProBoldItalic -- */
+.profile-block .properties-details h4,
+.user-img-block .member-since,
+.user-statistics .details-row span a,
+ul.point-list li,
+.faq-search .form-control,
+.properties-details h4,
+.property-detail .title,
+.foxtons-heade span,
+.tt-dropdown-menu .tt-suggestion,
+.copyright,
+.service-big-buster.saved-properties .gallery-caption-bottom.my-listings li.member-since,
+.search-result-second .properties-details .member-since{
+	font-family: 'freighttext_probold_italic';
+}
+
+/* -- FreightTextProSemibold -- */
+.saved-properties .gallery-caption-bottom .btn,
+.content-text-block  p,
+.prop-details-tabs .prop-description p,
+.user-img-block.agent p,
+.properties-details p,
+.contact_footer h4 a{
+	font-family: 'freighttext_prosemibold';
+}
+
+/* -- FreightTextProSemiboldItalic -- */
+.head-forgot-pass,
+.banner-search-block .form-control,
+.newsletter-email-form .form-control,
+.prop-name-area,
+.site-details p,
+.prop-details-info p,
+.contact-section .contact_req,
+.contact-section .contact_footer,
+.more-right,
+.modal-thanks h3,
+.message-page .sponsers label,
+.registration-section .contact_req,
+.faq-block .question-section .question-part h4,
+.map-search-style .properties-details h4,
+.agent-list .properties-details h4,
+.upgrade-your-plan.agent ul li,
+.upgrade-your-plan.agent h4,
+.prop-sub-filter .form-control{
+	font-family: 'freighttext_proSBdIt';
+}
+
+/* -- Proxima Nova-Bold -- */
+
+.newsletter-email-form .btn,
+.prop-qty,
+.your-profile-section h2,
+.prop-name-detail,
+.more-gallery,
+.tooltip,
+.prop-details-tabs  ul.left-tab li .hover-data,
+.prop-details-tabs .cost-title,
+.prop-details-tabs .cost-view .cost-slide p,
+.prop-details-tabs .mortgage-slide .info p,
+.prop-details-tabs .mortgage-slide.payment .data,
+.prop-details-tabs .mortgage-slide.total .data,
+.prop-details-tabs .transport-link .transport-slide p,
+.message-page .error-info p, 
+.message-page .error-info h3,
+.contact-section h2,
+.contact-section .form-group label,
+.contact-section h3,
+.prop-slide-title h3,
+.result-more a,
+.saved-properties ul.content-button li,
+.properties-details ul li a,
+ul.content-button li a,
+.upgrade-your-plan .upgrade-row h3,
+.number-of-massage label,
+.messages-block h5,
+.agent-advertising h3,
+.registration-section h2,
+.registration-section .form-label,
+.prop-slide-body h4,
+.modal-slide-button .btn-group .btn,
+.modal-form-group label,
+.number-of-massage label,
+.faq-block .faq-blocktop h3,
+.faq-search .btn,
+.pick-category,
+.search-map-title,
+.properties-details .map-info-prp-area ul li,
+.prop-details-tabs ul.left-tab li a,
+.properties-details .map-info-agent-contact ul li a,
+.proxnova-bold,
+.agent-list .agent-links a,
+.properties-details .listing li,
+.see-more a,
+.property-detail .room-details a,
+.profile-edit .form-group .form-label,
+.details-edit .address-finde .btn,
+.serch-result .call-btn-link .right-link ul li a,
+.room-details-faslity .icon-slide span,
+.properties-details.agent-details.agent-room .row,
+.user-img-block .user-name label,
+.load-more,
+.registration-section .right-check .checkbox .red-font,
+.prop-details-tabs .nav-tabs > li > a,
+.upgrade-your-plan .upgrade-row p,
+.service-big-buster .featured{
+	font-family: 'proxima_novabold';
+}
+
+/* -- Proxima Nova-BoldIt -- */
+
+/* -- Proxima Nova-LightItalic -- */
+
+/* -- Proxima Nova-RegItalic -- */
+
+/* -- Proxima Nova-Regular -- */
+.navbar-nav > li > a,
+.form-control,
+.form-control .btn,
+.slick-prev, .slick-next,
+.prop-details-tabs .icon-box span,
+.prop-details-tabs .mortgage-slide .info span,
+.modal-slide-button a,
+.modal-thanks,
+.faq-block .question-section .question-content p,
+.faq-block .question-section .question-content ul li{
+	font-family: 'proxima_novaregular';
+}
+
+/* -- ProximaNova-Black -- */
+
+/* -- ProximaNova-BlackIt -- */
+
+/* -- ProximaNova-Sbold -- */
+
+body,
+.profile-menu ul li,
+.mark-move .btn-default,
+.messages-block h5,
+.number-of-massage .bootstrap-select.btn-group .btn,
+.prop-gallery-featured .prop-name-detail,
+.contact-section .btn,
+.profile-phone-menu,
+.upgrade-your-plan .upgrade-row label,
+.featured,
+.faq-block .question-section .question-content ul li:before,
+.view-prop .btn,
+.saved-properties .gallery-caption-bottom .view-prop .btn,
+.saved-properties .view-btn .btn,
+.profile-edit .form-group .form-control,
+.profile-edit .form-group .change-link,
+.details-edit .form-group .form-label,
+.foxtons-heade label,
+.saved-properties.serch-result .properties-details .show-desk a{
+	font-family: 'proxima_novasemibold';
+}
+
+/* -- ProximaNova-SboldIt -- */
+
+/* -- ProximaNova-Thin -- */
+.footer-menu h3,
+.modal .close,
+.banner-down-arrow a{
+	font-family: 'proxima_novathin';
+}
+/* -- ProximaNova-ThinIt -- */
+
+/* -- ProximaNova-Xbold -- */
+
+.navbar-toggle,
+.header-contact > ul > li > a,
+.modal-title h2,
+.total-prop-modal-text,
+.price-counter span,
+.profile-block h4,
+/*vishal tody*/
+.number-of-massage .bootstrap-select .dropdown-menu li a span,
+.toolbar-sortby .bootstrap-select .dropdown-toggle,
+.details-edit h3{
+	font-family: 'ProximaNovaXbold';
+}
+
+/* -- ProximaNova-XboldIt -- */
+/* proparty details description new 26-10 start*/
+/* -- ProximaNova-Light -- */
+.footer-menu h3 {
+font-family: 'proximanovalightwebfont_0';
+}
+/* -- ProximaNova-Light -- */
+/* proparty details description new 26-10 end*/
