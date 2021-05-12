@@ -4050,7 +4050,7 @@ h2.reg_info_user{
     font-size: 14px;
 }
 .make-profile{
-    /* background: url('./wp-content/themes/wp-bootstrap-starter/images/gray-bg.svg'); */
+    background: url('./wp-content/themes/wp-bootstrap-starter/images/gray-bg.svg');
     background: #000;
    margin: 15px 0px;
    padding: 25px 25px 0px 25px;
@@ -4097,16 +4097,64 @@ h2.reg_info_user{
 }
 .select-plan{
     height: 50px;
-    background-image: url('./presets/') !important;
+    background-image: url('/wp-content/themes/wp-bootstrap-starter/images/arrow_down.png') !important;
     background-repeat: no-repeat;
     background-size: 17px;
     background-position: 95%;
     position: relative;
 }
-
-.attach-file img{
-    max-width:100px;
-  }
+.file-image .f-profile{
+    width: 100%;
+    max-width: initial;
+    height: 100px;
+    object-fit: contain;
+}
+.attach-file{
+   margin-bottom:20px;
+   display:block;
+}
+.attach-file .custom-file {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    margin: 15px 0px;
+}
+.attach-file .form-control {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 0px;
+}
+ .attach-file .custom-file-label {
+    box-sizing: border-box;
+    border-radius: 50px;
+    vertical-align: middle;
+    padding: 8px 17px;
+    background: #b01e42;
+    border: 2px dashed #b01e42;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.attach-file .custom-file-label::after{
+    visibility: hidden;
+}
+/* .select-plan:before{
+    position: absolute;
+    content: '';
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-left: 0px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(135deg);
+    cursor: pointer;
+    margin: 0px 0px -2px 10px;
+} */
 .card-detail{
     display: flex;
 }

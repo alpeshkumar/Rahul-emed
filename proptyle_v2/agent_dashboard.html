@@ -4941,24 +4941,26 @@
            <div class="row">
                <div class="col-lg-9">                
                 <p>Cover Image</p>
-                <div class="form-group attach-file">
-                    <div class="a-img">
-                        <img id="blah" src="http://placehold.it/180" alt="your image" />
+                <div class="form-group attach-file">                    
+                    <div class="file-image">
+                        <img class="f-profile" src="./wp-content/themes/wp-bootstrap-starter/images/b-image.png">
                     </div>
                     <div class="custom-file">
-                        <input placeholder="Browse.." type='file' onchange="readURL(this);" />
-                      </div>
+                        <input type="file" class="custom-file-input form-control" id="customFile">
+                        <label class="custom-file-label" for="customFile">Browse…</label>
+                    </div>
                 </div>
                </div>
                <div class="col-lg-3">                
                 <p>Logo</p>
-                <div class="form-group attach-file">
-                    <div class="a-img">
-                        <img id="blah" src="http://placehold.it/180" alt="your image" />
+                <div class="form-group attach-file">                    
+                    <div class="file-image">
+                        <img class="f-profile" src="./wp-content/themes/wp-bootstrap-starter/images/c-img.png">
                     </div>
                     <div class="custom-file">
-                        <input placeholder="Browse.." type='file' onchange="readURL(this);" />
-                      </div>
+                        <input type="file" class="custom-file-input form-control" id="customFile">
+                        <label class="custom-file-label" for="customFile">Browse…</label>
+                    </div>
                 </div>
                </div>
            </div>
@@ -8237,17 +8239,4 @@
             jQuery('.tabs_panel .collapse').collapse('hide');
         });
     });
-
-    function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
-
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
 </script>
