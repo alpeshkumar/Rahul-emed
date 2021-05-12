@@ -4029,6 +4029,141 @@ h2.reg_info_user{
 /*-- user profile edit strat */
 /* H */
 
+/* Profile Listing css */
+.profile-list{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    padding: 0;
+    color: #fff;
+}
+.profile-list li{
+    font-size: 14px;
+}
+
+.estimate-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.estimate title .btn span{
+    font-size: 14px;
+}
+.make-profile{
+    /* background: url('./wp-content/themes/wp-bootstrap-starter/images/gray-bg.svg'); */
+    background: #000;
+   margin: 15px 0px;
+   padding: 25px 25px 0px 25px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   }
+.t-gold{
+ color: #cea568;    
+}
+.c-detail{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 100%;
+}
+.a-profile{
+    height: 200px;
+    max-width: 350px;
+    object-fit: contain;
+    margin-left: -40px;
+}
+.c-detail input{
+    height: 50px;
+    padding: 15px;
+}
+.c-detail .input-group-prepend{
+    border: 1px solid #d9dbe1;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f5f7;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.c-detail textarea{
+    height: 200px;
+    padding: 15px;
+}
+.select-plan{
+    height: 50px;
+    background-image: url('./presets/') !important;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 95%;
+    position: relative;
+}
+
+.attach-file img{
+    max-width:100px;
+  }
+.card-detail{
+    display: flex;
+}
+.card-detail .card-date{
+    width: 40%;
+}
+.card-detail .card-cvv{
+    width: 25%;
+}
+.card-detail .card-number .input-group-prepend{
+    background: transparent;
+    border-right: 0px;
+}
+.card-detail .card-number input{
+    border-left: 0px;
+}
+.card-detail .card-date input{
+    border-radius: 12px;
+}
+.card-detail .card-cvv input{
+    border-radius: 12px;
+}
+/* .c-detail .btn:not(:disabled):not(.disabled):active{
+    color: #969bab;
+    background-color: #f4f5f7;
+    border-color: #969bab;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 46px;
+} */
+.service-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-list li{    
+    margin: 5px;    
+}
+.service-list li a{
+    background-color: #f4f5f7; 
+    padding: 8px 27px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.service-list li a:hover{
+    padding: 8px 27px;
+    display: inline-block;
+    background-color: #b01e42;   
+    color: #fff !important;
+}
+
+
 .your-profile-section.border-bottom {
     border-bottom: solid 2px #e3e2e2;
 }
