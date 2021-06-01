@@ -28,6 +28,48 @@
 [class^="ab-icon-"]:hover, [class*=" ab-icon-"]:hover {
   text-decoration: none;
 }
+.ab-icon-click:before {
+  content: "\e92e";
+}
+.ab-icon-bell-alt:before {
+  content: "\e92f";
+}
+.ab-icon-pound-alt:before {
+  content: "\e92c";
+}
+.ab-icon-download:before {
+  content: "\e92d";
+}
+.ab-icon-arrow-down:before {
+  content: "\e929";
+}
+.ab-icon-info-1:before {
+  content: "\e92a";
+}
+.ab-icon-arrow-up:before {
+  content: "\e92b";
+}
+.ab-icon-location-full:before {
+  content: "\e921";
+}
+.ab-icon-mail-full:before {
+  content: "\e922";
+}
+.ab-icon-globe:before {
+  content: "\e923";
+}
+.ab-icon-phone-alt:before {
+  content: "\e924";
+}
+.ab-icon-cc-stripe:before {
+  content: "\e925";
+}
+.ab-icon-cc-full:before {
+  content: "\e926";
+}
+.ab-icon-external-link:before {
+  content: "\e927";
+}
 .ab-icon-trash-alt:before {
   content: "\e920";
 }
@@ -84,6 +126,9 @@
 }
 .ab-icon-location-1:before {
   content: "\e911";
+}
+.ab-icon-check:before {
+  content: "\e928";
 }
 .ab-icon-location:before {
   content: "\e900";
