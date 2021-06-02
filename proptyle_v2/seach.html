@@ -954,7 +954,32 @@
             #search-modal .modal-header .close{
                 padding: 6px;
             }
-
+            .btn-search .fa-search{
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                color: #7f7f7f;
+            }
+            #search-modal .modal-body .form-group{
+                background: #fff;
+                border: 1px solid #ddd;
+                padding: 6px 10px;
+            }
+            #search-modal .modal-body .form-group .form-control {
+                background: #fff;
+                border: 0px;
+                padding: 0px;
+                color: #969bab;
+            }
+            #search-modal .modal-body .form-group .v2_dropdown_arrow{
+                position: absolute;
+                right: 25px;
+                bottom: 27px;
+            }
+            #search-modal .modal-body .form-group label{
+                color: #18191f;
+            }
+            
             @media screen and (max-width: 960px) {
                 .m-search_v2 {
                     display: block;
@@ -981,8 +1006,9 @@
                                 <div class="col m-search_v2">
                                     <button type="button" class="btn-search" data-toggle="modal"
                                         data-target="#search-modal">
+                                        <i class="fa fa-search"></i>
                                         <input style="padding-left: 1em" name="s" size="2"
-                                            class="search-address form-control" placeholder="e.g. SE1 or London"
+                                            class="search-address form-control" placeholder="No location | This area only | Any beds..."
                                             autocomplete="off" value="">
                                     </button>
                                 </div>
@@ -3450,14 +3476,13 @@
         </div>
     </div>
 
-    <!-- Search Modal -->
-    <!-- Modal -->
+    <!-- Search Property Modal -->
     <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Search Property</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -3480,6 +3505,11 @@
                                                 sale</option>
                                         </select></div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                               </div>
                         </div>
                         <hr>
@@ -3514,6 +3544,11 @@
                                         </select>                                        
                                     </div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
                         <hr>
@@ -3609,6 +3644,11 @@
                                         </select>                                       
                                     </div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
                         <div class="col-6">
@@ -3704,6 +3744,11 @@
                                         
                                     </div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
                         <hr>
@@ -3723,6 +3768,11 @@
                                       
                                     </div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
                         <div class="col-6">
@@ -3740,6 +3790,11 @@
                                         </select>                                       
                                     </div>
                                 </div>
+                                <span class="v2_dropdown_arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M4.47 7.47a.75.75 0 011.06 0L10 11.94l4.47-4.47a.75.75 0 111.06 1.06l-5 5a.75.75 0 01-1.06 0l-5-5a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
                             </div>
                         </div>
                         <hr>
