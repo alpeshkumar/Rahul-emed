@@ -185,6 +185,32 @@
 			}
 		</style>
 	</noscript>
+	<style>			
+			.mobile-btn .btn-get{
+				display: none;
+			}			
+			@media screen and (max-width: 1199px) {
+				 .mobile-btn .btn-get{
+					display: inline-block;
+				}	
+				.mobile-btn .btn-get{
+					background: #CD1417;
+					padding: 14px 15px;
+					border-radius: 10px;
+					color: #fff !important;
+				}
+			 }
+			@media screen and (max-width: 320px)  {
+			.navbar-brand img {
+				width: 80px;
+			}
+			 .mobile-btn .btn-get {
+					padding: 10px 10px;
+					font-size: 12px;
+					line-height: 22px;
+				}
+			 }
+		</style>
 </head>
 
 <body class="home page-template page-template-fullwidth page-template-fullwidth-php page page-id-28 wpb-js-composer js-comp-ver-6.5.0 vc_responsive">
@@ -199,9 +225,12 @@
                             <img src="wp-content/uploads/2021/03/eLogo.png" alt="EMed">
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+					<div class="mobile-btn">
+							<a title="Get an estimation" href="#" class="btn-get">Get an estimation</a>
+							<button class="navbar-toggler" type="button" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
+					</div>                    
                     <div id="main-nav" class="navbar-collapse justify-content-end">
                         <div class="mobile-menu">
                             <div class="navbar-brand">
@@ -209,6 +238,9 @@
                                     <img src="wp-content/uploads/2021/03/eLogo.png" alt="EMed">
                                 </a>
                             </div>
+							<div class="mobile-btn">
+							<a title="Get an estimation" href="#" class="nav-link btn-get">Get an estimation</a>
+							</div>
                             <button class="navbar-toggler" type="button" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
                                 <a class="close-icon pull-right" href="javascript:void(0);"></a>
                             </button>
