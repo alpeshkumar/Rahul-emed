@@ -65,6 +65,7 @@
             margin-bottom: 0;
             line-height: 1.2em;
         }
+       
     </style>
 
 
@@ -133,9 +134,47 @@
             padding: 0 !important;
             margin: 0 !important;
         }
+        .btn-account{
+                padding: 6px 30px 6px 14px;
+                border-radius: 16px;
+                border: solid 1px #eeeff4;
+                background-color: #ffffff;
+                color: #c13655;
+        }
+        .btn-account .ac-img{
+            height: 22px;
+            width: 22px;
+        }
+        .btn-account.dropdown-toggle::after{
+            border-right: 2px solid #c13655;
+            border-top: 2px solid #c13655;
+            border-left: 0px;
+            top: 30%;
+            right: 15px;
+            width: 9px;
+            height: 9px;
+            transform: rotate( 
+        135deg
+        );
+            cursor: pointer;
+        }
+        .mobile-btn{
+            display: none;
+        }
     </style>
 
     <style>
+         @media screen and (max-width : 991px) {
+            .mobile-btn{
+            display: inline-block;
+            }
+            .desktop-btn{
+                display: none;
+            }
+            .dropdown.mobile-btn .btn-account span{
+                display: none;
+            }
+         }
         @media only screen and (min-width : 1200px) {
 
             .container {
@@ -848,11 +887,21 @@
                                         src=" wp-content/themes/wp-bootstrap-starter/inc/assets/images/logo.svg" alt=""
                                         width="150px">
                                 </a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
+                                <div class="right-bar">
+                                    <div class="dropdown mobile-btn">
+                                        <button class="btn btn-account dropdown-toggle" type="button" data-toggle="dropdown"><img src="wp-content/themes/wp-bootstrap-starter/inc/assets/images/account.png" class="ac-img" alt=""> <span>My Account</span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="#">Sign up</a></li>
+                                          <li><a href="#">Login</a></li>
+                                        </ul>
+                                      </div>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
@@ -927,20 +976,14 @@
                             </select>
                             <div class="col-header-contact header_logged">
                                 <div class="header-contact text-right clearfix">
-                                    <ul class="clearfix">
-                                        <!-- <li class="header-login">
-                                                    <span href="http://localhost/yash/proptyle_v2">Hello, </span>
-                                                </li>-->
-                                        <li class="header-login">
-                                            <a href=" dashboard" title="view your dashboard">Dashboard</a>
-                                        </li>
-                                        <li class="header-login">
-                                            <a href=" wp-login.php?action=logout&amp;redirect_to=http%3A%2F%2Flocalhost%2Fyash%2Fproptyle_v2&amp;_wpnonce=b13fc37d8e"
-                                                title="sign out">Sign out</a>
-                                        </li>
-
-
-                                    </ul>
+                                    <div class="dropdown desktop-btn">
+                                        <button class="btn btn-account dropdown-toggle" type="button" data-toggle="dropdown"><img src="wp-content/themes/wp-bootstrap-starter/inc/assets/images/account.png" class="ac-img" alt=""> My Account
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="#">Sign up</a></li>
+                                          <li><a href="#">Login</a></li>
+                                        </ul>
+                                      </div>
                                 </div>
                             </div>
                         </div>
