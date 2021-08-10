@@ -1,0 +1,2145 @@
+@import url("font-icons.css");
+
+
+/* Body and General Styles Start
+-------------------------------------------------- */
+body {}
+/*.form-group label{text-transform:uppercase;}*/
+#wrapper{/*max-width:1280px;margin:0 auto;*/position:relative;}
+:focus {outline: none;}
+.dropdown-menu{padding:0;}
+.scroll-top{position:fixed;right:7px;bottom:20px;font-size:50px; width:52px;height:52px;line-height:38px; color:#fff;cursor:pointer;text-align:center;border-radius:40px}
+
+/*#banner,*/
+#content{max-width:1280px;margin:0 auto;}
+
+/* Body End
+-------------------------------------------------- */
+
+/* header Start 
+------------------------------------------------- */
+
+#header {}
+.navbar{position:absolute;left:0;top:0;right:0;/*background-color:#3d3533*/;/*z-index:99;*/}
+.menu-open.navbar,
+.inner-header{background-color:#fff;}
+.inner-header{position:relative;}
+.profile-block .row,
+.header-top .row{margin:0;}
+.profile-block [class*="col-"],
+.header-top [class*="col-"]{padding:0;}
+.header-logo{margin-top:2px;/*padding-top:20px;padding-bottom:20px;margin-right:0px;*/}
+/*.header-top>.container>.row{position:relative;}*/
+.header-top{position:relative;}
+.header-top .col-header-contact{position:static;}
+
+.navbar-brand div{margin-top:7px;}
+.navbar-brand div .the{color:#1b1464;}
+.menu-open .navbar-brand img{display:none;}
+.header-menu-button{padding-right:68px;display:inline-block;vertical-align:middle;/*margin-top:10px;*/}
+.menu-open.navbar-default .navbar-toggle{color:#fff;}
+.navbar-toggle {font-size:1.5em;}
+.navbar-toggle em{display:inline-block;vertical-align:middle;line-height:50px;}
+.navbar-toggle span{display:inline-block;vertical-align:middle;margin-left:13px;line-height:13px;}
+.menu-open .navbar-toggle span{border-bottom:2px solid #fff;}
+
+.header-contact { line-height:50px; }
+.header-contact> ul{padding:0;margin:0;display:inline-block;vertical-align:middle;}
+
+.header-contact >ul> li
+{
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+    background-color: #be5f5f;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.header-contact> ul> li >a{color:#fff; text-decoration:none;display:block;font-size:1.2em;padding:0 0.5em;line-height:1.3em;}
+.header-contact> ul> li:last-child >a{padding-right:0;}
+.header-contact> ul> li >a>em{font-size:25px;}
+.header-contact >ul> li+li> a:after{content:"";position:absolute;left:0;top:0;width:1px;height:22px;z-index:1;}
+.header-login em{margin-left:0;}
+.header-signup em{margin-right:7px;}
+.header-login-form{padding:20px 30px;z-index:9999;right:0;left:auto;text-transform:uppercase;width:304px;}
+.header-login-form .form-group{margin-bottom:6px;}
+.header-login-form label{font-size:10px;letter-spacing:1.7px;line-height:14px;margin-bottom:6px;}
+.header-login-form .form-control{height:28px;}
+.head-forgot-pass{text-transform:initial;font-size:14px;line-height:16px;padding-top:9px;}
+
+.header-after-login a span{border-bottom:2px solid;line-height:16px;display:inline-block;vertical-align:bottom;}
+.header-after-login .dropdown-menu{z-index:99;right:0;left:auto;padding:0;width:220px;}
+.header-after-login .dropdown-menu>li>a{line-height:16px;padding:11px 10px;text-align:center;}
+
+.navbar-brand > img{max-width: 100%;}
+
+/* header End
+-------------------------------------------------- */
+
+/* navbar Start 
+-------------------------------------------------- */
+
+#nav {text-transform:uppercase;position:relative;z-index:9;}
+.inner-header #nav {position:absolute;left:0;top:100%;right:0;}
+.navbar-nav > li{position:static;}
+.navbar-nav > li > a{font-size:1em;letter-spacing:normal;position:relative;}
+.navbar-default .navbar-nav > .active > a:after{content:"";position:absolute;bottom:0;left:10px;right:10px;height:6px;background-color:#fff;}
+.navbar-nav .dropdown-menu{padding:18px 0 16px;width:100%;/*display:block;*/ text-align: center;}
+.navbar-nav .dropdown-menu .form-group{text-align: left;}
+
+/*.navbar-nav .bootstrap-select .dropdown-menu{display:none;}
+.navbar-nav .bootstrap-select.open .dropdown-menu{display:block;}
+.navbar-collapse.collapse{display:block !important;}*/
+.dropdown-menu> ul{padding:0;margin:0;display:inline-block;vertical-align:middle;}
+.dropdown-menu >ul> li{/*float:left;list-style:none;*/}
+.dropdown-menu >ul> li>a{color:#fff;font-size:1em;line-height:normal; letter-spacing:normal;padding:0 30px;position:relative;text-decoration:none;}
+.dropdown-menu >ul> li.open >a,
+.dropdown-menu >ul> li.open >a:hover,
+.dropdown-menu >ul> li.open >a:focus,
+.main-filter >ul> li.open >a,
+.main-filter >ul> li.open >a:hover,
+.main-filter >ul> li.open >a:focus{background-color:transparent;}
+.dropdown-menu >ul> li+li>a:before{content:"";position:absolute;left:0;top:4px;width:1px;height:10px;background-color:#fff;z-index:1;}
+.dropdown-menu >ul> li.selected >a {
+	font-weight: bold !important;
+}
+
+.navbar-nav .prop-main-filter{border-top:2px solid #fff;padding-bottom:2px;z-index:99999;padding-top:28px;}
+.prop-main-filter .form-group label{font-size:12px;letter-spacing:2.4px;line-height:14px;}
+.prop-main-filter .form-control{color:#333;height:30px;font-size:15px;}
+.prop-main-filter .form-control .btn{font-size:inherit;}
+.prop-main-filter .form-control.bootstrap-select .btn{min-height:30px;letter-spacing:2.3px;font-size:14px;}
+
+.main-filter .form-group> label{display:inline-block;vertical-align:middle;margin:0 12px 0 0;text-transform:uppercase;}
+.main-filter .form-group> .form-control{
+	/* width:205px;*/
+	display:inline-block;
+	vertical-align:middle;
+}
+.main-filter .form-group> .bootstrap-select.form-control{
+	/* width:170px; */
+}
+.main-filter .range-slider{display:inline-block;vertical-align:middle;width:215px;}
+.main-filter .range-slider .jslider{height:30px;}
+.main-filter .range-slider .jslider .jslider-bg{margin-top:-11px;}
+.main-filter .range-slider .jslider .jslider-bg i{height:1px;}
+.main-filter .range-slider .jslider .jslider-pointer{top:-20px;}
+.range-slider input{display:block !important;opacity:0 !important;position:absolute;z-index:-1;}
+/*.prop-main-filter.sub-menu,
+.prop-main-filter .sub-menu{padding-left:60px;padding-right:60px;}*/
+.page-dropdown.dropdown-menu > ul > li > a{text-transform:uppercase;}
+
+.navbar-nav .advance-search {padding-left:39px;padding-top:1px;}
+.navbar-nav .advance-search > a > span{letter-spacing:1px;}
+.advance-search> a{text-decoration:none;}
+.advance-search >a> span{border-bottom:2px solid;margin-right:21px;display:inline-block;vertical-align:middle;text-transform:none;}
+.advance-search.active >a>em:before{content:"\f068";}
+
+.prop-main-filter .prop-sub-filter{border-top:2px solid #fff;padding-top:29px;z-index:999;padding-bottom:29px;width:100%;}
+.sub-filter {text-align:left;}
+.sub-filter .form-group label{margin-bottom:19px;display:block;}
+.sub-filter .form-group .btn-icon{height:30px;width:30px;padding:0;line-height:30px;font-size:22px;}
+.bedroom-select{margin-left:-7px;margin-right:-7px;}
+.bedroom-select>[class*="col-"]{padding:0 7px;}
+.prop-main-filter .input-group-addon{background-color:transparent;color:#333;font-size:inherit;height:30px;border:none;padding-left:0;}
+
+.check-style{position:absolute;top:1px;left:0;width:30px;height:30px;background-color:#fff;display:block;background-position:center center;background-repeat:no-repeat;}
+.prop-filter-search { bottom: 0;left: 0;margin-bottom: -24px;position: absolute;right: 0;text-align: center;}
+.prop-filter-search .btn{font-size:14px;letter-spacing:2.2px;line-height:20px;height:46px;min-width:132px;}
+.advance-search.active > .prop-filter-search{display:none;}
+.go-to-map{text-transform:none;}
+
+.direct-filter{position:relative;z-index:999;}
+.direct-filter .prop-main-filter{display:block;position:relative;padding:13px 0 0;}
+.direct-filter .main-filter >ul>li>.form-group{margin-bottom:13px;}
+.direct-filter .advance-search > a,
+.direct-filter .advance-search > a:hover,
+.direct-filter .advance-search > a:focus{color:#fff;}
+.direct-filter .advance-search >a >span{border-color: #fff;margin:0 60px 0 0;font-size:18px;letter-spacing:0.45px;}
+.direct-filter .main-filter > ul > li > .form-group > label{margin-right:4px;}
+.direct-filter .main-filter > ul > li > .form-group > .form-control{width:170px;}
+.direct-search-button .btn{font-size: 13px;letter-spacing: 1.8px;line-height: 18px;margin-left: 50px;min-width: 97px;}
+.direct-search-button .btn-default{}
+.direct-filter .prop-main-filter .form-control.bootstrap-select .btn{letter-spacing:0.5px;text-transform:none;}
+
+.direct-filter .prop-sub-filter{padding-top:15px;width:100%;}
+
+.prop-sub-filter .form-control::-moz-placeholder {color: #948C8B;}
+.prop-sub-filter .form-control:-ms-input-placeholder {color: #948C8B;}
+.prop-sub-filter .form-control::-webkit-input-placeholder {color: #948C8B;}
+.direct-filter-2 .main-filter > ul > li + li{margin-left:28px;}
+.direct-filter-2 .direct-search-button .btn{margin-left:60px;}
+
+/* navbar End
+-------------------------------------------------- */
+
+/* banner Start 
+-------------------------------------------------- */
+
+#banner {margin-bottom: 60px; background-position:center center;background-repeat:no-repeat;position:relative;padding-top:140px;background-size:cover;}
+#banner .container{height:100%;}
+.banner-text{padding:98px 0 0 70px;}
+.banner-text h1{font-size:40px;line-height:49px;font-weight:inherit;letter-spacing:3px;margin:0;}
+.banner-inner{height:100%;}
+.banner-search{/*position:absolute;bottom:128px;left:0;right:0;*/}
+.banner-search-overlay{padding:50px 15px;}
+.banner-search-inner{max-width:1090px;margin:0 auto;}
+.banner-search .btn-group .btn{font-size:20px;line-height:26px;letter-spacing:2.26px;text-transform:uppercase;padding:30px 10px 33px;border:2px solid #3d3533;}
+.banner-search .btn-default:focus,
+.banner-search .btn-default.focus,
+.banner-search .btn-default:hover,
+.banner-search .btn-default:active,
+.banner-search .btn-default.active,
+.banner-search .open > .dropdown-toggle.btn-default,
+.banner-search .btn-default:active:hover,
+.banner-search .btn-default.active:hover,
+.banner-search .open > .dropdown-toggle.btn-default:hover,
+.banner-search .btn-default:active:focus,
+.banner-search .btn-default.active:focus,
+.banner-search .open > .dropdown-toggle.btn-default:focus,
+.banner-search .btn-default:active.focus,
+.banner-search .btn-default.active.focus,
+.banner-search .open > .dropdown-toggle.btn-default.focus{color: #fff;background-color: #3d3533;}
+.banner-search-block .form-control{height:85px;color:#fff;font-size:32px;padding:8px 22px 10px;background-color:rgba(61,53,51,0.95);}
+.banner-search-block .btn{height:85px;width:86px;font-size:70px;padding:0;line-height:76px;}
+.banner-down-arrow{position:absolute;left:0;right:0;bottom:0;text-align:center;}
+.banner-down-arrow a{display:inline-block;vertical-align:middle;width:80px;height:80px;line-height:80px;font-size:42px;}
+.twitter-typeahead{float:left;width:100%;}
+.twitter-typeahead .tt-hint{width:100%;height:55px;}
+.tt-dropdown-menu{position:absolute;left:0;top:100%;width:100%;background:#fff;color:#000;}
+.tt-dropdown-menu .tt-suggestion{font-size:18px;padding:0px 22px;line-height:34px;border-bottom:1px solid;}
+.tt-dropdown-menu .tt-suggestion:hover{color:#fff;}
+.tt-dropdown-menu .tt-suggestion p{margin:0;}
+
+/* Slider */
+.banner-slider-section{margin-bottom:30px;}
+.banner-slider-section .slick-dotted.slick-slider{margin-bottom:0;}
+.banner-thumb-slider{max-width:650px;margin:-56px auto 0;background-color:#fff;padding:0 4px;z-index:999;}
+.banner-main-thumb{max-height:470px;overflow:hidden;position:relative;}
+/*.banner-main-thumb img{width:100%;}*/
+.banner-main-thumb img{max-height:100%;height:100%;}
+.banner-nav-thumb{background-color:#fff;padding:8px 4px;}
+/*.banner-nav-thumb img{width:99px;height:99px;max-width:none;}*/
+.banner-nav-thumb img{height:99px;max-width:none;}
+.banner-thumb-slider .slick-prev{left:-118px;}
+.banner-thumb-slider .slick-next{right:-118px;}
+
+.banner-slider-content{position:absolute;left:0;top:40px;right:0;color:#fff;}
+.banner-thumb-icon{font-size:30px;float:left;cursor:pointer;}
+.banner-thumb-logo{width:100px;float:right;}
+
+
+/* banner End
+-------------------------------------------------- */
+	 
+/* content Start 
+-------------------------------------------------- */
+
+#content{position:relative;z-index:0;margin-top:20px;}
+.no-container-padd{padding:0;}
+
+.no-col-space.row{margin:0;}
+.no-col-space > [class*="col-"],
+.no-col-space > [class*="row-"] > [class*="col-"],.gallery-grid.no-col-space [class*="col-"]{padding:0;}
+
+.home-news-section{padding:79px 0;}
+.home-news-inner{max-width:810px;margin:0 auto;}
+.home-news-block h2{margin:-7px 0 0 0;text-decoration:underline;}
+.home-news-block p{font-size:20px;line-height:33px;letter-spacing:0.5px;margin-top:6px;margin-bottom:0;}
+
+.newsletter-email-form {max-width:810px;margin:71px auto 0;}
+.newsletter-email-form .form-control{font-size: 13px;letter-spacing: 1px;line-height: 18px;padding: 2px 15px 4px;}
+.newsletter-email-form .btn{font-size: 15px;letter-spacing: 4.1px;line-height: 21px;padding: 7px 20px;text-align: center;}
+.newsletter-email-form.search-result{margin-top:0;}
+.newsletter-email-form.topadv-agentdetail { margin:48px auto 0;}
+.bottom-ad-section.topadv-section { padding:50px 0 48px;}
+
+/* Gallery */
+.prop-gallery-section h2{color: #b01e42;text-align: center;margin: 0 0 10px;font-size:36px;font-weight:500}
+.prop-gallery-section .container{width:100%;max-width:1280px;padding:0;}
+.prop-gallery-thumbnail{position:relative;height:320px;cursor:pointer;overflow:hidden;}
+.prop-gallery-thumbnail.prop-gallery-featured{height:640px;}
+.prop-thumb-overlay{position:absolute;left:0;top:130%;right:0;bottom:0;z-index:99;}
+.prop-gallery-thumbnail:hover .prop-thumb-overlay{top:0;}
+.prop-thumb-overlay ul{padding:0 12px;margin:0;position:absolute;left:0;right:0;top:50%;text-align:center;}
+.prop-gallery-featured .prop-thumb-overlay ul{padding:0 10px;}
+.prop-thumb-overlay ul li{list-style:none;margin:10px 8px;display:inline-block;vertical-align:middle;}
+.prop-gallery-featured .prop-thumb-overlay ul li{margin:0 31px;}
+.prop-thumb-overlay ul li a{color:#fff;display:block;text-decoration:none;}
+.prop-thumb-overlay ul li em{font-size:36px;}
+.prop-gallery-featured .prop-thumb-overlay ul li em{font-size:42px;}
+
+.gallery-caption-top{position:absolute;left:0;right:0;top:0;z-index:1;}
+.prop-image{overflow:hidden;height:100%;position:relative;}
+.prop-image img{max-height:100%; height: 100%;}
+/*.prop-image img{max-height:100%;*/ /**/ /*width: 100%;*//*height: 100%;}*/
+/*.prop-image.image-full-height img{max-height:100%; height: 100%;}
+.prop-image.image-full-width img{ width: 100%;}*/
+.prop-image-overlay{position:absolute;left:0;top:0;right:0;bottom:0;}
+.feature-title{color:#fff;padding:9px 0;}
+.prop-gallery-featured .prop-price{padding-left:30px;font-size:36px;letter-spacing:1.8px;}
+.feature-title .prop-tag{padding-right:35px;text-align:right;font-size:22px;letter-spacing:1.65px;line-height:26px;padding-top:15px;}
+
+.prop-name-detail{color:#fff;padding:31px 20px 0 30px;}
+.prop-name{text-transform:uppercase;font-size:13px;letter-spacing:2.6px;line-height:15px;}
+.prop-name-area{font-size:16px;line-height:25px;letter-spacing:0.6px;margin-top:2px;}
+.prop-gallery-featured .prop-name{font-size:20px;line-height:25px;letter-spacing:4px;max-width:288px;}
+.prop-gallery-featured .prop-name-area{font-size:20px;line-height:30px;letter-spacing:0.5px;margin-top:0;}
+.prop-gallery-featured .prop-name-detail{background-color:#fff;padding:20px 25px 20px 30px;}
+
+.prop-name-right img{max-width:100%;}
+
+.prop-gallery-section-2 .prop-name-area{line-height:20px;}
+
+.gallery-caption-bottom{position:absolute;left:0;right:0;bottom:0;z-index:1;}
+.ua-safari .gallery-caption-bottom{left:-1px;}
+.gallery-caption-bottom ul{padding:0;margin:0;display:table;width:100%;}
+.ua-safari .gallery-caption-bottom ul{width:101%;}
+.gallery-caption-bottom ul li{list-style:none;display:table-cell;text-align:center;vertical-align:middle;}
+.gallery-caption-bottom ul li a{text-decoration:none;display:block;}
+.prop-photo{width:46px;height:46px;}
+.prop-gallery-featured .prop-photo{width:60px;height:60px;}
+.prop-photo span{display:block;font-size: 16px;line-height: 19px;}
+.prop-gallery-featured .prop-photo span{font-size: 21px;line-height: 18px;}
+
+.prop-photo .prop-icon,
+.prop-layout .prop-icon{font-size:26px;margin-top:0;margin-bottom:0;}
+
+.prop-gallery-featured .prop-photo .prop-icon,
+.prop-gallery-featured .prop-layout .prop-icon{font-size:38px;margin-top:0;margin-bottom:-2px;}
+
+.prop-layout{width:46px;height:46px;}
+.prop-gallery-featured .prop-layout{width:60px;height:60px;}
+.prop-layout span{display:block;font-size: 19px;line-height: 18px;}
+.prop-gallery-featured .prop-layout span{display:block;font-size: 19px;line-height: 18px;}
+
+.prop-feature-bhk{width:130px;}
+.prop-feature-bhk a,
+.prop-feature-bhk a:hover,
+.prop-feature-bhk a:focus{color:#fff;}
+.prop-feature-bhk .prop-icon{margin-right:12px;font-size:36px;display:inline-block;vertical-align:middle;}
+.prop-feature-bhk .prop-qty{display:inline-block;vertical-align:middle;font-size:19px;}
+.view-prop .btn{height:60px;line-height:48px;font-size:20px;letter-spacing:2.2px;line-height:49px;}
+
+.ad-block{padding:13px 11px;}
+.bottom-ad-section .ad-block{margin:0 82px;}
+
+.ad-block img{width:100%;}
+
+.more-gallery{padding:0px 0;}
+.more-gallery a{display:block;text-decoration:none;line-height:26px;letter-spacing:2.8px;text-transform:uppercase; cursor:pointer;}
+.more-gallery span{margin-top:13px;display:block;}
+.result-more{padding:38px 0;text-align:center;}
+.result-more a{font-size:24px;line-height:31px;text-decoration:underline;display:inline-block;vertical-align:middle;letter-spacing:0.6px;}
+
+.content-text-section .container{max-width: 1280px;padding: 0;width: 100%;}
+.content-text-row{margin-bottom: 27px;}
+.content-text-block {color:#fff;padding:20px 60px 20px 60px;}
+.content-text-image{padding: 0 !important;}
+.content-text-image img,
+.content-text-image img.ng-hide{display: block !important;width: 100%;}
+.content-text-block h2{margin:0 0 29px;position:relative;padding-bottom:28px;max-width:370px;line-height:60px;}
+.content-text-block h2:after{content:"";width:80px;height:10px;background-color:#fff;position:absolute;bottom:0;left:0;}
+.content-text-block  p{font-size:30px;line-height:42px;max-width:360px;}
+
+.bottom-ad-section{padding:50px 0 60px;}
+.bottom-ad-section.top-ad-section{padding:40px 0 30px;}
+
+/*user-profil*/
+.your-profile-section h2{font-size:3em;line-height:0.8;text-transform:none;}
+.profile-menu{width:100%;}
+.profile-menu ul{padding:95px 0 0 0;list-style:none;margin:0;max-width:263px;width:100%;}
+.profile-menu ul li{width:100%;display:inline-block;padding-bottom:12px;}
+.profile-menu ul li a{padding:10px 0;line-height:27px;color:#fff;display:block;text-decoration:none;text-transform:initial;letter-spacing:2.2px;}
+.profile-menu ul li.active a,
+.profile-menu ul li:hover a{color:#fff;}
+.user-profile-news-section .newsletter-email-form{margin-top:0;}
+.user-profile-news-section .border2px{margin:60px 0;}
+.section-block .padding-top { padding-top:207px;}
+
+/*tody vishal*/
+
+.profile-menu.opne-menu ul{display:block;}
+.profile-menu.opne-menu ul{padding:0;margin:0;}
+.profile-menu.opne-menu ul li{padding:0;}
+.profile-menu.opne-menu ul li a{padding:3px 0;}
+
+/*tody vishal*/
+
+.profile-details-block{display:block;margin-bottom:20px;}
+.profile-block{width:100%;max-width:690px;float:right;overflow:hidden;min-height:250px;margin-top:60px;}
+.user-img-block .user-img{overflow:hidden;width:100%;}
+.user-img-block .user-name{padding:40px 0 30px 40px;overflow:hidden;letter-spacing:1px;}
+.user-img-block .user-name label{font-size:22px;line-height:28px;margin:0;text-transform:uppercase;font-weight:normal;margin-bottom:15px;letter-spacing:2.4px;}
+.user-img-block .user-name a{font-size:16px;color:#958d8b;text-decoration:none;text-decoration:none;font-weight:normal;text-transform:uppercase;line-height:20px;position:relative;top:-2px;}
+.user-img-block .user-name a i{margin-left:15px;line-height:20px;vertical-align:middle;display:inline-block;margin-top:-5px;}
+.member-since{line-height:24px;font-size:13px;margin-top:35px; }
+
+.user-details{position:relative;padding-left:38px;padding-top:35px;padding-bottom:30px;}
+.your-profile-section .prop-layout{position:absolute;right:0;top:0;text-align:center;color:#fff;cursor:pointer;}
+
+.your-profile-section .prop-layout i{font-size:42px;line-height:42px;}
+.your-profile-section h2{letter-spacing:normal;}
+.profile-block h4{font-size:24px;text-decoration:underline;margin-bottom:15px;margin-top:0;}
+.details-row span,
+.details-row label{font-size:15px;line-height:20px;width:100%;display:inline-block;letter-spacing:1px;}
+.details-row{display:inline-block;width:100%;margin-bottom:15px;display:inline-block;text-transform:uppercase;}
+.user-statistics{padding:40px 60px;clear:left;width:100%;overflow:hidden;position:relative;}
+.user-statistics .details-row{margin-bottom:5px;}
+.user-statistics .details-row span{margin-bottom:10px;}
+.user-statistics .details-row span a{font-size:14px;text-transform:none;border-bottom:1px dotted #948c8b;text-decoration:none;}
+
+.profile-block ul.nav-tabs li{width:20%;}
+.profile-block ul.nav-tabs li a{border-right:2px solid #f4f3f1;font-size:16px;letter-spacing:1.6px;line-height:20px;padding:12px 5px 10px;}
+.number-of-massage{padding:15px 24px;line-height:30px;width:100%;float:left;}
+.number-of-massage label{float:left;margin:0;line-height:30px;font-size:16px;}
+.number-of-massage .bootstrap-select.btn-group{float:right;max-width:215px;width:100%;height:30px;font-size:16px;text-transform:none;}
+.number-of-massage .bootstrap-select.btn-group .btn{height:30px;text-transform:none;}
+.mark-move{width:100%;padding:15px 24px;float:left;}
+.mark-move .bootstrap-select.btn-group{float:left;max-width:none;width:auto;height:30px;border:none;margin-right:40px;background:none;font-size:18px;padding-left:0;}
+.mark-move .btn-default{border:none;background:none;color:#fff;letter-spacing:1.8px;padding-left:0;padding:0;padding-right: 25px;height:30px;font-size:18px;}
+.mark-move .bootstrap-select.btn-group .dropdown-toggle .caret{right:0;color:#fff;background-image:url(../images/select-arrow-wight.svg);}
+
+.mark-move .delete{color:#fff;font-size:18px;letter-spacing:1.8px; line-height:30px;float:right;text-transform:uppercase;}
+.mark-move .delete a{display:block;color:#fff;text-decoration:none;}
+.mark-move .delete i{padding-left:24px;font-size:21px;}
+.messages-block{width:100%;overflow:hidden;padding:15px 24px;}
+.messages-block .messages-row{margin-bottom:15px;border-bottom:2px solid;padding-bottom:5px;overflow:hidden;padding-left: 40px;position: relative;min-height: 80px;}
+.messages-block .messages-row .icon{text-align:left;position: absolute;left: 0;top: 5px;}
+.messages-block .messages-row .icon i{line-height:30px;margin-bottom:3px;font-size:23px;clear:left;display:inline-block;float:left;}
+.mail-check .check-style{width: 20px;height: 20px;}
+.mail-check.checkbox{margin: 0;}
+.mail-check.checkbox input[type="checkbox"]{margin-left: -44px;opacity: 0;}
+.mail-check.checkbox label{padding-left: 26px;line-height: 20px;}
+
+.mail-star.checkbox{margin: 0;}
+.mail-star .check-style{background-color: transparent;width: 20px;height: 20px;}
+.mail-star .check-style:before{content: "\f005";font-family: 'FontAwesome';font-size: 23px;}
+.mail-star.checkbox input[type="checkbox"]{margin-left: -44px;opacity: 0;}
+.mail-star.checkbox label{padding-left: 26px;line-height: 20px;}
+
+.messages-block .messages{}
+.messages-block h5{font-size:16px;line-height:30px;margin:0;padding:0;font-weight:normal;letter-spacing:1px;text-transform:uppercase;}
+.messages-block h5 span{text-transform:none;}
+.messages-block p{line-height:19px;font-weight:normal;}
+.load-more{font-size:16px;line-height:30px;text-align:center;text-transform:uppercase;margin:30px 0 0;overflow:hidden;letter-spacing:1.6px;margin-bottom:15px;}
+.load-more a{text-decoration:none;}
+.saved-properties{width:100%;overflow:hidden;}
+.saved-properties .img{width:100%;overflow:hidden;}
+.saved-properties .img img{width:100%;}
+.saved-properties .agent-list .img{height: 80px;}
+.saved-properties .agent-list .img img{height: auto;max-height: 100%;width: auto;max-width: 100%;}
+.saved-properties .gallery-caption-bottom{position:relative}
+.saved-properties .gallery-caption-bottom .prop-photo{height:40px;}
+.saved-properties .gallery-caption-bottom .btn{height:40px;line-height:25px;font-size:21px;}
+.saved-properties .gallery-caption-bottom li{float:left;width:40px;}
+.saved-properties .gallery-caption-bottom li.view-prop{width:70%;}
+.properties-details{padding-left:20px;width:100%;overflow:hidden;}
+.properties-details h3{font-size:18px;margin:20px 0 10px;line-height:25px;}
+.properties-details h4{font-size:16px;margin:0px;line-height:25px;text-decoration:none;}
+.properties-details .member-since{margin:0; text-transform:uppercase}
+.properties-details ul{list-style:none;padding:0;margin:10px 0 0 0;}
+.properties-details ul li{float:left;line-height:40px;padding-right:30px;}
+.properties-details ul li a{text-decoration:none;}
+.properties-details ul li i{font-size:32px;line-height:36px;padding-right:10px;float:left;}
+
+
+/* content End
+-------------------------------------------------- */
+
+/* footer Start 
+-------------------------------------------------- */
+
+#footer {}
+#footer a:hover,
+#footer a:focus{color:#fff;}
+.footer-top{padding:10px 0 5px;border-bottom:1px solid;}
+.social-media,.footer-logo-2{margin-top: 25px;}
+.social-media ul{padding:0;margin:-8px 0 0 0;display:inline-block;vertical-align:middle;}
+.social-media ul li{float:left;list-style:none;margin-left:15px;}
+.social-media ul li a{font-size:24px;text-decoration:none;}
+.social-media ul li a:hover,
+.social-media ul li a:focus{color:#fff;}
+.footer-bottom{padding:20px;}
+.footer-menu h3{color:#fff;font-weight:300;margin:0 0 0px;text-transform:uppercase;font-size:1em;letter-spacing:normal;}
+.footer-menu ul{padding:0;margin:0;display:inline-block;}
+.footer-menu ul li{list-style:none;}
+.footer-menu ul li a{font-size:1.25em;line-height:normal;text-decoration:none;}
+
+.footer-quick-links.footer-menu{text-align:right;margin-top:-4px;}
+
+.footer-quick-links.footer-menu ul li a{text-transform:uppercase;letter-spacing:3.6px;}
+
+.copyright{color:#8c8c8c;margin-top:40px;font-size:1em;}
+.copyright p{margin:0;}
+
+/* footer End
+-------------------------------------------------- */
+
+/* Modal Start
+-------------------------------------------------- */
+
+.landing-modal{font-size:30px;line-height:36px;}
+/*.landing-modal .modal-dialog{margin-top:60px;}*/
+/*.modal .close{position:absolute; opacity:1;font-size:30px;font-weight:normal; top:0;right:0;width:45px;height:45px;line-height:45px;margin:0;text-shadow:none;}
+.modal .close:hover, .modal .close:focus{color:#fff;}*/
+/*.landing-modal.modal .close{font-size:54px;width:80px;height:80px;line-height:90px;}*/
+.landing-modal .modal-body{position:relative;/*padding:70px 100px 50px;*/}
+.modal-title h2{font-size:36px;line-height:60px;text-transform:none;letter-spacing:0;margin:0 0 10px;}
+.modal-title h2 a{color:inherit;text-decoration:underline;}
+.total-prop-modal-text{font-size:26px;line-height:24px;text-transform:uppercase;margin-bottom:5px;display:block;letter-spacing:normal;}
+.home-counter {margin-bottom:10px;letter-spacing: normal;font-size:40px;}
+.home-data {font-size:20px;margin-bottom:5px;color: #b01e42;font-family: 'Helvetica';letter-spacing: 0;}
+.price-counter{margin-bottom:23px;}
+.price-counter span{display: inline-block;font-size: 60px;height: 73px;line-height: 73px;vertical-align: middle;width:50px;margin:0px 2px 0px 2px;}
+.modal-text{margin:23px 0 0;}
+.modal-text p{margin:0;}
+.landing-modal .modal-footer{padding:0;text-align:center;border:none;}
+.landing-modal .modal-footer .btn{font-size:22px;line-height:28px;letter-spacing:normal;padding:28px 25px 19px;white-space:normal;}
+
+.modal-slider-steps .modal-dialog{margin-top:56px;}
+.prop-modal-center{max-width:900px;margin:0 auto;}
+.prop-slide-title{padding:32px 0 28px;border-bottom:1px solid;}
+.prop-slide-title h3{font-size:30px;margin:0;}
+.prop-slide-body {padding:30px 0;}
+.prop-slide-body h4{margin:0 0 11px;font-size:24px;}
+.more-right{display:block;font-size:22px;}
+.prop-slide-block-center{max-width:690px;margin:0 auto;}
+.prop-slide-title .prop-slide-block-center{max-width:780px;}
+.modal-right-sign{background-color:#fff;width:38px;height:38px;line-height:38px;margin-top:31px;}
+.modal-slide-button{margin-top:35px;}
+.modal-slide-button a{position:relative;white-space:normal;font-size:20px;letter-spacing:2px;}
+.modal-slide-button a span{display:inline-block;vertical-align:middle;}
+.modal-slide-button{padding:0 26px;}
+.next-g-button{padding:42px 20px 42px;}
+.free-search-continue{padding:25px 30px 22px;}
+.modal-slide-button .btn-block + .btn-block{margin-top:0;}
+.free-search-continue{text-align:left;padding-right:83px;padding-bottom:14px;}
+.modal-button-icon{position:absolute;right:25px;top:6px;font-size:38px;}
+.modal-style-2.modal .close{color:#fff;}
+.modal-slide-button .btn-group .btn{padding:25px 10px 22px;min-width:252px;font-size:20px;}
+.modal-slide-button .btn-group .btn+.btn{margin-left:28px;}
+
+.modal-form-step .modal-body{padding:42px;}
+.modal-form-stepbar ul{padding:0;margin:0;}
+.modal-form-stepbar ul li{float:left;list-style:none;height:2px;width:33.33%;position:relative;}
+.modal-form-stepbar ul li:after{content:"";position:absolute;left:50%;top:100%;margin-left:-6px;border-style:solid;border-width: 6px 6px 0;display:none;border-color:transparent;}
+.modal-form-stepbar ul li.active:after{display:block;}
+
+.modal-form-fieldset{padding-top:41px;}
+.modal-form-group{margin-bottom:39px;max-width:350px;margin-left:auto;margin-right:auto;}
+.modal-form-group label{display:block;font-size:24px;text-transform:uppercase;margin-bottom:53px;letter-spacing:2.4px;}
+.modal-form-control{width:100%;text-align:center;font-size:24px; border-top:none;border-left:none;border-right:none;padding:6px 12px;border-bottom:1px solid;}
+
+.modal-form-button .btn{width:68px;height:68px;line-height:68px;font-size:34px; display:inline-block;vertical-align:middle;color:#fff;padding:0;}
+.step-form-box{display:none;}
+.step-form-box.open-box{display:block;}
+
+.modal-form-step .modal-dialog{margin-top:120px;}
+.modal-thanks {font-size:24px;line-height:28px;color:#605b59;max-width:475px;margin:0 auto;}
+.modal-thanks h3{font-size:48px;margin:0 0 21px;}
+.modal-thanks p{margin-bottom:30px;}
+
+/* Modal End
+-------------------------------------------------- */
+
+/* property details Start
+-------------------------------------------------- */
+.prop-details-info {padding-bottom:34px; }
+.prop-details-info h3 {margin:0px; line-height:32px; letter-spacing:2px; text-transform:uppercase; letter-spacing:4.8px; }
+.prop-details-info p {margin:0 0 6px 0; font-size:20px; line-height:32px; letter-spacing:0.5px;}
+.prop-details-info .price {line-height:36px; font-size:30px; letter-spacing:0.5px;}
+.prop-details-info .share-icon {text-align:right;}
+.prop-details-info .share-icon ul {display:inline-block; padding:0px; margin:0px; }
+.prop-details-info .share-icon ul li {display:inline-block; padding:0 0 0 7px; list-style:none;}
+.prop-details-info .share-icon ul li a {text-align:center; line-height:44px; color:#5d5756; display:block; width:44px; font-size:31px; text-decoration:none;}
+
+.tab-content {margin:40px 0 0 0;}
+.prop-details-tabs .prop-description {padding:28px 30px;}
+.prop-details-tabs .prop-description p {font-size:14px; line-height:18px; letter-spacing:0.5px}
+.prop-details-tabs .prop-description p:last-child {margin:0px}
+.prop-details-tabs .prop-description ul.point-list {padding:25px 0 0 0;}
+.prop-details-tabs .robsons-img {text-align:center; padding-bottom:55px;}
+.prop-details-tabs .robsons-img img{ max-width: 100%;}
+.prop-details-tabs .icon-box {border-bottom:solid 2px; text-align:center; padding:0 5px 25px 5px;height:33.33%;}
+.prop-details-tabs .icon-box .icon {min-height:66px;line-height:40px;font-size:38px;padding-top:20px;}
+.prop-details-tabs .icon-box .icon.icon-icon-brochure{font-size:48px;}
+.prop-details-tabs .icon-box span {font-size:15px; letter-spacing:2.5px; text-transform:uppercase; font-weight:bold;}
+.prop-details-tabs .icon-box:last-child {border:none;}
+.prop-details-tabs  ul.left-tab {padding:0px; margin:0px; }
+.prop-details-tabs  ul.left-tab li {border-top:solid 1px; list-style:none; }
+.prop-details-tabs  ul.left-tab li a {padding:15px 0; text-align:center; line-height:29px;letter-spacing:4px; font-size:13px; display:block; text-transform:uppercase; text-decoration:none; position:relative;}
+.prop-details-tabs  ul.left-tab li a:hover {color:#fff; }
+.prop-details-tabs  ul.left-tab li.active a {color:#fff; }
+.prop-details-tabs  ul.left-tab li a:hover .hover-data {display:block; }
+.prop-details-tabs  ul.left-tab li .hover-data {position:absolute; top:-61px; color:#fff; text-align:center; font-size:20px; line-height:42px; left:0px; width:100%; display:none; z-index:9999;letter-spacing:-1px;}
+.prop-details-tabs  ul.left-tab li .hover-data:after {position:absolute; bottom:-13px; left:50%; margin-left:-10px; content:""; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 13px solid}
+ul.point-list {padding:0px; margin:0px;}
+ul.point-list li {list-style:none; padding:0 0 0 10px; position:relative; font-size:14px; line-height:26px; letter-spacing:0.5px;}
+ul.point-list li:after {position:absolute; top:11px; left:0px; width:6px; height:6px; content:""; border-radius:50%; }
+.prop-details-tabs .floorplans-img {text-align:center; padding:40px 0; }
+.prop-details-tabs .floorplans-img img {max-width:100%;}
+.prop-details-tabs .map-view {position:relative; }
+.prop-details-tabs .map-view img {width:100%; position:relative; }
+.prop-details-tabs .map-view .left-tab {position:absolute; top:0px; left:-20%; width:20%; }
+.prop-details-tabs .map-view .left-tab li { border-bottom:solid 1px #c6c4c5; border-top:none; }
+.prop-details-tabs .cost-title {border-bottom:solid 1px #dddbda; padding:17px 0 12px 0; text-align:center; line-height:34px; font-size:24px; }
+.prop-details-tabs .cost-view {padding:39px 44px 0 44px; }
+.prop-details-tabs .cost-view .cost-slide {padding:0 0 0 90px; min-height:60px; position:relative; margin-bottom:30px;}
+.prop-details-tabs .cost-view .cost-slide .icon {position:absolute; top:0px; left:0px; }
+.prop-details-tabs .cost-view .cost-slide p {display:block; padding:15px 0; line-height:30px; font-size:16px; color:#c5c2c2; text-transform:uppercase;margin:0px;}
+.prop-details-tabs .cost-view .cost-slide p span {font-size:24px; color:#635e5c; width:82px; display:inline-block; }
+.prop-details-tabs .mortgage-view {padding:38px 40px 0 40px; }
+.prop-details-tabs .mortgage-slide {padding-bottom:20px; display:inline-block; width:100%; }
+.prop-details-tabs .mortgage-slide .info {width:54.59%; float:left;}
+.prop-details-tabs .mortgage-slide .info p {display:block; line-height:20px; font-size:16px; margin:0px; text-transform:uppercase; letter-spacing:1px;}
+.prop-details-tabs .mortgage-slide .info span {display:block; line-height:20px; font-size:16px; letter-spacing:1px;}
+.prop-details-tabs .mortgage-slide .data {float:left; width:45.40%;}
+.prop-details-tabs .mortgage-slide.payment {padding:27px 0 29px 0; border-top:dotted 1px #e3e2e1; }
+.prop-details-tabs .mortgage-slide.payment .info p {line-height:32px; font-size:16px; color:#958d8c; }
+.prop-details-tabs .mortgage-slide.payment .data {line-height:32px; font-size:16px; color:#958d8c; }
+.prop-details-tabs .mortgage-slide.total {padding:25px 40px 28px 40px; background:#dddbda; margin-bottom:-8px}
+.prop-details-tabs .mortgage-slide.total .info p {line-height:36px; color:#3d3533; font-size:21.50px; }
+.prop-details-tabs .mortgage-slide.total .data {line-height:36px; font-size:21.50px;}
+.prop-details-tabs .transport-map {width:100%;}
+.prop-details-tabs .transport-map img {width:100%;}
+.prop-details-tabs .transport-link {padding:40px 40px 0 40px;}
+.prop-details-tabs .transport-link .transport-slide {padding:0 0 26px 86px; position:relative; }
+.prop-details-tabs .transport-link .transport-slide p {display:block; line-height:24px; padding:10px 0; font-size:12px; color:#5d5756; letter-spacing:5px; min-height:44px; text-transform:uppercase; margin:0px;}
+.prop-details-tabs .transport-link .transport-slide .icon {position:absolute; top:0px; left:0px; }
+.prop-details-tabs .transport-link .transport-slide p span {color:#958d8c;}
+.prop-details-tabs .galler-view {background:#fff; padding:20px;}
+.prop-details-tabs .galler-view .galler-img {width:100%; margin-bottom:20px}
+.prop-details-tabs .galler-view .galler-img img {max-width:100%; }
+
+/* property details End
+-------------------------------------------------- */
+
+/* 404 Page Start
+-------------------------------------------------- */
+.message-page{padding:33px 0 46px; border-bottom:1px solid;}
+.message-page .error-info p{ font-size:22px;letter-spacing: 0.6px;line-height:28px;}
+.message-page .error-info h3{ font-size:30px;letter-spacing: 0.75px; margin-bottom:50px;}
+.button-links .btn{ font-size:17px; margin-bottom:30px;letter-spacing: 1.7px; width:263px; max-width:100%;padding: 12px 12px 9px; display: table;}
+.error-info .button-links a.btn{padding:0;line-height:46px;font-size:15px;letter-spacing:1px;}
+.page-title h2{ font-size:134px; line-height:114px; letter-spacing:3.35px; text-transform:none;}
+.page-title h2.page-404{font-size:110px;line-height:1em;margin:0;}
+.message-page .page-title h2{letter-spacing:5px;}
+
+/* 404 Page End
+-------------------------------------------------- */
+
+/* Thank-you Page Start
+-------------------------------------------------- */
+.message-page .error-info p a{ text-transform:uppercase;}
+.site-details{padding-top:150px;}
+.site-details p{ font-size:18px; line-height:25px; position:relative; padding-left:20px;max-width: 25%; margin-bottom:20px;}
+.site-details p:before{content:"\f069"; position:absolute; left:0; top:-8px;font-family:'FontAwesome';}
+/* Thank-you Page End
+-------------------------------------------------- */
+
+/* Contact-us Page Start
+-------------------------------------------------- */
+.contact-section{margin-top:15px;}
+.contact-section .contact-right{max-width:800px;width:100%;float:right;}
+.contact-section h2 {  font-size: 2em;  /*line-height: 60px; */ text-transform: none; letter-spacing:normal;/*margin-top:25px;*/}
+.contact-section .contact_req {  bottom: 24px;  color: #958d8c;  font-size: 18px;  left: 15px;  position: absolute;letter-spacing:normal;}
+.contact-section .contact_req img{display:block; margin:0px 0 15px;}
+.contact-section .row-xs-height{padding-bottom:30px; padding-top:20px;}
+.contact-section .form-group label{letter-spacing:normal; font-size:1.25em;}
+.contact-section h3 {letter-spacing: normal;  margin: 55px 0;  text-transform: uppercase;}
+.contact-section textarea{resize:none;}
+.contact-section .form-control{font-size:1.2em;background-color:#8e87872e;border-radius:10px}
+.contact-section .bootstrap-select .btn{font-size:16px;letter-spacing:normal;}
+.contact-section .btn{ font-size:1.5em;letter-spacing:normal;}
+.contact-section .btn.btn-primary{padding:6px 20px;}
+.contact-section .contact_footer {  margin-top: 50px;}
+.contact_footer h4 {font-size: 21px;  margin: 0;letter-spacing:normal;}
+.contact_footer h4 a {text-decoration: underline;text-transform:uppercase;font-size:16px;letter-spacing:normal;}
+/*H*/
+.contact-section.style2 .row-xs-height {border:none; padding:0px; }
+.contact-section.style2 .contact-block {/*border-bottom:solid 2px #e3e2e2;*/ }
+.contact-section.style2 .contact-block .contact_req {font-size:18px; position:static; padding:40px 0; display:inline-block; width:100%; }
+.contact-section.style2 .contact-block .contact_req .icon {display:inline-block; padding:0 5px 0 0; font-size:20px; }
+.contact-section.style2 .contact-block h3 .icon {float:right; font-size:40px; line-height:40px; vertical-align:top; margin-top:-7px; cursor:pointer; }
+.contact-section.style2 .contact-block h3 .icon.icon-icon-close {font-size:30px; }
+
+/* Toolbar End
+-------------------------------------------------- */
+
+.product-toolbar{padding:0 0 41px 0px}
+.toolbar-sortby .bootstrap-select.btn-group .dropdown-menu{z-index:99999;}
+.toolbar-result{font-size:20px;line-height:30px;padding:10px 0;}
+.toolbar-sortby {text-align:right;}
+.toolbar-sortby .bootstrap-select{max-width:215px;} 
+
+.toolbar-icons{text-align:center;margin-top:4px;}
+.toolbar-icons ul{padding:0;margin:0;display:inline-block;vertical-align:middle;}
+.toolbar-icons ul li{list-style:none;float:left;}
+.toolbar-icons ul li a{font-size:26px;display:block;padding:0 9px;text-decoration:none;}
+
+.toolbar-sortby .bootstrap-select { margin-top:0px; margin-right: 0px;}
+.toolbar-sortby .bootstrap-select .dropdown-toggle { font-size:16px; text-transform:none;} 
+.toolbar-sortby .bootstrap-select.open > .dropdown-toggle.btn-default,
+.toolbar-sortby .bootstrap-select .btn-default:active { text-transform:none;}
+
+/* Toolbar End
+-------------------------------------------------- */
+.registration-section {padding:0px 0 0 0;}
+.registration-section .row-xs-height {/*border-bottom:solid 1px #c6c5c5;*/ padding-bottom:30px; }
+.registration-section .contact_req { /*bottom:5px;*/ color: #958d8c; font-size: 18px; left: 15px; letter-spacing: normal; position: absolute; max-width:180px; width:100%; }
+.registration-section h2 {/*font-size:41px;*/ letter-spacing:normal; /*text-decoration:underline;*/ text-transform:initial; margin:-10px 0 0 0; }
+.registration-section .contact_req .icon  {font-size:23px; }
+.registration-section .form-group {margin-bottom:30px; }
+.registration-section .form-label {font-size:1.25em; letter-spacing:normal; display:block;}
+.registration-section .form-label .icon-icon-asterisk {padding:0; }
+.registration-section .bootstrap-select > .dropdown-toggle{padding-top:10px;}
+.registration-section .form-group.postcode .form-control {width:39.67%; display:inline-block;}
+.registration-section .form-group.postcode .btn {float:right; width:56.13%;letter-spacing: normal; line-height:22px;}
+.registration-section .bootstrap-select .filter-option {font-size:12px;letter-spacing:2.5px;}
+.registration-section .right-check {/*padding:23px 0 0 0;*/ /*max-width:250px;*/ text-align:left; display:inline-block; }
+.checkbox span.red-font {  text-transform: uppercase; }
+.registration-section .right-check .checkbox {margin:0 0 25px 0;}
+.registration-section .right-check .checkbox .check-style {/*top:3px;*/}
+.registration-section .right-check .checkbox label {padding:0 0 0 40px; font-size:1em; letter-spacing:normal;line-height:14px;}
+.registration-section .right-check .checkbox label a {color:#333;text-decoration:underline;}
+.registration-section .right-check .checkbox input {margin-left:-40px; position: absolute;}
+.registration-section .right-check .checkbox .red-font {letter-spacing:normal;}
+.registration-section .lg-btn {margin-top:40px; padding:15px 51px; line-height:30px; font-size:20px; letter-spacing:normal; }
+
+/* Channels Page Start
+-------------------------------------------------- */
+.message-page .sponsers{ padding-right: 30px;padding-top: 137px;}
+.message-page .sponsers label{ font-size:20px; font-style:italic; font-weight:normal; padding-left:75px;}
+.property-finance{margin-top: 32px;padding-left: 7px;}
+.property-finance .block{padding:20px 0 24px;position:relative;}
+.property-finance .block .left-block,
+.property-finance .block .right-block{height:90px;}
+.property-finance .block .left-block{width:95px;position:absolute;left:0;top:20px;}
+
+.channel-news-email .newsletter-email-form{margin-top:60px;}
+
+/* Channels Page End
+-------------------------------------------------- */
+
+.saved-properties{width:100%;overflow:hidden;position:relative;}
+.border2px{height:1px;width:100%;overflow:hidden;margin-top:19px;margin-bottom:19px;}
+.saved-properties .gallery-caption-bottom{position:relative}
+.saved-properties .gallery-caption-bottom .prop-photo{height:40px;}
+.saved-properties .gallery-caption-bottom .icon{font-size:24px;margin-top:-13px;}
+.saved-properties .gallery-caption-bottom .prop-icon{/*margin-top:-13px;*/ margin-top:0;}
+.saved-properties .gallery-caption-bottom .btn{height:40px;line-height:25px;font-size:21px;}
+.saved-properties .gallery-caption-bottom li{float:left;width:40px;height:40px;}
+.saved-properties .gallery-caption-bottom li.view-prop{width:70%;}
+.properties-details{padding-left:20px;width:100%;overflow:hidden;position:relative;}
+.properties-details .robsons-logo{margin:0px 0 20px;display:inline-block;}
+.properties-details h3{font-size:18px;margin:0px 0 5px;line-height:20px;letter-spacing:normal;text-transform:uppercase;}
+.properties-details h4{font-size:16px;margin:0px 0 5px;line-height:22px;text-decoration:none;}
+
+.properties-details ul{list-style:none;padding:0;margin:5px 0 0 0;}
+.properties-details ul li{float:left;line-height:40px;padding-right:30px;}
+.properties-details ul li a{text-decoration:none;color:#958d8b;text-transform:uppercase;line-height:40px;letter-spacing:normal;float:left;}
+.properties-details ul li em{padding-right:10px;}
+
+.saved-properties ul.content-button{list-style:none;padding:0;margin:15px -2px 0;}
+.saved-properties ul.content-button li{float:left;width:auto;height:40px;padding:0 2px;width:38%;text-align:center;font-size:13px;line-height:40px;letter-spacing:normal;}
+.saved-properties ul.content-button li a{color:#5d5757;background:#f4f3f1;display:block;line-height:40px;letter-spacing:normal;text-transform:uppercase;text-decoration:none;}
+.saved-properties ul.content-button li.view-details{width:24%;}
+.saved-properties ul.content-button li.view-details a{color:#fff;}
+
+.saved-properties .icon-row{position:absolute;right:0;top:0;width:42px;}
+.saved-properties .icon-row .icon{width:100%;float:left;line-height:42px;margin-bottom:12px;}
+.saved-properties .icon-row .icon a{color:#5d5757;background:#dddcda;display:block;text-align:center;font-size:41px;font-weight:normal;position:relative;text-decoration:none;}
+.saved-properties .icon-row .icon a i{font-weight:normal;}
+.saved-properties .icon-row .icon a .icon-icon-saveempty{font-size:28px;height:44px;display:inline-block;vertical-align:middle;}
+.saved-properties .icon-row .icon a span{display:none; position:absolute;right:100%;top:0;bottom:0;line-height:48px;font-size:16px;letter-spacing:normal;text-transform:uppercase;min-width:100px;text-align:center;padding:0 35px;}
+.saved-properties .icon-row .icon a:hover span,
+.saved-properties .icon-row .icon a:focus span{display:block;}
+.saved-properties ul.content-button li:hover a,
+.saved-properties .icon-row .icon:hover a{color:#fff;}
+.listings-prise{font-size:21px;margin-bottom:5px;margin-top:0px;}
+.saved-properties .gallery-caption-bottom.my-listings.agent-listings{width:100%;}
+.saved-properties .gallery-caption-bottom.my-listings.agent-listings ul{width:100px;margin:0 auto;}
+.saved-properties .gallery-caption-bottom.my-listings.agent-listings li.prop-layout{position:relative;}
+.saved-properties .gallery-caption-bottom.my-listings{position:absolute;right:0;bottom:0;width:100px;left:inherit;}
+.saved-properties .gallery-caption-bottom.my-listings li{width:50px;height:50px;}
+.saved-properties .gallery-caption-bottom.my-listings li.view-prop{width:auto;}
+.saved-properties .gallery-caption-bottom.my-listings li .prop-qty{margin:5px 0 0 0;}
+.saved-properties ul.content-button.listings-button li{width:25%;text-transform:uppercase;}
+.saved-properties ul.content-button.listings-button li.views{padding-left:2px;text-align:left;}
+.upgrade-your-plan {padding:30px 0 20px;}
+.upgrade-your-plan .upgrade-row{overflow:hidden;padding:15px 60px 15px;}
+
+.upgrade-your-plan .upgrade-row label .plus { position:absolute; right:0; top:0;}
+.upgrade-your-plan .upgrade-row label .plus:after { position:absolute; content:'+';font-size:23px; right:4px; top:0;}
+.upgrade-your-plan .upgrade-row label.active .plus:after {content:'-'; font-size:24px; top:-2px;}
+.upgrade-your-plan .upgrade-row h3{font-size:36px;margin:15px 0 10px;line-height:36px;}
+.upgrade-your-plan .upgrade-row p{line-height:26px;font-size:22px;}
+.upgrade-your-plan .upgrade-row p a{text-decoration:none;}
+.upgrade-your-plan .upgrade-row label{font-size:15px;letter-spacing:normal;line-height:20px;margin:0;font-weight:normal;text-transform:uppercase;cursor:pointer;position:relative; padding-right:30px; }
+.upgrade-your-plan .upgrade-row label span{padding-left:15px;}
+.user-img-block .border2px{margin-bottom:0;}
+.user-img-block.agent p{font-size:16px;line-height:20px;margin-top:30px;color:#5c5655;}
+.user-img-block.agent .member-since{margin-top:5px;}
+.featured{position:absolute;left:0;top:0;line-height:38px;text-align:center;font-size:13px;text-transform:uppercase;z-index:100;width:100%;letter-spacing:normal;}
+.featured a,
+.featured a:hover,
+.featured a:focus{color:#fff;text-decoration:none;}
+.upgrade-your-plan.agent h4{font-size:16px;margin:0px 0 0px;line-height:25px;text-decoration:none;font-weight:normal;}
+.upgrade-your-plan.agent ul{padding:0;padding:0 0 0 18px;margin-bottom:15px;}
+.upgrade-your-plan.agent ul li{line-height:25px;font-size:16px;}
+.agent-advertising{padding:30px 60px;overflow:hidden;}
+.agent-advertising h3{font-size:22px;line-height:26px;margin-bottom:25px;margin-top:0;}
+.agent-advertising .big-banner{width:100%;background:#5d5757;padding:10px;height:95px;}
+.agent-advertising.saved-properties ul.content-button{margin-bottom:30px;overflow:hidden;}
+.agent-advertising.saved-properties ul.content-button li{width:auto;font-size:13px;max-width: 170px;width: 100%;}
+.agent-advertising.saved-properties ul.content-button li a{color:#fff;padding:0 35px;}
+.agent-advertising .small-banner{width:100%;background:#5d5757;padding:10px;height:239px;max-width:145px;margin-bottom:24px;}
+
+/*-- Faq Start --*/
+.faq-block {/*float: right;*/ /*margin-top: 39px; max-width: 680px; width: 100%;*/ }
+.faq-block .faq-blocktop { margin-bottom:16px;}
+.faq-block .faq-blocktop h3 { text-transform:uppercase; /*letter-spacing:2.4px;*/ /*margin:0 0 30px 0;*/}
+.faq-block .faq-blocktop p { font-size:18px; /*letter-spacing:0.45px;*/ margin:0 0 30px 0; line-height:20px; text-align:justify; }
+.faq-block .faq-blocktop p a { text-decoration:underline;}
+.faq-search { position:relative; /*max-width:520px; padding-right:152px;*/ }
+.faq-search .form-control { font-size:18px; width:100%; }
+.faq-search .btn { position:absolute; right:0; top:0; font-size: 18px; letter-spacing: normal; padding:0 18px; height:34px; line-height:34px; max-width:116px; border-radius: 0px;}
+.faq-block .question-block { margin-top: 20px; display:inline-block; width:100%; }
+.faq-block .question-block.accordion-question { /*margin:35px 0 40px 0;*/ }
+.faq-block .question-block h2 { margin:0 0 18px 0; letter-spacing:normal; font-size:2em; }
+.faq-block .question-section { margin:0 0 20px 0; }
+.faq-block .question-section .question-part { margin-bottom:10px;}
+
+.faq-block .question-section .question-part h4 {
+    font-size: 1.1em;
+    margin: 0 0 5px 0;
+    color: #555;
+    cursor: pointer;
+    /*background: #ffc4b5d1*/
+    padding: 15px;
+    border-radius: 5px;
+}
+.faq-block .question-section .question-content { padding:0 12px; display:inline-block; width:100%;}
+.faq-block .question-section .question-content p { /*letter-spacing:0.35px;*/ font-size:1.1em; margin:0 0 3px; text-align:justify }
+.faq-block .question-section .question-content ul { margin:0 0 10px 0; padding:0; }
+.faq-block .question-section .question-content ul li { list-style:none; position:relative; padding:0 0 0 8px; letter-spacing: normal;}
+.faq-block .question-section .question-content ul li:before { position:absolute; content:'.'; left:0; top:-13px; font-size:24px; }
+
+.faq-block .question-section .helpful-block {
+    display: inline-block;
+    text-transform: initial;
+    margin-left: 10px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.faq-block .question-section .helpful-block ul { margin:0; padding:0;}
+.faq-block .question-section .helpful-block ul li { list-style:none; padding:0 32px 0 0; float:left;font-size:15px; }
+.faq-block .question-section .helpful-block ul li:first-child { padding-right:46px; }
+.faq-block .question-section .helpful-block ul li:last-child { padding-right:0;}
+.faq-block .question-section .helpful-block ul li .line { text-decoration:underline; margin-left:0;}
+.faq-block .question-section .helpful-block ul li span { text-decoration:none; margin-left:4px; }
+.faq-news-section{padding:0;}
+.faq-news-inner { display:inline-block; width:100%; /*border-top:solid 2px #e3e2e2;*/ }
+.faq-section .row-xs-height { border-bottom:solid 0px #e3e2e2; }
+.faq-news-section .newsletter-email-form { margin:60px auto 0;}
+.faq-block .faq-blocktop.faq-blocktop-bg { padding:20px;}
+.faq-block .faq-blocktop-bg .faq-search .form-control { background:#fff;}
+.faq-block .question-block.accordion-question h2 { margin:0 0 25px; text-transform:uppercase; text-align:center;}
+.faq-block .question-block.accordion-question .question-part { padding:14px 0; margin:0; border-bottom:2px solid #eeeded; position:relative;}
+.faq-block .question-block.accordion-question .accordion-section-content {padding-top:6px;}
+.faq-block .question-block.accordion-question h4:after { line-height:22px; height:22px; color:#c45871; position: absolute; right: 0px; bottom: -12px; width:42px; /*background:#fff;*/ text-align:right; cursor:pointer; content:"\f107"; font-family:'FontAwesome'; }
+.faq-block .question-block.accordion-question h4.active:after {content:"\f106"; font-family:'FontAwesome'; width:42px; /*background:#fff;*/ text-align:right;}
+.pick-category { /*max-width:263px;*/ letter-spacing:normal; font-size:1.5em; margin-bottom:10px; display:block; width:100%; text-align:center; text-transform:uppercase; }
+
+.profile-menu.faq-profile-menu 
+{
+    display: inline-block;
+}
+
+.profile-menu.faq-profile-menu ul { padding:18px 0 0;}
+
+/*-- Faq End--*/
+/*-- user profile edit strat */ /* H */
+
+.your-profile-section.border-bottom {border-bottom:solid 2px #e3e2e2;}
+.profile-edit {margin:35px 0 60px 0; float:right; width:100%; max-width:690px; }
+.profile-edit.agent-profile-edit{margin-top:60px;}
+.parsnal-edit {display:block; margin-bottom:40px; padding:0 20px 0 308px; min-height:271px; position:relative; }
+.parsnal-edit.agent .img {border-right:solid 1px #c9c8c8; }
+.parsnal-edit .img {position:absolute; top:0px;bottom:0px; left:0px; width:260px;  }
+.parsnal-edit .img .btn {position:absolute; left:0px; width:100%; bottom:0px; line-height:30px; padding-top:10px; padding-bottom:10px; letter-spacing:normal;}
+.parsnal-edit .form-filde {padding:33px 0 0 0; }
+.profile-edit .form-group { margin-bottom:3px;display:inline-block; width:100%; position:relative; }
+.profile-edit .form-group .form-label {line-height:30px; margin:0px; display:block; font-size:18px; letter-spacing:normal;}
+.profile-edit .form-group .form-control {height:28px; font-size:16px; margin-bottom:9px; display:inline-block; max-width:338px;}
+.profile-edit .form-group textarea.form-control {height:100px; resize:none;line-height:19px;}
+.profile-edit .form-group .change-link {line-height:20px; font-size:18px; letter-spacing:normal; }
+.profile-edit .form-group .change-link a {border-bottom:dotted 1px; text-decoration:none; }
+.details-edit {padding:38px 45px 10px 45px; margin-bottom:40px;  }
+.details-edit h3 {line-height:40px; margin:0px; text-decoration:underline; padding-bottom:12px; letter-spacing:normal; }
+.details-edit .form-group .form-control {background:#fff; }
+.details-edit .form-group .form-label {font-size:15px; letter-spacing:normal;}
+.details-edit .form-filde {padding-bottom:30px;}
+.details-edit .address-finde {position:absolute; top:30px; right:0px; width:33.33%;}
+.details-edit .address-finde .btn {width:100%; line-height:28px; padding-top:0px; padding-bottom:0px; font-size:15px; letter-spacing:normal;}
+.agent-profile-edit .details-edit .address-finde .btn{letter-spacing:2.4px;}
+.profile-edit .btn-block {padding:30px 67px 0; }
+.profile-edit .btn-block .btn {width:100%; line-height:26px; padding-top:10px; padding-bottom:10px; font-size:15px; letter-spacing:normal;}
+
+/* Search result map */
+
+.search-mapbar{padding:10px;}
+.search-map-title{}
+.search-map-title .btn{width:40px;height:40px;line-height:40px; margin-right:10px;font-size:30px;padding:0;}
+.search-map-title span{display:inline-block;vertical-align:middle;letter-spacing:normal;font-size:18px;}
+.search-map-refresh{margin-top:5px;}
+.search-map-refresh ul{margin:0;}
+.search-map-refresh li a{font-size:22px;}
+
+.search-map{position:relative; min-height: 565px;}
+.search-map .map{overflow:hidden;position:relative;}
+.search-map .map>img{width:100%;}
+.map-markers{position:absolute;top:0;left:0;}
+
+.map-news-email .newsletter-email-form { margin:60px auto 10px;}
+.map-search-info{/*position:absolute;*/top:100px;left:100px;max-width:802px;padding:20px 82px 20px 20px;z-index:99 !important;}
+.map-search-info .search-map{overflow:hidden;}
+.map-search-info .member-since{margin-bottom:14px;}
+.map-search-info .saved-properties{background-color:#fff;padding:17px;position:static;}
+.map-search-info .map-box-saved-properties {padding:10px !important;}
+.map-search-info .saved-properties .icon-row{top:auto;bottom:8px;right:35px;}
+.map-search-info .saved-properties .icon-row .icon a{font-size:37px;}
+.map-search-info .saved-properties .icon-row.map-info-close{top:20px;}
+.map-search-info .saved-properties>.row{margin:0 -8px;}
+.map-search-info .saved-properties>.row>[class*="col-"]{padding:0 8px;}
+.map-search-info .saved-properties .img img{}
+.map-search-info .properties-details{padding-left:0;}
+.map-search-style .saved-properties .gallery-caption-bottom.my-listings{width:auto;}
+.map-search-style .saved-properties .gallery-caption-bottom .btn{font-size:15px;letter-spacing:normal;height:50px;padding-top:0;padding-bottom:0;line-height:50px;}
+.map-search-style .saved-properties .gallery-caption-bottom li{float:none;}
+.map-search-info .saved-properties .gallery-caption-bottom.my-listings{position:static;}
+.map-search-style .properties-details h3{letter-spacing:normal;line-height:21px;margin-top:0;}
+.map-search-style .properties-details h4{font-size:18px;line-height:21px;letter-spacing:normal;margin-top:0;}
+.map-search-top-price{position:absolute;left:8px;right:8px;color:#fff;font-size:21px;text-align:center;line-height:25px;padding:11px 10px;z-index:2;}
+
+.properties-details .map-info-prp-area ul{margin:0;}
+.properties-details .map-info-prp-area ul li{padding:11px 7px;width:50%;text-align:center;font-size:13px;text-transform:uppercase;border-bottom:1px solid;}
+.properties-details .map-info-prp-area ul li + li{border-left:1px solid;}
+.properties-details .map-info-prp-area ul li em{font-size:30px;display:inline-block;vertical-align:middle;margin-right: 0;padding-right: 2px;}
+.properties-details .map-info-prp-area ul li span{display:inline-block;vertical-align:middle;letter-spacing: normal;font-size: 12px;}
+
+.map-info-agent-contact{}
+.properties-details .map-info-agent-contact ul{margin:0;}
+.properties-details .map-info-agent-contact ul li{width:50%;float:left;min-height:1px;padding:0;}
+.properties-details .map-info-agent-contact ul li + li{border-left:1px solid;}
+.properties-details .map-info-agent-contact ul li a{padding:11px 10px;text-align:center;font-size:14px;text-transform:uppercase;letter-spacing:3.2px;line-height:19px;display:block;width:100%;}
+.properties-details .map-info-agent-contact ul li a+a{border-top:1px solid;}
+
+.map-info{margin-top:0;}
+.map-search-top-feature{color:#fff;font-size:14px; position:absolute;left:0;top:0;right:0;padding:20px 30px;text-align:center;letter-spacing:2.8px;text-transform:uppercase;z-index:1;}
+.pos-relative{position:relative;}
+.map-info .saved-properties .gallery-caption-bottom.my-listings{width:100%;position:relative;}
+.map-info-col{display:table-cell;vertical-align:top;height:100%;}
+.map-info-map{width:30%;text-align:center;}
+.map-info-content{width:70%;border-left:1px solid;}
+.map-info .properties-details{padding:0;}
+.more-info-logo{margin-bottom:30px;}
+.more-info-logo img{max-width:100%;}
+.email-ni-detail{font-size:16px;letter-spacing:3.6px;}
+.email-ni-detail span{display:block;margin-bottom:10px;}
+.map-info-map-inner{padding:36px 50px;}
+.map-info-price{font-size:32px;letter-spacing:0.75px;margin-bottom:16px;}
+.map-info-content-inner{padding:25px 80px 36px 48px;}
+.map-info .properties-details h4{}
+
+.properties-details .map-info-prop-area{margin-top:80px;}
+.properties-details .map-info-prop-area ul{margin:0;}
+.properties-details .map-info-prop-area ul li{font-size:15px;text-transform:uppercase;padding-right:33px;letter-spacing:1.6px;}
+.properties-details .map-info-prop-area ul li em{font-size:30px;display:inline-block;vertical-align:middle;margin-right:10px;padding:0;}
+.properties-details .map-info-prop-area ul li span{display:inline-block;vertical-align:middle;}
+.map-info .saved-properties .icon-row{top:50%;right:30px;}
+
+.properties-details .map-info-agent-contact ul li.prpo-logo{padding:15px 0;text-align:center;}
+.map-filter-title{color:#fff;font-size:14px;letter-spacing:2.8px;line-height:20px;padding:10px;text-transform:uppercase;text-align:center;}
+.map-filter-body{padding:25px 25px 5px;}
+.map-filter-body .checkbox{margin:0 0 20px;}
+.map-info.map-info-2 .properties-details{background-color:#fff;}
+.map-info-top-bar{}
+.map-info-top-bar .map-info-price{padding:15px 15px 15px 0;margin:0;line-height:25px;}
+.map-info-top-bar img{max-height:55px;}
+.map-info-body-bar{padding:20px 0;position:relative;}
+.properties-details .map-info-body-bar .map-info-prop-area{margin-top:40px;}
+.properties-details .map-info-body-bar ul li{float:none;margin-bottom:10px;padding:0;}
+.map-info-2-email{font-size:15px;letter-spacing:1.6px;line-height:20px;text-transform:uppercase;}
+.properties-details .map-info-2-email ul{margin:0 -14px 0 0;display:inline-block;vertical-align:middle;}
+.properties-details .map-info-2-email ul li{padding:0 14px;float:left;position:relative;line-height:23px;}
+.properties-details .map-info-2-email ul li span{position:absolute;left:-3px;top:7px; width:7px;height:7px;}
+.map-info.map-info-2 .saved-properties .icon-row{top:30px;right:0;}
+
+/* Search result map */
+
+/*-- Agent List Start --*/
+.agent-list .saved-properties .img {text-align:center;}
+.agent-list .saved-properties .img img{ width:140px; max-width:100%;}
+.agent-list .border2px{margin:35px 0;}
+.agent-list-wrapper{margin-top:7px;display:inline-block;vertical-align:middle;overflow:visible;}
+.agent-list-wrapper .properties-details h3{font-size:30px;}
+.agent-list .agent-links{margin-top:28px;}
+.agent-list .agent-links a{font-size:13px; display:block; letter-spacing:3.2px; text-transform:uppercase; border-bottom:1px solid #e6e4e3;padding: 20px 12px; text-align:center;}
+.agent-list .agent-links a:last-child{border:none;}
+.agent-list-wrapper .properties-details{padding-right:50px;}
+.properties-details h5{ font-size:18px; line-height:36px; letter-spacing:0.6px; text-transform:uppercase;margin-bottom:0;}
+.properties-details p{ font-size:18px; line-height:23px; /*height: 115px; max-height: 115px;*/ min-height: 115px;}
+.properties-details .listing li { letter-spacing:normal; text-transform:uppercase;}
+.properties-details p{ font-size:18px; line-height:23px; padding: 1px 65px 13px 0px;}
+.agent-list .properties-details p{min-height:100px;}
+.properties-details .listing {margin:10px 0 0;}
+.properties-details .listing li {line-height:12px; padding:0 25px;}
+.properties-details .listing li span{padding-left:10px;} 
+.properties-details .listing li:first-child{border-right:1px solid; padding-left:0;}
+.saved-properties .view-btn{ position:absolute; right:0; bottom: 0;}
+.saved-properties .view-btn .btn{ letter-spacing:1.5px;padding: 10px 28px; width:100%}
+.saved-properties .icon-row .icon i.icon{float:none;}
+/*.product-toolbar .main-filter> ul> li+li{margin-left:25px;}*/
+.full-block .saved-properties .view-btn{ position:static; float:left;}
+.full-block .saved-properties .icon-row {position:static; width:auto;}
+.full-block .saved-properties .icon-row .icon{ width:auto;margin:0 12px;}
+.full-block .saved-properties .icon-row .icon a{width:40px;height:40px;line-height:37px;font-size:34px;}
+.full-block .properties-details{padding-left:0;}
+.full-block .properties-details .listing{margin-bottom:25px;display:inline-block;width:100%;}
+.full-block .properties-details .listing li{ padding:0 15px;}
+.full-block .properties-details .listing li:first-child{padding-left:0;}
+.partner-agent .heading{ font-size:13px; text-align:center; color:#fff;padding: 20px 10px;letter-spacing:2px;}
+.partner-agent .img{text-align:center; min-height: 175px; padding:32px 15px 14px;}
+.partner-agent .img img{max-width:100%;}
+.partner-agent .agent-links{margin:0; border-top:1px solid;}
+.partner-agent .agent-links a{ width:50%; border:none; float:left;}
+.partner-agent .agent-links a:first-child{ border-right:1px solid;}
+.partner-agent.awards .agent-links a{width:100%; border:none;}
+.home-news-inner.top-news{ margin:0 auto 60px;}
+.see-more a{ font-size:24px; line-height:31px; text-decoration:underline;}
+.search-see-more{padding:30px 0;}
+.your-profile-section .search-results-list .border2px{margin:40px 0;}
+
+/*-- Agent Lis Start --*/
+
+/*-- search-results-list --*/
+.saved-properties .img{position:relative;}
+.agent-list .agent-links a span{ display:block;}
+.search-results-list .agent-list .agent-links a{ font-size:14px;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings{position:static; margin-top:20px; width:100%;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings li{position:static;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings li.price{ color:#fff; letter-spacing:0.75px;font-size:27px; width:auto; padding: 5px 8px;}
+.search-results-list .saved-properties .view-btn{position:static; margin-top:15px;}
+.search-results-list .saved-properties .icon-row{position:static; width:auto; float:left; margin-right: 20px;}
+.search-results-list .properties-details ul {float:left;}
+.search-results-list .properties-details ul li{padding:3px 8px; margin-right:22px;}
+.search-results-list .saved-properties .icon-row>.icon{ height:40px; width:40px; margin:0 0 0 20px;}
+.search-results-list .agent-list .agent-links{margin-top:15px;}
+.properties-details ul li em{ font-size:30px;}
+.search-results-list .agent-list .img {text-align:right;}
+.properties-details p a{ margin-left:5px;}
+.search-results-list .ad-block{margin:0 82px;}
+.saved-properties.full-block .gallery-caption-bottom.my-listings{margin-top:0;}
+.saved-properties .gallery-caption-bottom.my-listings li.member-since{color:#fff;width:auto; padding: 12px 8px; font-size:18px; margin:0; width:72%;}
+.saved-properties.bg-color{ padding:20px;}
+/*.search-results-list .saved-properties.property .gallery-caption-bottom.my-listings{ margin:0;}*/
+.search-results-list .saved-properties .col-md-4{ }
+.property-detail .room-details{ display:table; width:100%;}
+.property-detail .room-details .block{display:table-cell; vertical-align:middle; width:50%;}
+.property-detail .room-details .block:first-child{border-right:1px solid;}
+.property-detail .room-details a{ font-size:18px; text-align:center; display:block; padding:15px;}
+.property-detail .room-details a em{ font-size:30px;}
+.property-detail .room-details span{display:block;}
+.property-detail .icon-row{float:none; text-align:center; padding:30px 0; border-top:1px solid; border-bottom:1px solid;}
+.property-detail .icon-row .icon{float:none; display:inline-block;}
+.property-detail .agent-links a{ text-transform:uppercase;letter-spacing: 3.2px; text-align: center; display:block;}
+.property-detail .agent-links a:first-child{ border-bottom:1px solid;}
+.property-detail .img{padding:35px 30px;}
+.search-results-list .saved-properties .property-detail .icon-row{float:none; }
+.agent-links a:hover{color:#fff; text-decoration:none;}
+.property-detail.prop-agent-link .agent-links a{font-size:14px;height:74px;padding:0 5px;letter-spacing:3.6px;text-decoration:none;}
+.property-detail.prop-agent-link .room-details .block.room-detail-logo{width:260px;}
+.agent-detail-ad-section{padding-bottom:50px;}
+.property-detail.prop-agent-link .agent-links-inner{display:table-cell;vertical-align:middle;width:1%;height:74px;}
+.property-detail.prop-agent-link .agent-links .agent-links-inner div{font-size:16px;letter-spacing:3px;}
+.properties-details.agent-details{padding-left:13px;}
+.properties-details.agent-details h3{font-size:30px;letter-spacing:6px;}
+
+.search-results-list .saved-properties,
+.search-results-list .properties-details{overflow:visible;}
+
+.search-results-list .properties-details.agent-details h4{display: inline-block;font-size: 23px;letter-spacing: 0.7px;line-height: 30px;margin: 16px 0 9px;vertical-align: middle;width: 100%;}
+.search-results-list .properties-details.agent-details .icon-row{position:absolute;width:40px;z-index:100;right:1px;}
+.search-results-list .properties-details.agent-details .icon-row .icon{margin:0;margin-bottom:12px;}
+
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings.agent-listings {position:absolute;}
+.property-detail .room-details .block.border {border-bottom:solid 1px;}
+.property-detail .room-details .agent-links.drakBg a {color:#fff; }
+.property-detail .title {text-align:center; font-size:19px; line-height:36px; }
+.saved-properties.serch-result .properties-details  ul.no-bg li {background:none;}
+.saved-properties.serch-result .properties-details { padding:0 0 0 30px; }
+.saved-properties.serch-result .properties-details p {max-width:690px; }
+.search-results-list .saved-properties .icon-row.width-text {width:100%; padding:17px 0 0 0; display:table; margin-bottom:21px;border-bottom:none;}
+.search-results-list .saved-properties .icon-row.width-text .icon-box {float:left; width:33.33%; margin-bottom:-21px;}
+.search-results-list .saved-properties .icon-row.width-text .icon-box .icon {margin:0px;}
+.search-results-list .saved-properties .icon-row.width-text .icon-box .text {padding:0 15px 16px; line-height:20px; font-size:16px;letter-spacing:0.6px;}
+.saved-properties .search-result-first .gallery-caption-bottom.my-listings.agent-listings ul{width:auto;}
+.saved-properties.serch-result .icon-row {position:absolute; width:42px;top:38px; }
+.saved-properties.serch-result .icon-row .icon {margin:0px 0 12px 0; }
+.saved-properties.serch-result .icon-row .icon .icon{margin:0;}
+.saved-properties.serch-result .properties-details ul.no-bg {width:100%;}
+.saved-properties.serch-result .properties-details .show-desk {float:right; margin:0px; padding-right:0px;}
+.saved-properties.serch-result .properties-details .show-desk a {color:#fff; padding-top:0px; padding-bottom:0px; font-size:13px;letter-spacing:1.5px;min-width:160px;}
+.serch-result .call-btn-link {display:inline-block; padding:30px 0 0 0; width:100%;}
+.serch-result .call-btn-link .left-logo {width:auto; display:inline-block;}
+.serch-result .call-btn-link .right-link {float:right; padding:24px 0 0 0;}
+.serch-result .call-btn-link .right-link ul {padding:0px; margin:0px; }
+.serch-result .call-btn-link .right-link ul li {list-style:none; padding:0 0 0 40px; list-style:none; margin:0px; background:none;}
+.serch-result .call-btn-link .right-link ul li a {line-height:15px; font-size:15px; text-decoration:none; letter-spacing:2.4px;border-bottom:1px solid;}
+.dot-contact{position:relative;padding-left:17px;}
+.dot-contact:before{content:"";height:7px;width:7px;position:absolute;left:0;top:5px;}
+.room-details-faslity {padding:0 80px 0 0; position:relative; display:table; width:100%; }
+.search-results-list .saved-properties .room-details-faslity .icon-row {border:none; position:absolute; top:20px; right:20px; padding:0px; width:40px; }
+.search-results-list .saved-properties .room-details-faslity .icon-row .icon {margin:0px 0 10px 0; }
+.room-details-faslity .icon-slide a {text-decoration:none; padding:0 0 0 83px; position:relative; display:block;}
+.room-details-faslity .icon-slide {border-bottom:solid 1px #dddbda; position:relative; border-right:solid 1px #dddbda;}
+.room-details-faslity .icon-slide .icon {position:absolute; top:0px; left:0px; display: block; font-size: 40px; padding:20px 0;  text-align: center; width:83px; border-right:solid 1px #dddbda; line-height:54px; }
+.room-details-faslity .icon-slide span {padding:25px 23px; line-height:44px; font-size:18px; display:block;text-transform:uppercase;letter-spacing:1.8px;}
+.search-results-list .propertie-title  {position:absolute; top:0px; left:0px; width:100%; z-index:1000; }
+.search-results-list .propertie-title .featured {position:static; margin-bottom:5px}
+.search-results-list .propertie-title .favrit-icon {display:block; text-align:right; }
+.search-results-list .propertie-title .favrit-icon .icon-icon-saveempty {color:#fff; display:inline-block; width:40px; line-height:40px; text-align:center; font-size:28px; margin:5px 10px 0 0;}
+
+.product-toolbar .js-nav-menu{position:relative;z-index:9999;}
+.product-toolbar .js-dropdown-menu.dropdown-sub-menu{position:relative;width:100%;padding:20px 20px 15px;text-align:center;border-bottom:2px solid #fff;margin-bottom:20px;}
+.product-toolbar .prop-main-filter{width:100%;top:57px;padding-top:28px;}
+.product-toolbar .advance-search {padding-left:39px;padding-top:1px;}
+.product-toolbar .advance-search > a > span{letter-spacing:1px;}
+.product-toolbar .prop-filter-search .btn{min-width:224px;letter-spacing:2.6px;padding-top:10px;}
+.product-toolbar .prop-sub-filter .form-group{margin-bottom:27px;}
+.page-dropdown{display:block;}
+
+.saved-properties .property-detail.agent-room .room-details .block{border:none;}
+.saved-properties .property-detail.agent-room .room-details .block .img{width:100%;border:none;text-align:center;padding:20px 0;}
+.saved-properties .property-detail.agent-room .room-details .block img{max-width:100%;width:auto;}
+.saved-properties .property-detail.agent-room .room-details .agent-links{width:100%;float:left;}
+.saved-properties .property-detail.agent-room .room-details .agent-links a{width:50%;float:left;border:none;font-size:14px;}
+.saved-properties .property-detail.agent-room .room-details .agent-links a:first-child{border-right:1px solid #dddcda;}
+.properties-details.agent-details.agent-room .border2px{width:100%;margin:15px 0;}
+.properties-details.agent-details.agent-room h3{font-size:30px;line-height:30px;}
+.properties-details.agent-details.agent-room h4{font-size:24px;line-height:24px;margin-top:10px;}
+.properties-details.agent-details.agent-room .listings-sales{padding-top:11px;padding-bottom:0px;overflow:hidden;width:100%;}
+.properties-details.agent-details.agent-room .listings-sales .row{margin:0px -15px 10px;}
+.properties-details.agent-details.agent-room .listings-sales label{line-height:24px;font-size:16px;text-transform:uppercase;color:#5c5655;width:35%;float:left;letter-spacing:2px;font-weight:normal;}
+.properties-details.agent-details.agent-room .listings-sales span{line-height:24px;font-size:16px;text-transform:uppercase;color:#af1d40;width:65%;float:left;letter-spacing:2px;font-weight:normal;}
+.saved-properties.second-agentdetail .property-detail.agent-room .room-details .block .img { padding:35px 0 40px 0;}
+.saved-properties.second-agentdetail .property-detail.agent-room .room-details .agent-links a { padding:30px 15px;text-decoration:none;}
+.second-agentdetail .properties-details.agent-details.agent-room .border2px { margin: 20px 0; }
+.second-agentdetail .property-detail .icon-row { padding:26px 0 32px;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales.listings-viewbtn {padding-top:35px;}
+.second-agentdetail .properties-details.agent-details.agent-room h4 {line-height: 30px; margin-bottom: 25px;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales label {letter-spacing: 5px; width:27%;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales span {width:73%; letter-spacing: 4px; font-size: 19px;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales.listings-viewbtn {padding-top: 38px;}
+.second-agentdetail.saved-properties .view-btn .btn { padding: 10px 38px; }
+
+.properties-details.agent-details.agent-room .listings-sales .view-btn{float:left;width:auto;margin-right:30px;margin-top:20px;}
+.about-us{background:#f3f1f0;overflow:hidden;padding:40px;margin-top:30px;}
+.about-us h2{font-size:24px;color:#af1d40;margin:0 0 10px;letter-spacing:1px;margin-bottom:20px;text-transform:uppercase;}
+.about-us p{font-size:18px;line-height:24px;margin-bottom:10px;color:#948c8b;}
+.foxtons-harrow{width:100%;overflow:hidden;}
+.foxtons-heade{background:#f3f1f0;overflow:hidden;padding:20px 20px 15px;margin-bottom:10px;}
+.foxtons-heade label{float:left;line-height:30px;font-size:20px;color:#af1d40;margin:0;font-weight:normal;float:left;text-transform:uppercase;letter-spacing:1px;}
+.foxtons-heade span{float:left;line-height:30px;font-size:20px;color:#3c3432;margin:0;font-weight:normal;float:right;}
+.foxtons-harrow .logo-block{width:100%;overflow:hidden;text-align:center;margin-bottom:30px;position:relative;}
+.foxtons-harrow .logo-block img{width:100%;overflow:hidden;}
+.foxtons-harrow .logo-block .pin-map{position:absolute;left:50%;top:50%;margin:-20px 0 0 -20px;color:#b01e40;font-size:50px;line-height:50px;z-index:100;}
+
+.prop-search-list .saved-properties .gallery-caption-bottom.my-listings li.price.price-result{ width:62%;}
+.prop-search-list .properties-details .icons-row { margin:0px 0 0 0; width:100%; display:inline-block; }
+.prop-search-list .properties-details .icons-row>ul >li{padding:0;margin-right:0;}
+.prop-search-list .properties-details .icons-row>ul >li+li{margin-left:20px;}
+.prop-search-list .properties-details .icons-row>ul li a{letter-spacing:1.8px;line-height:38px;padding:3px 14px 4px 7px;}
+.prop-search-list.bg-color .properties-details .icons-row > ul li a{padding-right:15px;padding-left:0;}
+.prop-search-list.bg-color .properties-details .icons-row > ul li em{margin-left:0;}
+.prop-search-list .properties-details .icons-row>ul li em{margin-left:4px;margin-right:17px;padding-right:0;}
+.prop-search-list .properties-details.properties-col { padding:0;}
+.prop-search-list .properties-details.properties-col p { max-width:500px;letter-spacing:0.2px;line-height:21px;}
+.prop-search-list .properties-details.properties-col p span.text-uppercase{font-size:14px;}
+.prop-search-list .properties-details.properties-col p .dot-more{font-size:26px;letter-spacing:2px;}
+.prop-search-list.bg-color.saved-properties .gallery-caption-bottom.my-listings{margin-top:0;}
+.prop-search-list.bg-color .agent-list .agent-links{margin-top:10px;}
+.prop-search-list.bg-color .properties-details .icons-row{margin-top:29px;}
+.prop-search-list.bg-color .properties-details .icons-row .icon-row{margin-top:0;}
+.prop-search-list.bg-color.saved-properties .view-btn{margin-top:10px;}
+.saved-properties .third-block .view-btn .btn {width:100%;padding:14px 2px 10px;}
+.prop-search-list .properties-details .icons-row .icon-row{margin-top:5px;}
+.prop-search-list .properties-details .icon-row .icon{height:42px;width:42px;}
+.prop-search-list .properties-details .icons-row .icon-row .icon a{height:42px;width:42px;font-size:39px;line-height:36px;}
+.prop-search-list .properties-details .icons-row .icon-row .icon a i{height:42px;display:inline-block;vertical-align:top;}
+
+.prop-search-list .properties-details h3{font-size:20px;letter-spacing:4px;line-height:32px;margin:-6px 0 4px 0;font-weight:500}
+.prop-search-list .properties-details h4{font-size:20px;letter-spacing:0.17px;line-height:24px;}
+.prop-search-list .properties-details .member-since{text-transform:uppercase;margin-bottom:6px;}
+.prop-search-list .leftimg-block .img{height:208px;}
+.prop-search-list.saved-properties .gallery-caption-bottom li{float:none;}
+.prop-search-list.saved-properties .gallery-caption-bottom.my-listings li.price{font-size:28px;}
+.prop-search-list .agent-list .agent-links{margin-top:26px;}
+.prop-search-list .agent-links a{height:56px;padding:0 5px;display:table;width:100%;}
+.prop-search-list .agent-links a .agent-links-inner{display:table-cell;vertical-align:middle;width:1%;height:56px;}
+.prop-search-list .agent-links a span{letter-spacing:2.4px;}
+.prop-search-list .properties-details ul{margin:0;}
+.prop-search-list .listings-prise{color:#fff;float:left;font-size:30px;padding:5px 0 0 20px;}
+.prop-search-list .favrit-icon{float:right;}
+.prop-search-list .propertie-title:after,
+.prop-search-list .propertie-title:before{content:"";clear:both;display:table;}
+.search-results-list .agent-list .agent-links a:hover,
+.search-results-list .agent-list .agent-links a:focus{color:#fff;}
+
+.service-big-buster{margin-top:11px;}
+.service-big-buster .featured{text-transform:none;padding:22px 0 16px;line-height:26px;font-size:22px;letter-spacing:1.65px;}
+.service-big-buster .properties-details{padding:0 30px;}
+.service-big-buster .properties-details h3{font-size:24px;letter-spacing:4.8px;line-height:32px;margin-top:-6px;margin-bottom:13px;}
+.service-big-buster .properties-details h4{font-size:20px;letter-spacing:0.15px;line-height:24px;}
+.service-big-buster .properties-details p{letter-spacing:0.45px;}
+.service-big-buster .properties-details p span.text-uppercase{font-size:14px;}
+.service-big-buster .listings-prise{font-size:32px;margin-bottom:10px;}
+.service-big-buster.saved-properties .view-btn{margin-top:50px;}
+.service-big-buster.saved-properties .view-btn .btn{letter-spacing:1.2px;}
+.service-big-buster.saved-properties .gallery-caption-bottom li{float:none;}
+.service-big-buster.saved-properties .gallery-caption-bottom.my-listings li.member-since{width:auto;}
+.service-big-buster.saved-properties .gallery-caption-bottom.my-listings li{width:60px;height:60px;}
+
+.service-big-buster .gallery-caption-bottom li .prop-qty{font-size: 18px;line-height: 18px;letter-spacing:3.6px;display:block;}
+.service-big-buster .gallery-caption-bottom li .prop-icon{font-size:34px;margin-top:0;margin-bottom:-2px;}
+
+.service-big-buster .icon-room-detail a{padding:10px 5px 15px;letter-spacing:1.8px;text-decoration:none;text-transform:uppercase;}
+.service-big-buster .icon-room-detail a em{font-size:42px;}
+.service-big-buster .icon-room-detail a span{margin-top:6px;}
+.service-big-buster.saved-properties .icon-row{padding:36px 0 39px;}
+.service-big-buster.saved-properties .icon-row .icon{width:42px;height:42px;margin:0;}
+.service-big-buster.saved-properties .icon-row .icon+.icon{margin-left:38px;}
+
+.service-big-buster.saved-properties .room-agent-box .img{padding:40px 14px;}
+.service-big-buster .property-detail .agent-links a{font-size:14px;text-decoration:none;}
+.service-big-buster .agent-links a{height:75px;padding:0 5px;display:table;width:100%;}
+.service-big-buster .agent-links a .agent-links-inner{display:table-cell;vertical-align:middle;width:1%;height:75px;}
+
+.service-list-news-email .newsletter-email-form{margin-top:50px;}
+.service-big-buster.saved-properties .img img{}
+
+.search-list-full-block .featured{text-transform:none;padding:22px 0 16px;line-height:26px;font-size:22px;letter-spacing:1.65px;}
+.search-list-full-block .properties-details{padding:0 30px;}
+.search-list-full-block .properties-details h3{font-size:24px;letter-spacing:4.8px;line-height:32px;margin-top:-6px;margin-bottom:11px;}
+.search-list-full-block .properties-details h4{font-size:20px;letter-spacing:0.15px;line-height:24px;}
+.search-list-full-block .properties-details p{letter-spacing:0.45px;}
+.search-list-full-block .properties-details p span.text-uppercase{font-size:14px;}
+.search-list-full-block .properties-details p .dot-more{font-size:26px;letter-spacing:2px;}
+.search-list-full-block .listings-prise{font-size:24px;margin-bottom:13px;}
+.search-list-full-block.saved-properties .view-btn{margin-top:38px;}
+.search-list-full-block.saved-properties .view-btn .btn{letter-spacing:1.2px;}
+
+.search-list-full-block.saved-properties .gallery-caption-bottom.my-listings.agent-listings ul{width:auto;}
+.search-list-full-block.saved-properties .gallery-caption-bottom li{float:none;}
+.search-list-full-block.saved-properties .gallery-caption-bottom.my-listings li.member-since{width:auto;}
+.search-list-full-block.saved-properties .gallery-caption-bottom.my-listings li{width:60px;height:60px;}
+.search-list-full-block .gallery-caption-bottom li .prop-qty{font-size: 18px;line-height: 18px;letter-spacing:3.6px;display:block;}
+.search-list-full-block .gallery-caption-bottom li .prop-icon{font-size:34px;margin-top:0;margin-bottom:-2px;}
+
+.search-list-full-block .icon-room-detail a{padding:8px 5px 14px;letter-spacing:1.8px;text-decoration:none;text-transform:uppercase;}
+.search-list-full-block .icon-room-detail a em{font-size:42px;}
+.search-list-full-block .icon-room-detail a span{margin-top:7px;}
+.search-list-full-block.saved-properties .icon-row{padding:36px 0 39px;}
+.search-list-full-block.saved-properties .icon-row .icon{width:42px;height:42px;margin:0;}
+.search-list-full-block.saved-properties .icon-row .icon+.icon{margin-left:38px;}
+.search-list-full-block.saved-properties .room-agent-box .img{padding:40px 14px;}
+.search-list-full-block .property-detail .agent-links a{font-size:14px;text-decoration:none;letter-spacing:2.5px;}
+.search-list-full-block .agent-links a{height:58px;padding:0 5px;display:table;width:100%;}
+.search-list-full-block .agent-links a .agent-links-inner{display:table-cell;vertical-align:middle;width:1%;height:58px;}
+
+.search-result-second .properties-details h3{font-size:20px;letter-spacing:4px;line-height:32px;margin:-6px 0 4px 0;}
+.search-result-second .properties-details h4{font-size:20px;letter-spacing:0.17px;line-height:24px;}
+.search-result-second .properties-details .member-since{margin-bottom:16px;font-size:18px;letter-spacing:0.45px;margin-top:-6px;}
+.search-result-second .properties-details p{letter-spacing:0.45px;}
+.search-result-second .properties-details p span.text-uppercase{font-size:14px;}
+.search-result-second .listings-prise{font-size:20px;margin-bottom:3px;}
+.serch-result.saved-properties .view-btn{margin-top:50px;}
+.serch-result.saved-properties .view-btn .btn{letter-spacing:1.2px;}
+.serch-result.saved-properties .gallery-caption-bottom li{float:none;}
+.serch-result.saved-properties .gallery-caption-bottom.my-listings li.member-since{width:auto;}
+.serch-result.saved-properties .gallery-caption-bottom.my-listings li{width:60px;height:60px;}
+
+.serch-result .properties-details ul.no-bg li{padding:0;margin:0;}
+.serch-result .properties-details ul.no-bg li+li{margin-left:35px;}
+.serch-result .properties-details ul.no-bg li a i{font-size:38px;padding-right:19px;}
+.serch-result .properties-details ul.no-bg li a span{letter-spacing:1.6px;font-size:14px;}
+.serch-result .properties-details p .dot-more{font-size:26px;letter-spacing:2px;}
+
+.serch-result .properties-details .icons-row>ul li em{margin-left:4px;margin-right:17px;padding-right:0;}
+.serch-result .properties-details.properties-col { padding:0;}
+.serch-result .properties-details.properties-col p { max-width:500px;letter-spacing:0.2px;line-height:21px;}
+.serch-result .properties-details.properties-col p span.text-uppercase{font-size:14px;}
+
+.serch-result .search-result-first .gallery-caption-bottom li .prop-qty{font-size: 18px;line-height: 18px;letter-spacing:3.6px;display:block;}
+.serch-result .search-result-first .gallery-caption-bottom li .prop-icon{font-size:34px;margin-top:0;margin-bottom:-2px;}
+.saved-properties.serch-result .search-result-first  .gallery-caption-bottom .icon{font-size:inherit;margin:0;}
+
+.your-profile-section .profile-menu ul li{font-size: 12px;}
+.your-profile-section .profile-menu ul li a{letter-spacing: 1.5px;}
+.your-profile-section .profile-menu.agent-profile-menu ul li a{letter-spacing: 3.2px;font-size:14px;}
+.your-profile-section .profile-details-block .prop-layout a{color:#fff;}
+.your-profile-section .user-statistics .prop-layout a{color:#fff;}
+.your-profile-section .profile-menu.faq-profile-menu ul li {font-size: 1.2em;}
+.your-profile-section .profile-menu.faq-profile-menu ul li a { letter-spacing: normal; border-radius: 20px;}
+
+.search-list-3-full{}
+.search-list-3-full .featured{text-transform:none;padding:22px 0 16px;line-height:26px;font-size:22px;letter-spacing:1.65px;}
+.search-list-3-full .properties-details{padding:0 30px;}
+.search-list-3-full .properties-details h3{font-size:24px;letter-spacing:4.8px;line-height:32px;margin-top:-6px;margin-bottom:11px;}
+.search-list-3-full .properties-details h4{font-size:20px;letter-spacing:0.15px;line-height:24px;}
+.search-list-3-full .properties-details p{letter-spacing:0.45px;}
+.search-list-3-full .properties-details p span.text-uppercase{font-size:14px;}
+.search-list-3-full .properties-details p .dot-more{font-size:26px;letter-spacing:2px;}
+.search-list-3-full .listings-prise{font-size:24px;margin-bottom:13px;}
+.search-list-3-full.saved-properties .view-btn{margin-top:38px;}
+.search-list-3-full.saved-properties .view-btn .btn{letter-spacing:1.2px;}
+
+.search-list-3-full.saved-properties .gallery-caption-bottom.my-listings.agent-listings ul{width:auto;}
+.search-list-3-full.saved-properties .gallery-caption-bottom li{float:none;}
+.search-list-3-full.saved-properties .gallery-caption-bottom.my-listings li.member-since{width:auto;}
+.search-list-3-full.saved-properties .gallery-caption-bottom.my-listings li{width:60px;height:60px;}
+.search-list-3-full .gallery-caption-bottom li .prop-qty{font-size: 18px;line-height: 18px;letter-spacing:3.6px;display:block;}
+.search-list-3-full .gallery-caption-bottom li .prop-icon{font-size:34px;margin-top:0;margin-bottom:-2px;}
+.search-list-3-full .property-detail .agent-links a{font-size:14px;text-decoration:none;letter-spacing:2.5px;}
+.search-list-3-full .agent-links a{height:70px;padding:0 5px;display:table;width:100%;}
+.search-list-3-full .agent-links a .agent-links-inner{display:table-cell;vertical-align:middle;width:1%;height:70px;}
+
+.agent-list-main-block{}
+.agent-list-main-block .featured{text-transform:none;padding:22px 0 16px;line-height:26px;font-size:22px;letter-spacing:1.65px;position:relative;}
+.agent-list-main-block .properties-details{padding:0 30px;}
+.agent-list-main-block .properties-details h3{font-size:24px;letter-spacing:4.8px;line-height:32px;margin-top:-6px;margin-bottom:2px;}
+.agent-list-main-block .properties-details h4{font-size:20px;letter-spacing:0.15px;line-height:24px;}
+.agent-list-main-block .properties-details h5{margin-top:7px;font-size:19px;letter-spacing:1.6px;}
+.agent-list-main-block .properties-details p{letter-spacing:0.45px;margin-bottom:8px;}
+.agent-list-main-block .properties-details p span.text-uppercase{font-size:14px;}
+.agent-list-main-block .properties-details p .dot-more{font-size:26px;letter-spacing:2px;}
+.agent-list-main-block .listings-prise{font-size:24px;margin-bottom:13px;}
+.agent-list-main-block .view-btn{margin:0 22px 0 30px;}
+.agent-list-main-block .view-btn .btn{letter-spacing:1.2px;padding:13px 28px 9px;}
+.agent-list-main-block .properties-details .listing li{font-size: 14px;letter-spacing: 3.2px;padding: 0 23px;}
+
+.agent-list-right .heading{font-size:14px;text-transform:uppercase;letter-spacing:3.6px;}
+.partner-agent-left.partner-agent .img{min-height:168px;}
+
+
+.agent-advertising.saved-properties{padding: 30px 30px 20px;}
+/* proparty details description new 26-10 start*/
+.banner-sliderNew {margin-bottom:39px; position:relative; }
+.banner-sliderNew .col-sm-6 {position:static; }
+.banner-sliderNew .slider-navMain { position:absolute; bottom:0px; right:0px; width:50%; padding-right:62px;}
+.banner-sliderNew .banner-thumb-slider {margin:0px; max-width:100%; padding:0 44px; }
+.banner-sliderNew .banner-thumb-slider .banner-nav-thumb {padding:2px 4px; }
+.banner-sliderNew .banner-thumb-slider .slick-prev {left:0px; background:none; width:44px; line-height:44px; height:44px; color:#b01e42; font-size:60px; text-align:left;}
+.banner-sliderNew .banner-thumb-slider .slick-prev:focus {background:none;}
+.banner-sliderNew .banner-thumb-slider .slick-prev em {margin-left: -17px; top:-7px; position:relative; }
+.banner-sliderNew .banner-thumb-slider .slick-next  {right:0px; background:none;width:44px; line-height:44px; height:44px; color:#b01e42; font-size:60px; text-align:right;}
+.banner-sliderNew .banner-thumb-slider .slick-next:focus {background:none;}
+.banner-sliderNew .banner-thumb-slider .slick-next em { top:-7px; position:relative; }
+.banner-sliderNew .prop-details-info {padding-top:35px; padding-bottom:103px; padding-right:62px;}
+.banner-sliderNew .share-view {padding-bottom:36px; }
+.banner-sliderNew .prop-details-info .share-icon {float:right; }
+/* proparty details description new 26-10 end */
+
+.m_t_md_35{
+	margin-top: 35px;
+}
+.m_t_md_15{
+	margin-top: 15px;
+}
+.m_t_md_30{
+	margin-top: 30px;
+}
+
+.m_t_md_10{
+	margin-top: 10px;
+}
+
+
+/* Responsive Style Start 
+-------------------------------------------------- */
+@media (min-width: 768px) {
+#nav{text-align:center;}
+.navbar-nav{float:none;display:inline-block;vertical-align:middle;}
+.menu-open .header-menu-button,
+.inner-header .header-menu-button{padding-top:24px;padding-bottom:22px;}
+.menu-open .header-logo,
+.inner-header .header-logo{padding-top:10px;padding-bottom:16px;}
+
+.direct-filter .prop-main-filter,
+.product-toolbar .dropdown-sub-menu{display:block !important;}
+
+.feature-title-col{float:left;width:50%;}
+.prop-gallery-featured .prop-name-left{width:60%;float:left;}
+.prop-gallery-featured .prop-name-right{float:left;width:40%;}
+.prop-gallery-featured .prop-name-right{text-align:right;}
+.gallery-caption-bottom ul li.prop-price{color:#fff;font-size:20px;line-height:28px;letter-spacing:0.7px;text-align:right;padding-right:22px;padding-bottom:7px;}
+.footer-quick-links.footer-menu ul li {float:left;}
+.footer-quick-links.footer-menu ul li+li{margin-left:42px;}
+.blank-space{width:80px;}
+
+.prop-gallery-section-2 .feature-title{padding:0;}
+.prop-gallery-section-2 .feature-title .prop-tag{padding-right:0;padding-left:35px;text-align:left;padding-top:22px;padding-bottom:21px;}
+.prop-gallery-section-2 .feature-title .prop-logo{text-align:right;}
+.prop-gallery-section-2 .prop-gallery-featured .prop-price{font-size:20px;letter-spacing:0.5px;line-height:20px;padding:3px 0 5px;}
+.prop-gallery-section-2 .prop-gallery-featured .prop-name{max-width:100%;}
+.prop-gallery-section-2 .prop-gallery-featured .prop-name-area{font-size:17px;letter-spacing:0.425px;line-height:25px;}
+.prop-gallery-section-2 .prop-feature-bhk{width:109px;}
+.prop-gallery-section-2 .gallery-caption-bottom ul li.prop-price{font-size:20px;}
+.prop-gallery-thumbnail.ad-block{padding:35px;}
+
+.profile-details-block .col-sm-4{width:38%;}
+.profile-details-block .col-sm-8{width:62%;}
+.prop-details-tabs .tab-pane > .row > [class*="col-"] {border-right:solid 1px;}
+.prop-details-tabs .tab-pane > .row > [class*="col-"]:last-child {border:none;}
+
+.modal-form-step .modal-dialog{width:767px;}
+.last-prop-slide.prop-slide-block-center h4{font-size:45px;}
+.contact-section .contact_req em{display:block;font-size:23px;margin-bottom:17px;}
+
+.header-top .container{position: relative;}
+.header-login-form{right: 15px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.footer-menu h3{font-size: 15px;}
+.agent-advertising.saved-properties ul.content-button li a{padding: 0 30px;}
+.service-big-buster .property-detail .agent-links a{line-height:110px;}
+}
+@media (min-width: 992px) {
+.navbar-nav > li > a{/*padding:27px 19px 23px;*/}
+.navbar-default .navbar-nav > .active > a:after{left:22px;right:22px;}
+.message-page .sponsers{float: right;}
+.profile-block .col-md-8{width:62%;}
+.profile-block .col-md-4{width:38%;}
+.profile-details-block .col-md-4{width:38%;}
+.profile-details-block .col-md-8{width:62%;}
+.property-detail.prop-agent-link{margin-right:20px;}
+
+.property-detail.prop-agent-link .room-details .block{width:auto;}
+.search-results-list .full-block .properties-details.agent-details{padding-right:100px;}
+.search-results-list .full-block.second-agentdetail .properties-details.agent-details { padding-right:0;}
+
+.search-result-first{width:27.5%;}
+.search-result-second{width:72.5%;}
+
+.agent-list-middle{width:45.5%;}
+.agent-list-right{width:21.1%;}
+}
+
+@media (min-width: 1025px) {
+.search-results-list .properties-details.agent-details{padding-right:0px;}	
+.home_share .fbtn.share.whatsapp, .share-button.sharer .social .fbtn.share.whatsapp{
+	display: none;
+}
+}
+@media (min-width: 1200px) {
+.modal-slider-steps .modal-lg{width:1180px;}
+.leftimg-block { width:29.5%;}
+.second-block { width:54.5%;}
+.third-block {width: 15.24%; padding-left: 5px; padding-right: 4px; }
+.prop-gallery-featured .prop-name-detail{padding-left:60px;}
+.prop-gallery-featured .prop-price{padding-left:60px;}
+.prop-gallery-section-2 .feature-title .prop-tag{padding-left:60px;}
+a.email-agent{line-height:40px;}
+.direct-filter .main-filter >ul>li+li{margin-left: 9px;}
+}
+@media (min-width: 1320px) {
+/*.container{width:1310px;}*/
+}
+@media (max-width: 1319px) {
+.main-filter > ul > li > .form-group > .form-control{width:175px;}
+.main-filter > ul > li + li{margin-left:25px;}
+.direct-filter .advance-search > a > span{margin-right:20px;}
+.direct-search-button .btn{margin-left:30px;}
+}
+@media (max-width: 1199px) {
+.navbar-nav > li > a{font-size:1em;letter-spacing: 1px;}
+.main-filter > ul > li{width:50%;padding:0 10px;text-align:left;}
+.main-filter > ul > li + li{margin:0;}
+.direct-filter .main-filter > ul > li{width:auto;}
+.direct-filter .prop-main-filter{}
+.direct-filter .advance-search > a > span{margin-right:0;}
+.direct-search-button .btn{margin-left:0;}
+.direct-filter .main-filter > ul > li > .form-group > .form-control{width:144px;}
+.nav-tabs > li > a {font-size:1em; }
+.registration-section .form-group.postcode .btn{letter-spacing:0;}
+.navbar-nav .advance-search{padding-left:10px;}
+.product-toolbar .advance-search {padding-left:10px;}
+.saved-properties .room-details .img img{width:auto;}
+.direct-filter-2 .main-filter > ul > li + li{margin-left:22px;}
+.direct-filter-2 .direct-search-button .btn{margin-left:0;}
+
+/* Modal Start
+-------------------------------------------------- */
+
+.modal-title h2{font-size:48px;line-height:52px;}
+
+/* Modal End
+-------------------------------------------------- */
+.search-results-list .saved-properties .icon-row{ width:100%; margin-top:0;}
+.search-results-list .saved-properties .icon-row .icon{margin:0 20px 0 0;padding:0;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings li.price{ font-size:16px; padding:8px;}
+
+.properties-details .map-info-body-bar .map-info-prop-area ul li{font-size:14px;}
+.properties-details .map-info-body-bar .map-info-2-email ul li{font-size:13px;}
+.map-filter-body{padding:25px 10px 5px;}
+.search-results-list .saved-properties .icon-row.width-text {margin-top:0px;}
+.room-details-faslity .icon-slide span {font-size:14px;}
+.property-detail.prop-agent-link .room-details .block.room-detail-logo{width:160px;text-align:center;}
+.property-detail .img{padding:35px 10px;}
+.prop-search-list .leftimg-block .img{height:auto;}
+.service-big-buster .featured{font-size:18px;padding:15px 0;}
+.service-big-buster .icon-room-detail a{font-size:16px;}
+.service-big-buster.saved-properties .icon-row .icon{margin-right:0;}
+.property-detail .agent-links a {letter-spacing: 1px;}
+.search-list-full-block .featured{font-size:18px;padding:15px 0;}
+.search-list-full-block .property-detail .room-details a{font-size:14px;}
+
+.search-list-3-full .featured{font-size:18px;padding:15px 0;}
+.search-list-3-full .property-detail .room-details a{font-size:14px;}
+
+.agent-advertising.saved-properties ul.content-button li{width:auto;}
+.profile-block ul.nav-tabs li a{font-size:11px;}
+.mark-move .bootstrap-select.btn-group{margin-right:20px;}
+
+.prop-details-tabs ul.left-tab li .hover-data {top: -100px;}
+/* proparty details description new 26-10 start */
+.banner-sliderNew {overflow:hidden;}
+.banner-sliderNew .slider-navMain {padding-right:42px;}
+.banner-sliderNew .prop-details-info {padding-right:42px; }
+/* proparty details description new 26-10 end */
+
+}
+@media (max-width: 991px) {
+.search-results-list .properties-details.agent-details .icon-row{position:relative;left:0;width:100%;margin:0 0 10px;}	
+.search-results-list .properties-details.agent-details .icon-row .icon{margin-right:10px;padding-right:0;}
+.navbar-brand{padding:0 10px;/*font-size:26px;*/line-height:32px;}
+.navbar-nav > li > a{font-size:1em;letter-spacing: 1px;}
+.newsletter-email-form .btn{letter-spacing:2.8px;font-size:14px;}
+.prop-gallery-featured .prop-name-detail{padding-left:30px;}
+
+.prop-gallery-featured .prop-price{padding-left:30px;font-size:30px;letter-spacing:0.9px;}
+.feature-title .prop-tag{padding-right:20px;letter-spacing:1.5px;font-size:20px;padding-top:12px;}
+.prop-gallery-featured .prop-name{font-size:16px;line-height:20px;letter-spacing:3.2px;}
+.view-prop .btn{font-size:18px;letter-spacing:1.8px;}
+
+.footer-quick-links.footer-menu{margin-top:30px;text-align:center;}
+.content-text-block{padding:20px 30px;}
+.content-text-block h2{margin-bottom:15px;font-size:30px;letter-spacing:6px;line-height: 46px;}
+.content-text-block p{font-size:22px;line-height:38px;}
+
+.banner-main-thumb{max-height:406px;}
+.banner-thumb-slider .slick-prev{left:-50px;}
+.banner-thumb-slider .slick-next{right:-50px;}
+.slick-prev, .slick-next{width:40px;height:40px;line-height:46px;}
+
+.bottom-ad-section .ad-block{margin:0 40px;}
+.go-to-map {display: inline-block;margin-bottom: 10px;}
+
+.prop-details-tabs ul.left-tab li .hover-data {top: -61px;}
+.slick-prev, .slick-next{line-height:25px;}
+.contact-section .form-group label { letter-spacing: normal;}
+.registration-section .bootstrap-select .filter-option {letter-spacing: 2px;}
+.agent-list-main-block .agent-list-middle {display: inline-block;}
+
+/* Modal Start
+-------------------------------------------------- */
+
+.landing-modal .modal-body{padding:50px 60px;}
+.landing-modal{font-size:24px;line-height:30px;}
+.modal-text{margin-top:10px;}
+.modal-title h2{font-size:28px;line-height:38px;margin-bottom:25px;}
+.price-counter span {font-size: 40px;height: 60px;line-height: 60px;width: 40px;}
+.landing-modal .modal-footer .btn {font-size: 16px;letter-spacing: 3px;line-height: 26px;padding: 28px 15px 19px;}
+.landing-modal .close {font-size: 50px;height: 50px;line-height: 68px;width: 50px;}
+
+/* Modal End
+-------------------------------------------------- */
+
+.prop-details-tabs {overflow:hidden;}
+.prop-details-tabs .nav-tabs {margin-right:-1px; position:relative;}
+.prop-details-tabs .nav-tabs:before {content:""; position:absolute; bottom:0px; left:0px; width:100%; height:1px; background:#fff; z-index:99;}
+.nav-tabs > li > a {border-bottom:solid 1px;}
+.prop-details-tabs .map-view .left-tab {position:static; width:100%; max-width:100%; border:none;}
+.prop-details-tabs .map-view .left-tab li {width:50%; border:none; border-right:solid 1px #c6c4c5;float:left;}
+.prop-details-tabs .map-view .left-tab li:last-child {border:none; }
+.prop-details-tabs .transport-link .transport-slide {padding-left:0px;}
+.prop-details-tabs .transport-link .transport-slide .icon {position:static; }
+
+.toolbar-result{font-size:15px;}
+.message-page .sponsers{padding:50px 0;}
+
+.saved-properties ul.content-button.listings-button{width:100%;}	
+.properties-details h3{margin-top:20px}
+.properties-details{padding-left:0;}	
+.saved-properties .icon-row{position:relative;float:left;}
+.robsons-logo{position:absolute;left:0;top:0;}
+.saved-properties .gallery-caption-bottom li.view-prop{width:83%;}
+
+.saved-properties .icon-row{width:50%;margin-top:15px;}
+.saved-properties .icon-row .icon{width:33.333%;margin:0;padding-right:10px;}
+.saved-properties .icon-row .icon a{display:block;line-height:48px;height:48px;}
+.saved-properties .icon-row .icon a.icon-icon-saveempty{height:48px;}
+.saved-properties ul.content-button{width:50%;float:left;margin-left:0;margin-right:-5px;}
+.saved-properties ul.content-button li{width:50%;line-height:48px;height:48px;padding-left:10px;padding-right:0;}
+.saved-properties ul.content-button li a{line-height:48px;height:48px;}
+.saved-properties ul.content-button li:first-child{padding-left:0;}
+.properties-details ul li.view-details{padding:0;float:right;}
+.properties-details ul li.view-details a{background:#b01e42;color:#fff;display:block;padding:0 20px;}
+.upgrade-your-plan .upgrade-row{padding:0px 25px 0;}
+.user-statistics{padding:25px;}
+.your-profile-section h2{font-size:52px;}
+.profile-block .profile-details-block .col-sm-height{float:left;}
+.profile-block .profile-details-block .user-img{width:50%;float:left;}
+.user-img-block{overflow:hidden;}
+.user-img-block .user-name{padding:30px 30px 30px ;}
+.your-profile-section .prop-layout{top:inherit;bottom:0;}
+.member-since{margin-top:0;}
+/*vishal tody*/
+.profile-phone-menu{width:100%;padding:8px;text-transform:uppercase;text-align:left;padding-left:15px;margin:20px 0 0px;display:inline-block;background:url(../images/select-arrow.svg) no-repeat 95% center;cursor:pointer;}
+/**/
+.user-img-block .user-name label{width:100%;display:inline-block;}
+.user-details{padding-left:20px;}
+.user-img-block .border2px{border:none;}
+.agent-advertising{padding:25px;}
+.agent-advertising.saved-properties ul.content-button{width:100%;margin:10px 0;}
+
+/* Search map */
+.map-search-info{padding:0 20px 20px;}
+.map-search-top-price-mob{color:#fff;padding:20px 0;font-size:30px;}
+.map-search-info .saved-properties{padding:0;position:relative;}
+.map-search-info .properties-details{padding:15px;}
+.properties-details-show{margin-bottom:20px;}
+.map-search-info .saved-properties .properties-details-show .icon-row{position:static;margin:0;width:auto;}
+.map-search-info .saved-properties .properties-details-show .icon-row .icon{width:48px;padding:0;}
+.map-search-info .saved-properties .properties-details-show .icon-row .icon + .icon{margin-left:10px;}
+/*.search-map{min-height:990px;}*/
+.map-search-style .saved-properties .gallery-caption-bottom.my-listings ul{width:auto;}
+.map-search-info .saved-properties>.icon-row{width:42px;position:absolute;top:10px;bottom:auto;right:0;}
+.map-search-info .saved-properties .icon-row .icon{width:100%;padding:0;margin-bottom:10px;}
+.map-search-info .saved-properties{overflow:visible;}
+.map-search-info .saved-properties .icon-row.map-info-close{top:-60px;margin:0;right:0;}
+.map-info-prp-area-mob ul li em{font-size:40px;}
+.properties-details .map-info-prp-area-mob ul li a{color:#fff;height:auto;line-height:40px;}
+.properties-details .map-info-prp-area-mob ul li{padding-right:15px;}
+.map-info-prp-area-mob ul li em{font-size:30px;}
+
+.map-info .gallery-caption-bottom{display:none;}
+.map-info-map-inner{padding:35px 20px;}
+.map-info-content-inner{padding:35px 80px 35px 20px;}
+
+.map-info-content-inner >.icon-row{width:42px;position:absolute;}
+.map-info-content-inner> .icon-row> .icon{width:100%;padding:0;margin-bottom:10px;}
+
+/*agentlist*/
+.full-block .saved-properties{margin:10px 0 20px;}
+.full-block .saved-properties .view-btn{margin-top:15px;}
+.search-results-list .ad-block{margin:0 40px;}
+
+.details-edit .address-finde {position:static; text-align:center; width:100%; max-width:338px; padding-bottom:10px; }
+.details-edit .address-finde .btn {width:auto; padding-left:25px; padding-right:25px; }
+.parsnal-edit .img {width:237px; }
+.parsnal-edit {padding-left:250px; min-height:247px;  }
+.parsnal-edit .form-filde {padding-top:15px;}
+
+.map-filter{margin-bottom:20px;}
+
+.map-info-2 .saved-properties .map-info-body-bar .icon-row{width:42px;position:absolute;top:10px;bottom:auto;right:0;}
+.map-info-2 .saved-properties .map-info-body-bar .icon-row .icon{width:100%;padding:0;margin-bottom:10px;}
+
+.search-results-list .saved-properties .icon-row.width-text .icon-box .icon {padding:0px; }
+.property-detail .title {margin-top:20px;}
+.search-results-list .saved-properties .room-details-faslity .icon-row .icon {padding:0px; }
+
+.prop-search-list.saved-properties .gallery-caption-bottom.my-listings{position:absolute;padding:0 15px;}
+.prop-search-list .gallery-caption-bottom ul{width:auto;}
+.prop-search-list .properties-details.properties-col{padding:20px 0 0 0;}
+.prop-search-list .properties-details h3{margin:0 0 10px;}
+.prop-search-list .agent-list{padding-top:20px;}
+
+.service-big-buster .properties-details{padding:20px 0;}
+.service-big-buster .properties-details h3{margin-top:0;}
+
+.search-list-full-block .properties-details{padding:20px 0;}
+.search-list-full-block .properties-details h3{margin-top:0;}
+
+.saved-properties.serch-result .properties-details{padding:20px 0 0;}
+.saved-properties.serch-result .icon-row{position:static;margin-top:20px;}
+.saved-properties.serch-result .icon-row .icon .icon{width:100%;}
+
+.user-img-block .user-name a i{margin-left:2px;}
+.search-result-first .listings-prise{color: #fff;float: left;font-size: 30px;padding: 5px 0 0 20px;margin:0 !important;}
+.search-result-first .favrit-icon{float:right;}
+
+.search-list-3-full .properties-details{padding:20px 0;}
+.search-list-3-full .properties-details h3{margin-top:0;}
+
+.error-info{margin-top:50px;}
+
+.agent-list-wrapper.saved-properties .icon-row .icon{width:42px;padding:0;}
+.agent-list-wrapper.saved-properties .icon-row .icon+.icon{margin-left:20px;}
+.map-search-info { left:57px; }
+
+/* proparty details description new 26-10 start */
+.banner-sliderNew .slider-navMain {position:relative; width:100%; padding-top:5px; padding-right:0px;}
+.banner-sliderNew {padding:0 15px; }
+.banner-sliderNew .prop-details-info {padding-right:0px; }
+/* proparty details description new 26-10 end */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.direct-filter .main-filter > ul > li.advance-search{height:69px;}
+}
+
+@media (max-width: 767px) {
+.saved-properties .icon-row .icon{padding-right:0;}
+.profile-block.agent-problock .saved-properties .icon-row .icon {padding-right: 10px;}	
+.search-results-list .saved-properties .view-btn{margin-bottom:15px;}
+.saved-properties .icon-row .icon a i{width: 100%;padding:0;}	
+h2,.h2{font-size:30px;letter-spacing:4.2px;line-height:40px;}
+.header-menu-button{padding:14px 5px;margin-top:0px}
+.header-login em,
+.header-signup em{margin:0;}
+.header-contact > ul > li > a{padding:0 4px;}
+.navbar-brand{/*font-size:18px;*/line-height:20px;padding:0;}
+.header-logo{padding:15px 0;}
+
+.navbar-nav > li{position:relative;}
+.navbar-nav > li > a{text-align:center;}
+.navbar-nav .sub-menu{padding-left:30px;padding-right:30px;}
+.main-filter > ul > li > .form-group > label{width:85px;margin:0;}
+.main-filter .range-slider{width:175px;}
+.main-filter > ul > li,
+.direct-filter .main-filter > ul > li{width:100%;padding:0;}
+.main-filter > ul > li.advance-search{margin-bottom:45px;}
+.direct-filter .main-filter > ul > li.advance-search{/*margin-bottom:25px;*/ margin-bottom:0;}
+.direct-filter .main-filter > ul > li > .form-group{margin-bottom:25px;}
+.direct-search-button .btn{margin-left:0;}
+.sub-filter .form-group label{margin-bottom:8px;}
+.navbar-default .navbar-nav > .active > a:after{display:none;}
+.direct-filter-2 .main-filter > ul > li + li{margin-left:0;}
+.direct-filter-2 .direct-search-button .btn{margin-left:95px;}
+.dropdown-sub-menu{position:relative;}
+.navbar{/*background-color:#3d3533;*/}
+#nav{background-color:transparent !important;}
+.navbar-collapse{position:absolute;left:0;right:0;top:100%;}
+#banner{padding-top:57px;}
+.banner-search{bottom:50px;padding:0 30px;}
+.banner-text{padding:40px 0 0 30px;}
+.banner-text h1{font-size:30px;line-height:39px;letter-spacing:2.25px;}
+.banner-search .btn-group .btn{display:block;width:100%;font-size:15px;line-height:20px;letter-spacing:1.7px;padding:17px 10px 20px;margin: 0;}
+.banner-search-block .btn-group-justified{display:block;}
+.banner-search-block .form-control{font-size:14px;height:55px;padding:2px 22px 10px;}
+.banner-search-block .btn{height:55px;width:56px;font-size:56px;line-height:46px;}
+.header-login-form{width:290px;}
+.home-news-section{padding:18px 0;}
+.home-news-inner{max-width:600px;}
+.home-news-block h2{margin-bottom:40px;}
+.direct-filter{margin-bottom:20px;}
+
+.feature-title{display:table;width:100%;padding:0;}
+.feature-title .prop-tag{text-align:left;padding:10px;float:none;font-size:14px;display:table-cell !important;vertical-align:middle;}
+.feature-title .prop-logo{float:none;max-width:80px;padding-right:0;display:table-cell !important;vertical-align:middle;text-align:right;}
+.feature-title .prop-logo img{max-width:100%;}
+.prop-gallery-featured .prop-name{max-width:100%;}
+.prop-gallery-featured.prop-gallery-thumbnail{height:750px;}
+.prop-gallery-featured .prop-name-area{font-size:14px;letter-spacing:0.28px;line-height:16px;}
+.prop-gallery-thumbnail{height:375px;}
+.gallery-caption-bottom ul li.prop-price{text-align:left;color:#fff;}
+.gallery-caption-bottom ul li.prop-wishlist{text-align:right;padding:0 10px;}
+.prop-gallery-featured .gallery-caption-bottom ul li.prop-wishlist{width:60px;text-align:center;}
+.gallery-caption-bottom ul li.prop-wishlist a{color:#fff;font-size:30px;padding-top:12px;}
+.prop-name-detail .prop-price{font-size:20px;line-height:25px;letter-spacing:0.5px;}
+.content-text-block{padding:40px 25px !important;margin-left:0 !important;margin-right:0 !important;}
+.content-text-section .container{padding:0;}
+.ad-block{border-width:7px;margin:0;}
+.bottom-ad-section{padding:30px 0 20px;}
+.banner-nav-thumb{padding:4px 2px;}
+.banner-thumb-slider{padding:0 2px;margin-top:0;}
+.banner-main-thumb{max-height:none;}
+.banner-slider-content{top:20px;}
+.banner-down-arrow a {font-size: 24px;height: 40px;line-height: 33px;width: 50px;}
+.footer-top{padding:30px 0 15px;}
+.footer-bottom{padding:30px 0;}
+.footer-menu h3{font-size:14px;letter-spacing:2.8px;}
+.footer-menu ul li a{font-size:14px;}
+.footer-quick-links.footer-menu ul li a{letter-spacing:2.8px;}
+.footer-logo-2{text-align:left;}
+.footer-menu{margin-bottom:30px;}
+.footer-quick-links.footer-menu{text-align:left;margin-top:-6px;}
+.footer-quick-links.footer-menu ul li{margin-bottom:20px;}
+.copyright {font-size:16px;margin-bottom:20px;}
+#banner .container{padding:0;}
+.banner-nav-thumb img{height:auto;width:100%;}
+
+.prop-gallery-featured .prop-thumb-overlay ul li{margin:0 18px;}
+.prop-thumb-overlay ul li{margin:0 18px;}
+
+.mob-edit-filter{}
+.mob-edit-filter a{color:#fff;text-decoration:underline;font-size:18px;letter-spacing: 0.45px;display:block;text-align:center;display:block;padding:20px 10px;}
+.mob-edit-filter a:hover,
+.mob-edit-filter a:focus{color:#fff;}
+.direct-filter.direct_filter_open{display:none;}
+.direct-filter.direct_filter_open.in{display:block;}
+.direct-filter .advance-search > a{display:none;}
+
+.browser-property a{color:#fff;text-decoration:none;text-transform:uppercase; font-size:18px;letter-spacing: 1.5px;display:block;text-align:center;display:block;padding:20px 10px;}
+.browser-property a:hover,
+.browser-property a:focus{color:#fff;}
+.product-toolbar .dropdown-sub-menu{display:none;}
+
+.map-search-info.map-searchmob .saved-properties .gallery-caption-bottom.my-listings {bottom:0; left:8px; position:absolute;}
+.toolbar-result{margin-top:15px;}
+.agent-list-main-block .properties-details{padding:10px 0 0 0;}
+.agent-list-main-block .properties-details .listing{margin-bottom:0;}
+.agent-list-main-block .properties-details .listing li{float:none;padding:0;margin-bottom:10px;}
+
+.agent-list .agent-list-wrapper .agent-links a{border-bottom:none;}
+.agent-list .agent-list-wrapper .agent-links a+a{border-left:1px solid;}
+.agent-list-wrapper .properties-details h3{line-height:30px;}
+
+/*H*/
+.registration-section .form-label {display:block; }
+.registration-section .right-check {max-width:100%; }
+.registration-section .contact_req {position:static;display:inline-block; max-width:100%; padding:20px 0; border-bottom:solid 1px #f4f2f1; }
+.registration-section .form-filde {padding:20px 0 0 0; border-bottom:solid 1px #f4f2f1; }
+
+/* Modal Start
+-------------------------------------------------- */
+
+.landing-modal .modal-dialog{margin-top:70px;}
+.landing-modal .modal-body{padding:50px 15px;}
+.landing-modal{font-size:18px;line-height:26px;}
+.landing-modal.modal .close {font-size: 34px;height: 50px;line-height: 55px;width: 50px;}
+
+.modal-title h2{font-size:22px;line-height:32px;margin-bottom:10px;}
+.total-prop-modal-text{font-size: 17px;letter-spacing: 2.5px;margin-bottom: 13px;}
+.price-counter span {font-size: 17px;height: 36px;line-height: 36px;width: 20px;}
+.landing-modal .modal-footer .btn-group-justified{display:block;}
+.landing-modal .modal-footer .btn {display:block;width:100%;font-size: 14px;letter-spacing: 2px;padding: 15px 15px 12px;}
+
+/* Modal End
+-------------------------------------------------- */
+
+
+/* 404 Page Start
+-------------------------------------------------- */
+.page-title h2{ font-size:124px; line-height:114px;}
+.message-page{padding-top:25px;}
+.message-page .error-info p{ font-size:18px;letter-spacing: 0px;}
+.message-page .error-info h3{ font-size:24px;letter-spacing: 0px; margin-bottom:50px;}
+.button-links .btn{margin-bottom:15px; width:100%;} 
+.newsletter-email-form{margin-top:20px;}
+.newsletter-email-form .btn{margin:25px auto 0; }
+.newsletter-email-form .news-label{font-size:18px; letter-spacing:1.5px; display:block; text-align:center; text-transform:uppercase; margin-bottom:30px;}
+/* 404 Page End
+-------------------------------------------------- */
+
+/* Thank-you Page Start
+-------------------------------------------------- */
+.site-details{padding-top:50px;}
+.site-details p{max-width: 100%;}
+/* Thank-you Page End
+-------------------------------------------------- */
+.prop-details-info .share-icon {display:inline-block; width:100%; text-align:center; padding-bottom:20px; }
+.prop-details-info .share-icon ul li {padding:0 5px; }
+.prop-details-tabs {margin:0 -15px;}
+.tab-content {margin-top:20px;}
+.prop-details-tabs .prop-description {background:#fff; }
+.prop-details-tabs .icon-box  {width:33.33%; float:left; border:none; border-right:solid 1px;}
+.prop-details-tabs ul.left-tab {float:right; width:50%; max-width:320px; border-left:solid 1px;}
+.prop-details-tabs .robsons-img {float:left; width:50%; padding:30px 0;}
+.prop-details-tabs ul.left-tab li a {padding:10px 0; }
+.prop-details-tabs ul.left-tab li:first-child {border:none;}
+.nav-tabs > li > a {font-size:12px; padding:20px 0;}
+.prop-details-tabs .floorplans-img {padding:20px; border-top:20px solid #fff; }
+.prop-details-tabs .map-view {border-top:solid 20px #fff;}
+.prop-details-tabs .cost-view {background:#fff; display: inline-block; width: 100%; }
+.prop-details-tabs .mortgage-view {background:#fff; }
+.prop-details-tabs .tab-pane .row .col-md-5.border {border-top:solid 20px #fff ; }
+.prop-details-tabs .mortgage-slide.total .info p {color:#fff;}
+.prop-details-tabs .tab-pane .mortgage-slide.total .data {color:#fff; }
+.prop-details-tabs .transport-link .transport-slide {padding-left:86px;}
+.prop-details-tabs .transport-link .transport-slide .icon {position:absolute; }
+
+/* Contact
+-------------------------------------------------- */
+.contact-section .contact_req{display: inline-block;  margin: 30px 0 0;  position: relative;  width: 100%;font-size:14px;}
+.contact-section .contact_req  br{display:none;}
+
+.smallBorder {border-top:solid 1px #e2e2e2;}
+.newsletter-email-form.smallBorder  {padding-top:20px; }
+
+.toolbar-result{padding-top:0;}
+.toolbar-icons ul li a{font-size:30px;padding:0 5px;}
+
+.bottom-ad-section .ad-block{margin:0;}
+.ad-block{padding:7px;}
+.result-more{padding:25px 0 0;}
+
+.next-g-button{padding:20px;}
+.modal-slide-button a{font-size:15px;}
+.next-g-button .modal-right-sign{background-color:transparent;color:#fff;border:1px solid #fff;}
+.modal-button-icon{position:static;display:block;}
+.free-search-continue{padding-right:20px;text-align:center;}
+.modal-slide-button{padding:0;margin-left:-15px;margin-right:-15px;}
+.modal-slider-steps .modal-body{padding:20px 0 0 0;}
+.prop-modal-slide-block{padding:0 15px;}
+.prop-slide-body{padding-bottom:0;}
+
+.profile-menu ul{max-width:100%;padding-top:20px;}
+.profile-block{margin-top:10px;max-width:none;}
+.messages-block .messages-row .icon{width:12%;}
+.messages-block .messages{width:88%;}
+.profile-block ul.nav-tabs li{width:100%;margin-bottom:0px;border-bottom:5px solid #fff;}
+.profile-block.user-prolisting .saved-properties .icon-row > .icon { padding-right: 10px; }
+.profile-block.user-prolisting .saved-properties ul.content-button li { font-size:15px;}
+.profile-block.user-prolisting .saved-properties ul.content-button li a { background:#dddcda; }
+.profile-block.user-prolisting .saved-properties ul.content-button li:hover a { background:#b01e41; }
+
+.modal-slide-button .btn-group .btn{float:none;display:block;}
+.modal-slide-button .btn-group .btn + .btn{margin-left:0;}
+.last-prop-slide .modal-slide-button .btn-group{padding-bottom:20px;}
+.join-now-button{margin-bottom:20px;}
+.join-now-button div{display:block;margin-top:10px;}
+
+/* Faq */
+.faq-block .question-section .helpful-block ul li,
+.faq-block .question-section .helpful-block ul li:first-child { padding:0 15px 0 0;}
+.faq-search { padding-right:0; text-align:center; max-width:none;}
+.faq-search .btn { position:relative; margin:25px 0 0;}
+.pick-category { max-width:none; margin:30px 0 20px;}
+.mobile-category .form-control { font-size:15px;}
+.mobile-category .dropdown-menu > ul > li > a { font-size:16px;}
+.faq-block .faq-blocktop.faq-blocktop-bg { margin: 0 -15px; padding: 20px 15px;}
+
+.map-search-info{left:0;right:0;}
+.map-search-info .saved-properties .icon-row.map-info-close {margin:0;top:-60px;}
+.map-search-info .saved-properties .icon-row.map-info-close .icon{margin:0;}
+/*.search-map{min-height:970px;}*/
+
+
+.map-info .saved-properties .properties-details-show .icon-row{position:static;margin:0;width:auto;}
+.map-info .saved-properties .properties-details-show .icon-row .icon{width:48px;padding:0;}
+.map-info .saved-properties .properties-details-show .icon-row .icon + .icon{margin-left:10px;}
+.map-info .properties-details-show{margin-top:20px;}
+.map-info-content-inner{padding:20px;}
+.map-search-top-feature{text-transform:none;}
+
+/*agent-list*/
+
+.properties-details .listing li {padding:0 12px;}
+.partner-agent {display:inline-block; width:100%;}
+.partner-agent .heading{text-transform:uppercase;}
+.agent-list .agent-links{display:table; width:100%;}
+.agent-list .agent-links a{font-size: 13px; float:none; display:table-cell; vertical-align:middle;}
+.agent-list .agent-links a span{ display:block;}
+.agent-list .saved-properties .view-btn{left:0; right:auto;}
+.agent-list .saved-properties .icon-row{float:right;}
+.toolbar-icons{margin-top:0;text-align:right;}
+.product-toolbar {padding-top: 0px;    padding-right: 0px;    padding-bottom: 41px;    padding-left: 0px;}
+.partner-agent.premium{margin-top:55px;}
+.partner-agent .heading{ font-size:18px; padding:10px; letter-spacing:1.2px;}
+
+.search-results-list .agent-list {margin-top:30px;}
+.search-results-list .agent-list .agent-links a{border-bottom:none; border-right:1px solid}
+.search-results-list .agent-list .agent-links a:last-child{border:none;}
+.search-results-list .agent-list .img{text-align:left;}
+.search-results-list .ad-block{margin:0 10px;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings {position:absolute; margin:0px; left:15px; width:auto;}
+.listings-prise.hidden-lg {margin:20px 0 0 0;}
+.prop-search-list .listings-prise{margin:0;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings{padding:0;}
+.search-results-list .saved-properties.bg-color {background:none; padding:0px; }
+.search-results-list .border2px {margin:15px 0 20px 0;}
+.saved-properties .gallery-caption-bottom.my-listings.agent-listings ul {margin:0px; }
+
+.newsletter-email-form .news-label{font-size:15px;margin-bottom:20px;}
+.navbar-nav .advance-search{padding-left:0;}
+.product-toolbar .advance-search {padding-left:0;}
+.service-big-buster .propertie-title .featured{padding-right:120px;position:relative;padding-left:10px;font-size:14px;}
+.service-big-buster.agent-buster .propertie-title .featured{padding:10px;text-align:center;text-transform:uppercase;}
+.buster-logo{position:absolute;right:0;width:100px;top:0;}
+.search-results-list .saved-properties .gallery-caption-bottom.my-listings{/*width:100%;left:0;*/left: 15px;}
+.service-big-buster.saved-properties .gallery-caption-bottom.my-listings li{width:50px;height:50px;}
+.service-big-buster .gallery-caption-bottom li .prop-icon{font-size:25px;}
+.service-big-buster .gallery-caption-bottom li .prop-qty{font-size:14px;letter-spacing:2.8px;}
+.prop-gallery-section .gallery-caption-bottom ul li.prop-wishlist a { padding-top:0; font-size: 42px;}
+.prop-gallery-section.prop-gallery-section-2 .gallery-caption-bottom ul li.prop-wishlist a { padding-top:6px; font-size: 30px;}
+.prop-gallery-section .prop-gallery-thumbnail .prop-price{color:#fff;}
+.ua-safari .prop-gallery-section .gallery-caption-bottom{left:-8px;}
+.properties-details.agent-details h3{line-height:30px;}
+.property-detail.prop-agent-link .room-details .block.room-detail-logo{width:100%;}
+.property-detail .room-details .block:first-child{border-right:none;border-bottom:1px solid;}
+.property-detail.prop-agent-link .room-details .block{display:block;width:100%;}
+.property-detail.prop-agent-link .agent-links a{float:left;width:50%;border-bottom:none;font-size:11px;}
+.property-detail.prop-agent-link .agent-links .agent-links-inner div{font-size:12px;}
+.property-detail.prop-agent-link .agent-links a:first-child{border-right:1px solid;}
+
+.saved-properties.second-agentdetail .property-detail.agent-room .room-details .agent-links a.email-agent{line-height:40px;}
+.about-us{padding:30px 20px;}
+.agent-buster-2 .pos-relative{padding-right:50px;}
+.search-results-list .saved-properties .icon-row.vert-icon-row{width:40px;padding:0;position:absolute;top:0;right:0;}
+.service-big-buster.saved-properties .icon-row.vert-icon-row .icon + .icon{margin:20px 0 0 0;}
+.saved-properties.agent-buster-2 .pos-relative .img{min-height:366px;}
+.search-results-list .saved-properties.agent-buster-2 .gallery-caption-bottom.my-listings{right:50px;}
+.agent-buster-2 .property-detail{background-color:transparent;}
+.agent-buster-2 .property-detail .room-details{display:block;}
+.agent-buster-2 .property-detail .room-details .block{display:block;float:left;width:auto;border:none;}
+.service-big-buster.agent-buster-2 .icon-room-detail a span{display:inline-block;vertical-align:middle;margin:0 0 0 10px;font-size:20px;}
+.service-big-buster.agent-buster-2 .icon-room-detail a em{display:inline-block;vertical-align:middle;font-size:32px;}
+.service-big-buster.saved-properties.agent-buster-2 .view-btn{margin:19px 0 0 20px;}
+.properties-details .listing li { display:block; padding:10px 0; }
+.properties-details .listing li:first-child{border:none;}
+
+.full-block.agent-list-main-block .saved-properties .view-btn{margin-left:0;}
+.details-edit .address-finde{margin-top:20px;}
+.agent-list-wrapper.saved-properties .icon-row .icon+.icon{margin-left:5px;}
+.your-profile-section .search-results-list .border2px{margin:20px 0;}
+.product-toolbar .js-dropdown-menu.dropdown-sub-menu{margin-bottom:0;}
+/* proparty details description new 26-10 start */
+.banner-sliderNew .prop-details-info { padding-bottom:0px; }
+.banner-sliderNew .prop-details-info .share-icon {width:auto;}
+.banner-sliderNew .banner-thumb-slider {padding-left:0px; padding-right:0px; }
+/* proparty details description new 26-10 end */
+.banner-sliderNew .banner-thumb-slider .banner-nav-thumb {height:120px;}
+.content-text-image{margin: 0 !important;}
+	.m_t_xs_0{
+		margin-top: 0;
+	}
+	
+	.form-group {
+	  margin-bottom: 10px;
+	}
+	.header_logged .text-right{
+		text-align: center;
+	}
+	.toolbar-icons ul li a em.icon-icon-list{
+	  display: none;
+	}
+	
+}
+
+@media (max-width: 660px) {
+.saved-properties .gallery-caption-bottom li.view-prop{width:82%;}
+.saved-properties ul.content-button.listings-button{width:inherit;}
+.saved-properties ul.content-button.listings-button{margin-left:-3px;margin-right:-3px;}
+.saved-properties ul.content-button.listings-button li{width:50%;padding:0 3px;margin-bottom:10px;}
+.agent-advertising.saved-properties ul.content-button li{width:100%;margin:0 0 5px;padding:0;}
+/*.search-map{min-height:900px;}*/
+}
+
+@media (max-width: 639px) {
+.gallery-grid [class*="col-"]{width:100%;}
+.page-title h2{ font-size:94px; line-height:90px;}
+.nav-tabs > li {width:50%;}
+.prop-details-tabs .icon-box span {font-size:12px;}
+/*H*/
+.profile-edit {margin-bottom:0; border:none;}
+.your-profile-section.border-bottom {border:none; }
+.parsnal-edit {margin-bottom:20px; padding:0px;}
+.parsnal-edit .img {width:100%; position:relative; }
+.parsnal-edit .img img {width:100%; }
+.parsnal-edit .form-filde {display:inline-block; width:100%; padding:15px; }
+.details-edit {margin-bottom:20px;}
+.details-edit .form-filde {padding-bottom:15px; }
+.details-edit {padding:20px 20px 10px;}
+.profile-edit .btn-block {padding:20px 20px 0 20px;}
+.profile-edit .btn-block {padding:0 30px; }
+.profile-edit .btn-block .col-xs-6 {width:100%; padding-bottom:15px; }
+.parsnal-edit.agent .img {border:none;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales label{width:35%;letter-spacing:1px;}
+.second-agentdetail .properties-details.agent-details.agent-room .listings-sales span{width:65%;letter-spacing:1px;}
+.ua-safari .search-results-list .saved-properties .gallery-caption-bottom.my-listings{left:-4px;}
+.ua-safari .search-results-list .saved-properties .gallery-caption-bottom.my-listings.agent-listings { left:0;}
+}
+
+@media (max-width: 479px) {
+.nav-tabs > li {width:100%;}
+.nav-tabs > li > a {padding:0;}
+.prop-details-tabs ul.left-tab {}
+.prop-details-tabs .icon-box {width:100%; border:none; border-bottom:solid 1px;}
+.prop-details-tabs .cost-view {padding-left:20px; padding-right:20px;}
+.prop-details-tabs .mortgage-view {padding-left:20px; padding-right:20px;}
+.prop-details-tabs .mortgage-slide.total {padding-left:20px; padding-right:20px; }
+.prop-details-tabs .mortgage-slide .info {width:100%;}
+.prop-details-tabs .mortgage-slide .data {width:100%;}
+.prop-details-tabs .transport-link {padding-left:20px; padding-right:20px;}
+.prop-details-tabs .transport-link .transport-slide p {padding:0px;}
+.page-title h2 {font-size: 68px;line-height: 70px;}
+.faq-block .question-section .helpful-block ul li { font-size:14px;}
+/*.search-map{min-height:800px;}*/
+/*agent-list*/
+.saved-properties .view-btn .btn{padding:8px 10px;}
+.search-results-list .properties-details ul li{margin-right:10px;}
+.saved-properties .gallery-caption-bottom.my-listings li.member-since{ width:65%}
+.property-detail .room-details a{ font-size:12px;}
+.room-details-faslity .icon-slide span{padding-left:10px; padding-right:10px;}
+.dropdown-sub-menu.dropdown-menu > ul > li > a{font-size:11px;padding:0 10px;}
+.dropdown-sub-menu.dropdown-menu > ul > li + li > a::before{top:2px;}
+.full-block.agent-list-main-block .saved-properties .icon-row .icon{margin:0 3px;}
+/* proparty details description new 26-10 start */
+.banner-sliderNew .share-view {text-align:center; }
+.banner-sliderNew .prop-details-info .share-icon {float:none; display:inline-block; width:100%; padding:15px 0 0 0;}
+/* proparty details description new 26-10 end */
+.banner-sliderNew .banner-thumb-slider .banner-nav-thumb {height:80px;}
+}
+@media (max-width: 380px) {
+.properties-details ul li.view-details a{padding:0 11px;}	
+.saved-properties .gallery-caption-bottom li.view-prop{width:72%;}
+.profile-block .profile-details-block .user-img img{max-width:100%;}
+.user-img-block .user-name{padding:15px 0px 15px 15px;}
+.user-img-block .user-name label{font-size:20px;}
+.profile-block .profile-details-block .user-img{width:40%;}
+.price-counter span{vertical-align: middle;min-width:25px;}
+
+}
+.fairy{    margin-left: -122px;    margin-top: -75px;}
+#fairy{position: relative}
+
+#custheaderlogo{
+	width: 100px;
+	margin-top: -10px;
+}
+
+.col-menu-button button {
+    float:right;
+}
+
+a.navbar-brand {
+    vertical-align:middle;
+    display:inline-block;
+    font-size: 2em;
+    /*transform:translateY(50%);*/
+    font-family: 'Helvetica';
+    font-weight: 600;
+    height: auto;
+    line-height:50px;
+    padding:0px;
+}
+
+#insert-media-button {
+    white-space: normal;
+}
+
+.faq-profile-menu a {
+    margin: 5px;
+    padding:10px;
+    border-radius:5px;
+}

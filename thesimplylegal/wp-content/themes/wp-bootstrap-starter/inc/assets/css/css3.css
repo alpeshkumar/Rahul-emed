@@ -1,0 +1,95 @@
+a,
+button,
+.btn,
+.prop-thumb-overlay,
+.user-statistics .prop-layout,
+.user-details .prop-layout{
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+
+.product-toolbar{
+	-webkit-transition:height 0.2s ease-in-out;
+	-moz-transition:height 0.2s ease-in-out;
+	-o-transition:height 0.2s ease-in-out;
+	transition:height 0.2s ease-in-out;
+}
+
+.product-toolbar .js-nav-menu{
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+
+.banner-search{
+	/*-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	transform:translateX(-50%);*/
+}
+
+.banner-search-block .form-control::-moz-placeholder {
+  color: #fff;
+}
+.banner-search-block .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+.banner-search-block .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.checkbox input[type=checkbox]:checked + .check-style,
+.checkbox input[type=checkbox].css-checkbox + .check-style.chk {background-image:url(../images/check-on.svg);}
+
+.mail-check.checkbox input[type=checkbox]:checked + .check-style,
+.mail-check.checkbox input[type=checkbox].css-checkbox + .check-style.chk{background-size: 14px 13px;}
+
+.mail-star.checkbox input[type=checkbox]:checked + .check-style,
+.mail-star.checkbox input[type=checkbox].css-checkbox + .check-style.chk{background-image: none;}
+
+.mail-star.checkbox input[type=checkbox]:checked + .check-style:before,
+.mail-star.checkbox input[type=checkbox].css-checkbox + .check-style.chk:before{color: #b01e42;}
+
+.check-style {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+.prop-thumb-overlay ul,
+.map-info-content-inner >.icon-row{
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.modal-right-sign,
+.modal-form-button .btn,
+.properties-details .map-info-2-email ul li span,
+.dot-contact:before{
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
+}
+.modal-style-2 .modal-content {
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0,0, .2);
+	-moz-box-shadow: 0 5px 15px rgba(0, 0,0, .2);
+	-o-box-shadow: 0 5px 15px rgba(0, 0,0, .2);
+	box-shadow: 0 5px 15px rgba(0, 0,0, .2);
+}
+
+.mail-check .check-style{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+}
+
+.banner-search-inner{
+	-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
