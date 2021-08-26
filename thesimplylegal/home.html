@@ -146,95 +146,115 @@
         <!-- #masthead -->
         <!-- Header -->
 
-        <header id="header" class="navbar navbar-default">
-            <!--<div class="cookie_text alert alert-warning fade in alert-dismissable">
-		<a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-			We use cookies to help improve your experience. By using our services, you agree to our terms of use, cookie and privacy policies. 		
-        </div>-->
-            <!-- Header top Start -->
-            <div class="col-xs-10 col-md-2 col-logo">
-                <a class="navbar-brand" href="http://localhost/yash/thesimplylegal">
-                    AllTheLegal </a>
-            </div>
-            <div class="col-md-10 hidden-xs">
-                <ul class="nav navbar-nav js-nav-menu">
-                    <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jc2VuZA=="
-                            onclick="location.hash='send'; location.reload();"><i class="fa fa-send"></i>&nbsp;Send A
-                            Legal Letter</a></li>
-                    <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jcmVzcG9uZA=="
-                            onclick="location.hash='respond'; location.reload();"><i
-                                class="fa fa-bell"></i>&nbsp;Respond To A Notice</a></li>
-                    <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jZG9j"
-                            onclick="location.hash='doc'; location.reload();"><i class="fa fa-pencil"></i>&nbsp;Legal
-                            Doc Templates</a></li>
-                    <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jaGVscGNhc2U="
-                            onclick="location.hash='helpcase'; location.reload();"><i class="fa fa-user"></i>&nbsp;Help
-                            With Your Case</a></li>
-                    <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jbGF3eWVycw=="
-                            onclick="location.hash='lawyers'; location.reload();"><i class="fa fa-search"></i>&nbsp;Find
-                            And Instruct Lawyers</a></li>
-                    <li><a href="topics-directory"><i class="fa fa-list"></i>&nbsp;Topics Directory</a></li>
-                    <!--<li><a href="contact"><i class="fa fa-info-circle"></i>&nbsp;Contact Us</a></li>-->
-                </ul>
-            </div>
-            <div class="col-xs-2 col-menu-button visible-xs">
-                <button type="button" class="navbar-toggle js-menu-button" data-toggle="collapse"
-                    data-target=".navbar-collapse">
-                    <em class="icon-icon-menu"></em>
-                </button>
-            </div>
-            <div class="header-top">
-                <div class="container">
-                    <div class="row">
-                        <!--<div class="col-xs-6 col-md-4 col-sm-4  m_t_xs_0 hidden-xs">
-                                <button type="button" class="navbar-toggle js-menu-button" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <em class="icon-icon-menu"></em>
-                                    <span class="hidden-xs">Menu</span>
-                                </button>
-                        </div>-->
-                        <div class="col-xs-12 col-md-12 col-sm-12 col-header-contact header_logged">
-                            <div class="header-contact text-right clearfix">
-                                <ul class="clearfix">
-                                    <li class="header-login">
-                                        <a href="login"><span><i class="fa fa-sign-in"></i>&nbsp;Sign in</span></a>
+        <header class="main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="header-right">
+                            <nav class="navigation">
+                                <div class="logo">
+                                    <a class="pull-left" href="https://techarkdev.gotechark.com" title="website logo">
+                                        <img src="./assets/images/header-logo.svg" alt="website logo" title="website logo">
+                                    </a>
+                                    <a class="close-icon pull-right" href="javascript:void(0);"></a>
+                                </div>
+                                <ul class="menu">
+                                    <li class="menu-item menu-item-has-children ">
+                                        <a href="#">Services</a>
+                                        <span class="dropdown-arrow"></span>                    
+                                        <ul class="sub-menu">                                       
+                                          <li class="menu-item">  
+                                            <div class="top-title">
+                                                <a class="ls-title" href="#">Legal SERVICES</a>
+                                            </div>
+                                            <ul class="sub-menu-child">
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/1.svg" alt="legal notice">
+                                                    <span>I want to send a legal notice or a letter </span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/2.svg" alt="legal notice">
+                                                    <span>I want to respond to a legal notice or letter</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/3.svg" alt="legal notice">
+                                                    <span>I want to prepare or draft a legal document</span>
+                                                </a>
+                                              </li>                                             
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/4.svg" alt="legal notice">
+                                                    <span>I have bespoke legal needs and want help with my case </span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">												
+                                                    <span>Browse all our topics</span>
+                                                </a>
+                                              </li>
+                                             
+                                            </ul>                      
+                                          </li>
+                                          <li class="menu-item">  
+                                            <div class="top-title">                                              
+                                            <a class="cc-title" href="#">compensation calculators</a>
+                                            </div>
+                                            <ul class="sub-menu-child">                                             
+                                              
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/Filled-outline.svg" alt="legal notice">
+                                                    <span>Had a personal injury accident?</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/discrimination.svg" alt="legal notice">
+                                                    <span>Were you discriminated at work?</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                    <img src="./wp-content/themes/wp-bootstrap-starter/images/plan.svg" alt="legal notice">
+                                                    <span>Were you discriminated at work?</span>
+                                                </a>
+                                              </li>                                              
+                                             
+                                            </ul>                      
+                                          </li>
+                                                                                                  
+                                        </ul>
+                                      </li>
+                                    <li class="menu-item">
+                                        <a href="#">Topics Directory</a>
                                     </li>
-
-                                    <li class="header-signup"><a href="register"><i
-                                                class="fa fa-user"></i>&nbsp;<span>Sign up</span></a></li>
-
-
+                                    <li class="menu-item">
+                                        <a href="#">For legal professional</a>
+                                    </li>								
                                 </ul>
-                            </div>
+                                <div class="right-button">
+                                    <ul class="right-menu">
+                                        <li class="rmenu-item">
+                                            <a class="login-btn" href="#"><img src="./wp-content/themes/wp-bootstrap-starter/images/sign-in-alt.svg" alt="login-logo" > <spna>Login</spna></a>
+                                        </li>
+                                        <li class="rmenu-item ">
+                                            <a class="signup-btn" href="#"><img src="./wp-content/themes/wp-bootstrap-starter/images/sign-in-alt.svg" alt="login-logo" > <span>Signup</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <a href="javascript:void(0);" class="header-toggle" title="Menu">
+                                <span class="toggle-separator"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Nav Start -->
-            <nav id="nav" class="main-menu">
-                <div class="container">
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav js-nav-menu">
-                            <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jc2VuZA=="
-                                    onclick="location.hash='send'; location.reload();"><i
-                                        class="fa fa-send"></i>&nbsp;Send A Legal Letter</a></li>
-                            <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jcmVzcG9uZA=="
-                                    onclick="location.hash='respond'; location.reload();"><i
-                                        class="fa fa-bell"></i>&nbsp;Respond To A Notice</a></li>
-                            <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jZG9j"
-                                    onclick="location.hash='doc'; location.reload();"><i
-                                        class="fa fa-pencil"></i>&nbsp;Legal Doc Templates</a></li>
-                            <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jaGVscGNhc2U="
-                                    onclick="location.hash='helpcase'; location.reload();"><i
-                                        class="fa fa-user"></i>&nbsp;Help With Your Case</a></li>
-                            <li><a href="login/?redirect_to=aHR0cDovL2xvY2FsaG9zdC95YXNoL3RoZXNpbXBseWxlZ2FsL2Rhc2hib2FyZC8jbGF3eWVycw=="
-                                    onclick="location.hash='lawyers'; location.reload();"><i
-                                        class="fa fa-search"></i>&nbsp;Find And Instruct Lawyers</a></li>
-                            <li><a href="faq"><i class="fa fa-gavel"></i>&nbsp;FAQs</a></li>
-                            <!--<li><a href="contact"><i class="fa fa-info-circle"></i>&nbsp;Contact Us</a></li>-->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
         </header>
         <section class="f1-section">
             <div class="container">
@@ -922,6 +942,55 @@
     <script src="/wp-content/themes/wp-bootstrap-starter/inc/assets/js/diffview.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
+        $(document).ready(function() {
+  "use strict";
+  //Toggle Script
+  jQuery('.header-toggle').on('click', function () {
+  jQuery(this).toggleClass('active');
+  jQuery('body').toggleClass('navigation-open');
+  });
+  
+  jQuery('.close-icon').on('click', function () {
+  jQuery('.header-toggle').removeClass('active');
+  jQuery('body').removeClass('navigation-open');
+  });
+  
+  jQuery('.dropdown-arrow').on('click', function() {
+    var element = jQuery(this).parent('.menu-item-has-children');
+    if (element.hasClass('open')) {
+      
+      element.removeClass('open');
+      element.find('.btn-prev').remove();
+      element.find('.menu-item-has-children').removeClass('open');
+      element.find('.sub-menu').removeClass('open');
+      
+    } else {
+      var name = element.find('a').html();
+      element.addClass('open');
+      element.children('.sub-menu').addClass('open');
+      element.find('.btn-prev').remove();
+      element.children('.sub-menu').prepend('<li class="btn-prev"><a href="javascript:void(0)">'+name+'</a></li>')
+      element.siblings('.menu-item-has-children').children('.sub-menu').removeClass('open');
+      element.siblings('.menu-item-has-children').removeClass('open');
+      element.siblings('.menu-item-has-children').find('.menu-item-has-children').removeClass('open');
+      element.siblings('.menu-item-has-children').find('.sub-menu').removeClass('open');
+      
+      jQuery('.sub-menu .btn-prev').click(function() {
+      jQuery(this).parent().removeClass('open');
+      jQuery(this).parent().parent().removeClass('open');
+      });
+    }
+  });
+ 
+	 $(".box-img, .box-dcs").hover(function () {
+		$('.box-images').addClass('green-line-hover');
+		$('.box-dcs').addClass('green-line-hover');
+	}, function () {
+		$('.box-images').removeClass('green-line-hover');
+		$('.box-dcs').removeClass('green-line-hover');
+
+	});
+});
         // home banner slider
     jQuery('.t-slider').owlCarousel({
     loop: true,

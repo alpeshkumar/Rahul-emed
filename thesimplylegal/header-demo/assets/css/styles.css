@@ -1,249 +1,3 @@
- .tlp-box{
-        margin-bottom: 50px;
-    }
-    .tlp-title{
-        text-align: center;
-       margin: 50px 0px;
-    display: inline-block;
-    width: 100%;
-    }
-    .tlp-title h1,
-	.tlp-title h2{
-        color: #fec13b;
-		font-family: 'Roboto';
-		font-weight: bold;
-		font-size: 36px;
-		line-height: 46px;
-		text-transform: capitalize;
-		margin-bottom: 5px;
-    }
-    .tlp-title p{
-        font-family: 'Roboto';
-        font-size: 18px;
-    }
-    .tlp-box a.list-group-item .list-group-item-heading{
-        font-size: 24px;
-  font-weight: bold;
-        text-align: left;
-  color: #292724;
-  font-family: 'Roboto';
-    }
-	
-	
-    .tlp-box .list-group-item {
-    padding: 25px;
-    border-radius: 8px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #fff;
-    }
-    .tlp-box .list-group-item-text{
-        font-size: 14px;
-        font-family: 'Roboto';
-    line-height: 22px;
-    text-align: left;
-    color: #999;
-    margin-top: 15px;
-    }
-    .tlp-box .home-page-list{
-        background: transparent;
-    padding: 0px;
-    }
-    .tlp-box .home-page-list li{
-        font-size: 13px;
-        font-family: 'Roboto';
-    line-height: 22px;
-    text-align: left;
-    color: #292724;
-    position: relative;
-    padding-left: 00px;
-    position: relative;
-    display: flex;
-    }
-    
-    .tlp-box .book-now-box .btn-book-now{
-        padding: 15px 24px 14px;
-        border-radius: 24px;
-        background-color: #fec13b;
-        font-family: 'Roboto';
-        font-size: 16px;
-        color: #292724;
-        font-weight: bold;
-        display: inline-block;
-        margin: 10px 0px 0px 0px;
-    }
-	.tlp-box .book-now-box .btn-book-now img{
-		    margin-left: 10px;
-	}
-	.tlp-box .book-now-box .btn-book-now:hover,
-	.tlp-box .book-now-box .btn-book-now:focus{
-		background-color: #27ccbc;		
-	}
-    .tlp-box .home-page-list.book-list50{
-        display: flex;
-        flex-wrap: wrap;
-    }
-	.home-page-list li .tlp-icons {
-        height: 30px;
-        object-fit: contain;
-        width: 22px;
-        margin-right: 5px;
-}
-    .tlp-box .home-page-list.book-list50 li{
-        width: 50%;
-        padding-left: 0px;
-        position: relative;
-    }
-    .tlp-box .home-page-list.book-list50 li img{
-        
-        height: 30px;
-        width: 30px;
-        object-fit: contain;
-
-    }
-    .tlp-box .home-page-list.book-list50 li::before{
-       position: absolute;
-       content: '';
-       height: 24px;
-       width: 24px;
-       background-repeat: no-repeat;
-       left: 0px;
-    }
-    .tlp-icons{
-        height: 70px;
-        object-fit: contain;
-        width: 70px;
-    }
-    .popular-topic-box .tlp-box a.list-group-item .list-group-item-heading {
-        font-size: 20px;
-    }
-    .counter-section{
-        position: relative;
-    }
-    .counter-section::before{
-        position: absolute;
-        content: '';
-        background-color: #fff;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        width: 100%;
-        height: 100%;
-    }
-    .counter-section .count-box h3{
-        display: none;
-    }
-    .counter-section .count-box .list-group-item{
-        border: 0px;
-        text-align: center;
-        padding: 30px 15px;
-    }
-    .counter-section .count-box .list-group-item-heading{
-        font-size: 24px;
-        font-weight: bold;
-        color: #292724;
-        font-family: 'Roboto';
-        margin: 15px 0px;
-        text-align: center;
-    }
-	.f3-calculators .tlp-box a.list-group-item .list-group-item-heading {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-    color: #292724;
-    font-family: 'Roboto';
-}
-.btn-browser{
-	    margin: 51px 80px 50px;
-    padding: 15px 20px 14px;
-    border-radius: 24px;
-    background-color: #e0e0e0;
-    font-size: 16px;
-    line-height: 1.19;
-    font-weight: bold;
-    color: #292724;
-    display: inline-block;
-}
-.f3-calculators .tlp-title h2{
-	color: #27ccbc;
-}
-.f3-calculators .tlp-box .book-now-box .btn-book-now{background-color: #27ccbc;}
-.legal-professional{
-      padding: 50px;
-    margin: 10px auto 70px auto;
-  object-fit: contain;
-  opacity: 0.9;
-  border-radius: 8px;
-  -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
-  background-color: #006cff;
-}
-.legal-professional .list-group-item,
-.legal-professional a.list-group-item:hover, .legal-professional button.list-group-item:hover, .legal-professional a.list-group-item:focus, .legal-professional button.list-group-item:focus{
-	    background: transparent;
-    border: 0px;
-    box-shadow: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-	    width: 66%;
-    margin: 0 auto;
-}
-.legal-professional.tlp-box a.list-group-item .list-group-item-heading{
-	font-size: 36px;
-    color: #fff !important;
-    margin-bottom: 20px;
-}
-.legal-professional .list-group-item-text{
-	color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-	margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-.footer-bottom {
-    padding: 20px;
-    background: #292724;
-}
-.footer-bottom h3{
-	font-size: 16px;
-    line-height: 19px;
-    color: #fff;
-	font-weight:600;
-}
-.footer-bottom ul{	
-    list-style: none;
-    padding-left: 5px;
-}
-.footer-bottom ul li a{
-    font-size: 14px;
-    line-height: 20px;
-}
-.footer-bottom .social-media{
-    display: flex;
-}
-.footer-bottom .social-media li{
-    margin-right: 8px;
-}
-.footer-bottom .follow-feed h3{
-    margin: 0px;
-}
-.t-slider.carousel .t-content{
-    font-size: 1.25em;
-    margin: 0 0 8px;
-    padding: 40px 40px 98px;
-    background-color: #fdfaf5;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-}
-
-
-/* header css start  */
 @charset "utf-8";
 /* Techark Common CSS */
 html {
@@ -409,8 +163,8 @@ html {
   padding: 0;
 }
 .navigation ul li .sub-menu li a {
-  display: block;  
-  padding: 10px;
+  display: block;
+  padding: 0.6875rem 1.5625rem;
   color: #333;
   border-bottom: 0.064rem solid #ececec;
 }
@@ -557,7 +311,6 @@ html {
     height: 20px;
     width: 20px;
     margin-right: 5px;
-    object-fit: contain;
   }
   .signup-btn{
     background-color: #006cff;
@@ -569,12 +322,11 @@ html {
     display: inline-block;
   }
   .navigation ul li .sub-menu{
-    width: 1180px;
-    left: -170px;
+    width: 1050px;
+    left: -250px;
     display: flex;
     justify-content: space-between;
-    padding: 30px 20px 30px 30px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+    padding: 30px;
   }
   .navigation ul li .sub-menu li {
     width: 100%;
@@ -583,31 +335,29 @@ html {
     font-size: 20px;
     padding: 12px 0px;
     border-bottom: 2px solid #fec13b;
-    width: 100%;
-    margin: 0px 15px 10px 10px;
+    width: 46%;
+    margin: 0px 15px;
   }
   .navigation ul li .sub-menu .cc-title{
     font-size: 20px;
     padding: 12px 0px;
     border-bottom: 2px solid #27ccbc;
-    width: 100%;
-    margin: 0px 15px 10px 10px;
+    width: 46%;
+    margin: 0px 15px;
   }
   .navigation ul li .sub-menu-child{
     display: flex;
       flex-wrap: wrap;
   }
   .navigation ul li .sub-menu-child li{
-    width: 100%;
+    width: 46%;
     background: #f8f8f8;
     border: 0px;
-    margin: 10px;
+    margin: 15px;
   }
   .navigation ul li .sub-menu-child li a{
     display: flex;
     border: 0px;
-    display: flex;
-    align-items: center;
   }
   .navigation ul li .sub-menu-child li a img{
     height: 32px;
@@ -619,7 +369,6 @@ html {
     font-weight: bold;
     color: #292724;
     padding-left: 10px;
-    font-family: 'Roboto';
   }
   .top-title{
     display: flex;
@@ -627,8 +376,6 @@ html {
   }
   .navigation ul > li a{   
     padding: 12px 30px;
-    font-size: 16px;
-    font-weight: bold;
   }
   .navigation ul > li a:hover{
     background: #fec13b;
@@ -845,49 +592,4 @@ html {
   width: 20px;
   margin-right: 5px;
 }
-}
-/* header css end  */
-
-
-
-
-@media screen and (max-width: 1199px) {
-    .legal-professional.tlp-box a.list-group-item .list-group-item-heading {        
-        text-align: center;
-    }
-    .legal-professional .list-group-item, .legal-professional a.list-group-item:hover, .legal-professional button.list-group-item:hover, .legal-professional a.list-group-item:focus, .legal-professional button.list-group-item:focus{
-        width: 100%;
-    }
-
-}
-@media screen and (min-width: 768px) and (max-width: 1199px){
-    .tlp-box {
-        margin-bottom: 30px;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 767px){
-    .legal-professional {
-        padding: 15px;
-    }
-    .btn-browser {
-        margin: 30px 20px 30px;
-        padding: 15px 30px 14px;
-    }
-    .legal-professional.tlp-box a.list-group-item .list-group-item-heading {
-        font-size: 28px;
-    }
-    .list-group2 {       
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .tlp-title h1, .tlp-title h2 {       
-        font-size: 30px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-    .tlp-box .home-page-list.book-list50 li {
-        width: 100%;
-    }
 }
