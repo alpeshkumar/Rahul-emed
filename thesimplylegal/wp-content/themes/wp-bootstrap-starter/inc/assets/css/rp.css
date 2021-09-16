@@ -492,7 +492,7 @@ html {
   width: 1.5625rem;
   height: 0.125rem;
   margin-top: 0.5rem;
-  background-color: #ffffff;
+  background-color: #fec13b;
   position: relative;
   -webkit-transition: all ease .3s;
   -ms-transition: all ease .3s;
@@ -504,7 +504,7 @@ html {
   right: 0;
   width: 100%;
   height: 0.125rem;
-  background: #ffffff;
+  background: #fec13b;
   content: "";
   -webkit-transition: all ease .3s;
   -ms-transition: all ease .3s;
@@ -638,6 +638,12 @@ html {
 }
 
 @media screen and (max-width:991px) {
+  header .right-button .right-menu{
+    display: flex;
+  }
+  header .right-button .right-menu li{
+    border-bottom: 0px;
+  }
   .main-header {
     padding: 15px 0;
   }
@@ -743,6 +749,14 @@ html {
     position: static;
     display: inline-block;
     float: right;
+    content: " ";
+    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    margin: 15px 20px;
   }
   .navigation ul li a, .navigation ul li .sub-menu li a {
     display: inline-block;
@@ -806,7 +820,7 @@ html {
     height: 2.5rem;
     padding: 0;
     margin-left: 1.25rem;
-    background-color: #00bbe2;
+    background-color: #ffc84a;
     background-image: url("../images/right-arrow.png");
     background-position: -427px -28px;
     background-repeat: no-repeat;
@@ -814,6 +828,21 @@ html {
     -webkit-border-radius: 100%;
     -ms-border-radius: 100%;
     border-radius: 100%;
+    z-index: 1;
+  }
+  .navigation ul li .sub-menu li.btn-prev a::after {
+    position: absolute;
+    display: inline-block;
+    float: right;
+    content: " ";
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    margin: 6px 29px;
+    left: 2px;
     z-index: 1;
   }
   .navigation ul li .sub-menu li a:hover {
@@ -890,4 +919,14 @@ html {
     .tlp-box .home-page-list.book-list50 li {
         width: 100%;
     }
+    .navigation ul.sub-menu-child li a img{
+      height: 30px;
+      margin-right: 10px;
+    }
+    .navigation ul.sub-menu-child li a{
+      display: flex;
+    }
+    .tlp-title {
+      padding: 0px 15px;
+  }
 }
